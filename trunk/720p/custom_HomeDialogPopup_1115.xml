@@ -177,7 +177,7 @@
 					<item id="5">
 						<label>SKIN SETTINGS</label>
 						<label2>-]</label2>
-						<onclick>ActivateWindow(1111)</onclick>
+						<onclick>ActivateWindow(SkinSettings)</onclick>
 						<onclick>Dialog.Close(1115)</onclick>
 						<icon>-</icon>
 						<thumb>-</thumb>

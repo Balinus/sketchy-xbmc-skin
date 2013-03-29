@@ -1247,7 +1247,7 @@
 					<posy>142</posy>
 					<width>380</width>
 					<height>212</height>
-					<texture background="true" fallback="logo-fallback.png">$INFO[Listitem.Property(Fanart_Image)]</texture>
+					<texture background="true" fallback="logo-fallback.png">$INFO[Listitem.Art(fanart)]</texture>
 					<fadetime>IconCrossfadeTime</fadetime>						
 				</control>
 				<control type="image">
@@ -1332,7 +1332,7 @@
 					<width>384</width>
 					<height>73</height>
 					<align>right</align>
-					<texture background="false" diffuse="simplicity/bannerdiffuse.png">$INFO[Container.TvshowThumb]</texture>
+					<texture background="false" diffuse="simplicity/bannerdiffuse.png">$INFO[ListItem.Art(tvshow.banner)]</texture>
 					<include>Zoom</include>
 					<visible>!Skin.HasSetting(TVShowsUsePosters)</visible>		
 				</control>
@@ -1342,7 +1342,7 @@
 					<width>384</width>
 					<height>73</height>
 					<align>right</align>
-					<texture background="false" diffuse="simplicity/bannerdiffuse.png">$INFO[Listitem.Path]../banner.jpg</texture>
+					<texture background="false" diffuse="simplicity/bannerdiffuse.png">$INFO[Listitem.Art(tvshow.banner)]</texture>
 					<include>Zoom</include>
 					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>		
 				</control>
@@ -1352,10 +1352,11 @@
 					<width>384</width>
 					<height>73</height>
 					<align>right</align>
-					<texture background="false" diffuse="simplicity/bannerdiffuse.png">$INFO[Listitem.Path]banner.jpg</texture>
+					<texture background="false" diffuse="simplicity/bannerdiffuse.png">$INFO[Container.Listitem(1).Art(tvshow.banner)]</texture>
 					<include>Zoom</include>
-					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>		
+					<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>	
 				</control>
+				
 				<control type="image">
 					<posx>90</posx>
 					<posy>170</posy>
@@ -1521,10 +1522,10 @@
 							<width>247</width>
 							<height>371</height>
 							<align>left</align>
-					<fadetime>IconCrossfadeTime</fadetime>
-							<texture background="true">$INFO[Listitem.Icon]</texture>
-								<bordertexture border="4">thumbborder.png</bordertexture>
-								<bordersize>4</bordersize>
+							<fadetime>IconCrossfadeTime</fadetime>
+							<texture background="true">$INFO[Listitem.Art(poster)]</texture>
+							<bordertexture border="4">thumbborder.png</bordertexture>
+							<bordersize>4</bordersize>
 							<visible>!Container.Content(Episodes) + ![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
@@ -1534,12 +1535,12 @@
 							<width>247</width>
 							<height>371</height>
 							<align>left</align>
-					<fadetime>IconCrossfadeTime</fadetime>
-							<texture background="true">$INFO[ListItem.Path,,poster.jpg]</texture>
-								<bordertexture border="4">thumbborder.png</bordertexture>
-								<bordersize>4</bordersize>
-								<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+							<fadetime>IconCrossfadeTime</fadetime>
+							<texture background="true">$INFO[ListItem.Art(poster)]</texture>
+							<bordertexture border="4">thumbborder.png</bordertexture>
+							<bordersize>4</bordersize>
+							<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
+							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 
 						</control>
 						<control type="image" id="8983">
@@ -1548,7 +1549,7 @@
 							<width>247</width>
 							<height>371</height>
 							<align>left</align>
-					<fadetime>IconCrossfadeTime</fadetime>
+							<fadetime>IconCrossfadeTime</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
 							<texture background="true">$INFO[Container.SeasonThumb]</texture>
 							<bordertexture border="4">thumbborder.png</bordertexture>
@@ -1561,9 +1562,9 @@
 							<width>247</width>
 							<height>371</height>
 							<align>left</align>
-					<fadetime>IconCrossfadeTime</fadetime>
+							<fadetime>IconCrossfadeTime</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<texture background="true">$INFO[ListItem.Path,,folder.jpg]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
 							<visible>Container.Content(Episodes) + IsEmpty(Control.GetLabel(8983))</visible>
@@ -1574,9 +1575,9 @@
 							<width>247</width>
 							<height>371</height>
 							<align>left</align>
-					<fadetime>IconCrossfadeTime</fadetime>
+							<fadetime>IconCrossfadeTime</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<texture background="true">$INFO[Container().ListItem(1).Path,,folder.jpg]</texture>
+							<texture background="true">$INFO[Container().ListItem(1).Art(poster)]</texture>
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
 							<visible>Container.Content(Episodes) + stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
@@ -1834,7 +1835,7 @@
 						<height>163</height>
 					<fadetime>IconCrossfadeTime</fadetime>
 						<aspectratio scalediffuse="false">stretch</aspectratio>
-						<texture background="true" fallback="nothumb.png">$INFO[Listitem.Property(Fanart_Image)]</texture>
+						<texture background="true" fallback="nothumb.png">$INFO[Listitem.Art(fanart)]</texture>
 						<bordertexture border="4">thumbborder.png</bordertexture>
 						<bordersize>4</bordersize>						
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
