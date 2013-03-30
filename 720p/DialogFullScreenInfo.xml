@@ -235,7 +235,7 @@
 				<posy>0</posy>
 				<control type="label">
 					<posx>570</posx>
-					<posy>100</posy>
+					<posy>90</posy>
 					<width>800</width>
 					<height>25</height>
 					<label>$INFO[VideoPlayer.Title]</label>
@@ -363,7 +363,7 @@
 						<shadowcolor></shadowcolor>
 						<scroll>false</scroll>
 						<align>left</align>
-						<label>$INFO[VideoPlayer.Writer]</label>
+						<label>$INFO[Player.Writer]</label>
 					</control>		
 										<control type="label">
 						<posx>200</posx>
