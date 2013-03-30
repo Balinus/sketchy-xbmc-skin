@@ -546,7 +546,7 @@
 			<posx>0</posx>
 			<posy>0</posy>
 			<include>Overlay</include>
-			<include>LeftOptions</include>
+			<include>UpOptions</include>
 			<include>EpisodeBreadCrumbs</include>
 			<include>RightOpenTVGuide</include>
 			<control type="fixedlist" id="532">
@@ -1357,7 +1357,7 @@
 						<height>139</height>
 						<align>right</align>
 						<aspect>stretch</aspect>
-						<texture background="true" fallback="nothumb.png">$INFO[ListItem.Property(Fanart_Image)]</texture>
+						<texture background="true" fallback="nothumb.png">$INFO[ListItem.Art(fanart)]</texture>
 						<bordertexture border="8">simplicity/thumbborder.png</bordertexture>
 						<bordersize>8</bordersize>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
@@ -1478,7 +1478,7 @@
 					<height>105</height>
 					<font>Simplicity_20</font>
 					<textcolor>black</textcolor>
-					<align>left</align>
+					<align>justify</align>
 					<label>$INFO[ListItem.Plot]</label>
 					<include>Zoom</include>		
 				</control>
@@ -1519,7 +1519,7 @@
 					<posy>140</posy>
 					<width>384</width>
 					<height>216</height>
-					<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,clearart.png]</texture>
+					<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearart)]</texture>
 					<animation effect="fade" start="0" end="100" time="400" delay="200" reversible="false">Focus</animation>
 				</control>
 				<control type="image">
@@ -1559,7 +1559,7 @@
 					<height>128</height>
 					<font>Simplicity_20</font>
 					<textcolor>black</textcolor>
-					<align>left</align>
+					<align>justify</align>
 					<label>$INFO[ListItem.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
 					<include>Zoom</include>		
@@ -1749,7 +1749,7 @@
 							<width>110</width>
 							<height>165</height>
 							<aligny>center</aligny>
-							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Icon]</texture>
+							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>stretch</aspectratio>
 							<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
@@ -1760,7 +1760,7 @@
 							<width>110</width>
 							<height>165</height>
 							<aligny>center</aligny>
-							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Path,,poster.jpg]</texture>
+							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>stretch</aspectratio>
 							<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
@@ -1806,7 +1806,7 @@
 								<width>110</width>
 								<height>165</height>
 								<aligny>center</aligny>
-								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Icon]</texture>
+								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 								<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation> 
 								<aspectratio>stretch</aspectratio>
 								<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
@@ -1818,7 +1818,7 @@
 								<width>110</width>
 								<height>165</height>
 								<aligny>center</aligny>
-								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Path,,poster.jpg]</texture>
+								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 								<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation> 
 								<aspectratio>stretch</aspectratio>
 								<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
@@ -1985,7 +1985,7 @@
 							<width>118</width>
 							<height>176</height>
 							<aligny>center</aligny>
-							<texture background="true">$INFO[ListItem.Icon]</texture>
+							<texture background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>stretch</aspectratio>
 								<bordertexture border="4">thumbborder.png</bordertexture>
 								<bordersize>4</bordersize>
@@ -2010,7 +2010,7 @@
 							<width>118</width>
 							<height>176</height>
 							<aligny>center</aligny>
-							<texture background="true">$INFO[ListItem.Path,,poster.jpg]</texture>
+							<texture background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>stretch</aspectratio>
 								<bordertexture border="4">thumbborder.png</bordertexture>
 								<bordersize>4</bordersize>
@@ -2059,7 +2059,7 @@
 								<width>118</width>
 								<height>176</height>
 								<aligny>center</aligny>
-								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Icon]</texture>
+								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 								<animation reversible="false" effect="zoom" end="120" center="auto" time="150">Focus</animation> 	
 								<bordertexture border="4">simplicity/thumbborder.png</bordertexture>
 								<bordersize>4</bordersize>
@@ -2073,7 +2073,7 @@
 								<width>118</width>
 								<height>176</height>
 								<aligny>center</aligny>
-								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Path,,poster.jpg]</texture>
+								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 								<animation reversible="false" effect="zoom" end="120" center="auto" time="150">Focus</animation> 	
 								<bordertexture border="4">simplicity/thumbborder.png</bordertexture>
 								<bordersize>4</bordersize>
@@ -2241,7 +2241,7 @@
 							<width>400</width>
 							<height>155</height>
 							<aligny>bottom</aligny>
-							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Path,,logo.png]</texture>
+							<texture background="true" fallback="logo-fallback.png">$INFO[ListItem.Art(clearlogo)]</texture>
 							<aspectratio>keep</aspectratio>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 							<fadetime>IconCrossfadeTime</fadetime>
