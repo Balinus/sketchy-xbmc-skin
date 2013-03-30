@@ -72,8 +72,8 @@
 			    <description>Logo</description>
 			    <posx>5</posx>
 			    <posy>75</posy>
-			    <width>180</width>
-			    <height>70</height>
+			    <width>240</width>
+			    <height>94</height>
 			    <texture background="true">$INFO[Player.Art(clearlogo)]</texture>
 			    <aspectratio>keep</aspectratio>
 			    <yalign>top</yalign>
@@ -543,7 +543,7 @@
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>-->
-				<control type="image">
+				<!--<control type="image">
 					<posx>-160</posx>
 					<posy>43</posy>
 					<width>320</width>
@@ -551,7 +551,7 @@
 					<texture>$INFO[VideoPlayer.Cover]</texture>
 					<bordertexture border="1">simplicity/folder-focus.png</bordertexture>
 					<bordersize>1</bordersize>
-				</control>
+				</control>-->
 				<control type="textbox">
 					<description>Description Value The Movie</description>
 					<posx>185</posx>

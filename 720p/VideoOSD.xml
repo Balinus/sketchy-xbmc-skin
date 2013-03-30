@@ -32,10 +32,21 @@
 				<posy>-95</posy> 
 				<width>240</width>
 				<height>135</height>
-				<texture fallback="blank.png">$INFO[Player.FolderPath]../clearart.png</texture>
-				<texture fallback="blank.png">$INFO[Player.FolderPath]clearart.png</texture>
+				<texture fallback="blank.png">$INFO[Player.Art(clearart)]</texture>				
 				<aspectratio>keep</aspectratio>
-				<visible>VideoPlayer.Content(episodes)</visible>
+<!-- 				<visible>VideoPlayer.Content(episodes)</visible> -->
+			</control>
+			
+			<control type="label">
+				<posx>0</posx>
+				<posy>620</posy>
+				<width>1280</width>
+				<label>$INFO[VideoPlayer.Title]</label>
+				<font>Simplicity_50_Title</font>
+				<align>center</align>
+				<textcolor>white</textcolor>
+				<shadowcolor>-</shadowcolor>
+				<!--	<visible>VideoPlayer.Content(episodes)  | VideoPlayer.Content(Movies)</visible>  -->
 			</control>
 
 			<control type="group" id="200">
@@ -118,7 +129,7 @@
 						<height>36</height>
 						<label>previous</label>
 						<font>-</font>
-					<textcolor>-</textcolor>
+						<textcolor>-</textcolor>
 						<texturefocus>osdprevtrackfo.png</texturefocus>
 						<texturenofocus>osdprevtracknf.png</texturenofocus>
 						<onleft>703</onleft>
@@ -302,17 +313,7 @@
 			</control>
 	
 			
-						<control type="label">
-				<posx>0</posx>
-				<posy>94</posy>
-				<width>1280</width>
-				<label>$INFO[VideoPlayer.Title]</label>
-				<font>Simplicity_50_Title</font>
-				<align>center</align>
-				<textcolor>white</textcolor>
-				<shadowcolor>-</shadowcolor>
-				<!--	<visible>VideoPlayer.Content(episodes)  | VideoPlayer.Content(Movies)</visible>  -->
-			</control>
+						
 			
 						<control type="image">
             <description>Logo</description>
@@ -320,65 +321,76 @@
             <posy>75</posy>
             <width>180</width>
             <height>70</height>
-            <texture background="true">$INFO[Player.FolderPath]/../logo.png</texture>
+            <texture background="true">$INFO[Player.Art(clearlogo)]</texture>
             <aspectratio>keep</aspectratio>
             <yalign>top</yalign>
             <colordiffuse>66FFFFFF</colordiffuse>
 			</control>
 			
-						<control type="label">
-				<posx>275</posx>
-				<posy>60</posy>
-				<width>500</width>
-				<label>$INFO[VideoPlayer.Time]</label>
-				<font>Simplicity_30_Title</font>
-				<textcolor>grey3</textcolor>
-			</control>
-			
-						<control type="label">
-				<posx>995</posx>
-				<posy>60</posy>
-				<width>500</width>
-				<label>$INFO[VideoPlayer.Duration]</label>
-				<font>Simplicity_30_Title</font>
-				<align>right</align>
-				<textcolor>grey3</textcolor>
-			</control>
-			
-						<control type="label">
+				<control type="group">
 			  <posx>0</posx>
-			  <posy>60</posy>
-			  <width>1280</width>
-			  <height>25</height>
-			  <label>$INFO[Player.FinishTime,ends at: ]</label>
-			  <textcolor>grey3</textcolor>
-			  <font>Simplicity_30_Title</font>
-			  <align>center</align>
-			</control>
+			  <posy>50</posy>
+						<control type="label">
+							<posx>275</posx>
+							<posy>60</posy>
+							<width>500</width>
+							<label>$INFO[VideoPlayer.Time]</label>
+							<font>Simplicity_30_Title</font>
+							<textcolor>white</textcolor>
+						</control>
 			
-						<control type="image">
-				<description>Movie cover image</description>
-				<posx>15</posx>
-				<posy>75</posy>
-				<width>120</width>
-				<height>180</height>
-				<fadetime>200</fadetime>
-				<texture background="true">$INFO[VideoPlayer.Cover]</texture>
-				<aspectratio aligny="bottom">stretch</aspectratio>
-				<visible>VideoPlayer.Content(Movies)</visible>
-			</control>	
+						<control type="label">
+							<posx>995</posx>
+							<posy>60</posy>
+							<width>500</width>
+							<label>$INFO[VideoPlayer.Duration]</label>
+							<font>Simplicity_30_Title</font>
+							<align>right</align>
+							<textcolor>white</textcolor>
+						</control>
 			
-				<control type="image">
-					<posx>1180</posx>
-					<posy>55</posy>
-					<width>100</width>
-					<height>100</height>
+						<control type="label">
+						  <posx>0</posx>
+						  <posy>60</posy>
+						  <width>1280</width>
+						  <height>25</height>
+						  <label>$INFO[Player.FinishTime,ends at: ]</label>
+						  <textcolor>white</textcolor>
+						  <font>Simplicity_30_Title</font>
+						  <align>center</align>
+						</control>
+			
+						<!--<control type="image">
+							<description>Movie cover image</description>
+							<posx>15</posx>
+							<posy>75</posy>
+							<width>180</width>
+							<height>270</height>
+							<fadetime>200</fadetime>
+							<texture background="true">$INFO[Player.Art(poster)]</texture>
+							<bordertexture border="1">simplicity/folder-focus.png</bordertexture>
+							<bordersize>1</bordersize>
+							<aspectratio aligny="bottom">stretch</aspectratio>
+							<visible>VideoPlayer.Content(Movies)</visible>
+						</control>-->	
+				
+				<control type="label" id="1">
+					<description>Chapter Pos No</description>
+					<posx>0</posx>
+					<posy>100</posy>
+					<width>1280</width>
+					<height>20</height>
+					<font>Simplicity_30_Title</font>
+					<textcolor>white</textcolor>
 					<align>center</align>
 					<aligny>center</aligny>
-					<aspectratio>keep</aspectratio>
-					<texture>studios/$INFO[VideoPlayer.Studio,,.png]</texture>
-					<colordiffuse>44FFFFFF</colordiffuse>
+					<label>$LOCALIZE[21396]: $INFO[player.chapter]$INFO[player.chaptercount, / ]</label>
+					<visible>player.chaptercount</visible>
 				</control>
+			
+			      </control>
+			
+						
 			
 			</control>
 	
