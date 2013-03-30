@@ -780,7 +780,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>260</posx>
+				<posx>300</posx>
 				<posy>46</posy>
 				<height>20</height>
 				<width>275</width>
@@ -814,7 +814,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>310</posx>
+				<posx>350</posx>
 				<posy>46</posy>
 				<height>20</height>
 				<width>275</width>
@@ -1294,7 +1294,7 @@
 					<height>150</height>
 					<font>Simplicity_20</font>
 					<textcolor>white</textcolor>
-					<align>left</align>
+					<align>justify</align>
 					<label>$INFO[ListItem.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
 					<visible>Container.Content(Episodes)</visible>
@@ -1551,12 +1551,12 @@
 							<align>left</align>
 							<fadetime>IconCrossfadeTime</fadetime>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<texture background="true">$INFO[Container.SeasonThumb]</texture>
+							<texture background="true">$INFO[ListItem.Art(tvshow.poster)]</texture>
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
 							<visible>Container.Content(Episodes)</visible>
 						</control>
-						<control type="image">
+						<!--<control type="image">
 							<posx>100</posx>
 							<posy>218</posy>
 							<width>247</width>
@@ -1568,7 +1568,7 @@
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
 							<visible>Container.Content(Episodes) + IsEmpty(Control.GetLabel(8983))</visible>
-						</control>
+						</control>-->
 						<control type="image">
 							<posx>100</posx>
 							<posy>218</posy>
@@ -1723,7 +1723,7 @@
 							<width>650</width>
 							<height>175</height>
 							<font>Simplicity_24</font>
-							<align>left</align>
+							<align>justify</align>
 							<textcolor>white</textcolor>
 							<label>$INFO[ListItem.Plot]</label>
 							<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -1736,7 +1736,7 @@
 							<width>650</width>
 							<height>175</height>
 							<font>Simplicity_24</font>
-							<align>left</align>
+							<align>justify</align>
 							<textcolor>white</textcolor>
 							<label>$INFO[ListItem.Plot]</label>
 							<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -1898,7 +1898,7 @@
 						<posx>0</posx>
 						<posy>530</posy>
 						<width>800</width>
-						<height>63</height>
+						<height>72</height>
 						<font>Simplicity_20</font>
 						<align>justify</align>
 						<textcolor>black</textcolor>
