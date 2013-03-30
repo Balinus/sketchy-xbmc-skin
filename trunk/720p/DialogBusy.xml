@@ -35,7 +35,7 @@
 			<height>35</height>
 			<align>left</align>
 			<aligny>center</aligny>
-			<label>[COLOR=white][B]Working...[/B][/COLOR][CR]$LOCALIZE[20186] !</label>
+			<label>[COLOR=black][B]Working...[/B][CR]$LOCALIZE[20186] ![/COLOR]</label>
 			<font>Simplicity_20_Bold</font>
 		</control>
 	</controls>
