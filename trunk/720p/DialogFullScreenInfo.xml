@@ -543,23 +543,23 @@
 					<textcolor>white</textcolor>
 					<shadowcolor>black</shadowcolor>
 				</control>-->
-				<!--<control type="image">
+				<control type="image">
 					<posx>-160</posx>
 					<posy>43</posy>
 					<width>320</width>
 					<height>185</height>
-					<texture>$INFO[VideoPlayer.Cover]</texture>
+					<texture>$INFO[Player.Art(poster)]</texture>
 					<bordertexture border="1">simplicity/folder-focus.png</bordertexture>
 					<bordersize>1</bordersize>
-				</control>-->
+				</control>
 				<control type="textbox">
 					<description>Description Value The Movie</description>
 					<posx>185</posx>
 					<posy>150</posy>
 					<width>880</width>
 					<height>84</height>
-					<font>Simplicity_24_Title</font>
-					<align>left</align>
+					<font>Simplicity_24</font>
+					<align>justify</align>
 					<textcolor>white</textcolor>
 					<label>$INFO[VideoPlayer.Plot]</label>
 					<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
