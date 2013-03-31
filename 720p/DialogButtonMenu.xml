@@ -20,7 +20,7 @@
 			<posy>100</posy>
 			<width>670</width>
 			<height>270</height>
-			<texture border="20">simplicity/dialog-context-bg.png</texture>
+			<texture border="20">paper-bg-dark.png</texture>
 		</control>
 		<control type="group">
 			<posx>305</posx>

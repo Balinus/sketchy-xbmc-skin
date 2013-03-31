@@ -1360,10 +1360,12 @@
 					<control type = "button" id = "14">
 						<description>Logo</description>
 						<include>ButtonInfoDialogsCommonValuesInfo</include>
-						<onclick>XBMC.RunScript(script.logo-downloader,mode=solo,clearart=True,logo=True,showthumb=landscape.jpg,poster=poster.jpg,banner=banner.jpg,showname=$INFO[ListItem.TVShowTitle])</onclick>
-						<label>Logo</label>
-						<visible>Container.Content(TVShows)</visible>
-					</control>
+						<onclick condition="Container.Content(tvshows)">XBMC.RunScript(script.artwork.downloader, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+						<onclick condition="Container.Content(movies)">XBMC.RunScript(script.artwork.downloader, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+						<onclick condition="Container.Content(musicvideos)">XBMC.RunScript(script.artwork.downloader, mediatype=musicvideos, dbid=$INFO[ListItem.DBID])</onclick>
+						<visible>[Container.Content(tvshows)|Container.Content(movies)|Container.Content(musicvideos)]+system.hasaddon(script.artwork.downloader)</visible>
+						<label>$LOCALIZE[31428]</label>						
+					</control>	
 					<control type = "button" id = "15">
 						<description>Get Theme</description>
 						<include>ButtonInfoDialogsCommonValuesInfo</include>

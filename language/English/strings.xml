@@ -133,6 +133,7 @@
   <string id="31422">Hide Res. Flags</string>
   <string id="31423">Hide Flags</string>
   <string id="31424">More Info</string>
+    <string id="31428">Logo</string>
 
   <!-- Description Labels  -->
   <string id="31400">[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver</string>

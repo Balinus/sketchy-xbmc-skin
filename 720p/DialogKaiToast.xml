@@ -13,7 +13,7 @@
 				<posy>0</posy>
 				<width>400</width>
 				<height>80</height>
-				<texture>paper-bg.png</texture>
+				<texture>paper-bg-dark.png</texture>
 			</control>
 			<control type="image" id="400">
 				<description>avatar</description>

@@ -1795,21 +1795,22 @@
 								<bordersize>4</bordersize>
 							<visible>!Container.Content(Seasons)</visible>
 						</control>-->
-				<control type="grouplist">
-					<description>Media Codec Flagging Images</description>
-					<posx>370</posx>
-					<posy>540</posy>
-					<width>600</width>
-					<align>left</align>
-					<itemgap>20</itemgap>
-					<orientation>horizontal</orientation>
-						<include>VisibleFadeEffect</include>
-						<include>VideoTypeHackFlaggingConditions</include>
-						<include>VideoCodecFlaggingConditions</include>
-						<include>AspectCodecFlaggingConditions</include>
-						<include>AudioCodecFlaggingConditions</include>
-				</control>
-					</control>
+					  <control type="grouplist">
+						  <description>Media Codec Flagging Images</description>
+						  <posx>370</posx>
+						  <posy>540</posy>
+						  <width>600</width>
+						  <align>left</align>
+						  <itemgap>20</itemgap>
+						  <orientation>horizontal</orientation>
+						  <include>VisibleFadeEffect</include>
+						  <include>VideoTypeHackFlaggingConditions</include>
+						  <include>VideoCodecFlaggingConditions</include>
+						  <include>AspectCodecFlaggingConditions</include>
+						  <include>AudioCodecFlaggingConditions</include>
+						  <visible>!Container.Content(TVShows)</visible>
+					  </control>
+			      </control>
 </include>
 
 
@@ -3583,34 +3584,34 @@
 	 <!-- TIME LABEL -->
       
 		    <control type="label">
-      <description>time label</description>
-      <posx>20r</posx>
-      <posy>30</posy>
-      <width>500</width>
-      <height>28</height>
-      <align>right</align>
-      <aligny>center</aligny>
-      <font>Large</font>
-      <textcolor>black</textcolor>
-      <label>$INFO[System.Time]</label>
+			<description>time label</description>
+			<posx>20r</posx>
+			<posy>30</posy>
+			<width>500</width>
+			<height>28</height>
+			<align>right</align>
+			<aligny>center</aligny>
+			<font>Large</font>
+			<textcolor>black</textcolor>
+			<label>$INFO[System.Time]</label>
 			<include>Window_OpenClose_Animation</include>
-    </control>
+		    </control>
     
     <!-- SYSTEM DATE -->
     
-        <control type="label">
-      <description>time label</description>
-      <posx>22r</posx>
-      <posy>74</posy>
-      <width>500</width>
-      <height>28</height>
-      <align>right</align>
-      <aligny>center</aligny>
-      <font>Small</font>
-      <textcolor>black</textcolor>
-      <label>$INFO[System.Date]</label>
-			<include>Window_OpenClose_Animation</include>
-    </control> 
+		<control type="label">
+		    <description>time label</description>
+		    <posx>22r</posx>
+		    <posy>80</posy>
+		    <width>500</width>
+		    <height>28</height>
+		    <align>right</align>
+		    <aligny>center</aligny>
+		    <font>Small</font>
+		    <textcolor>black</textcolor>
+		    <label>$INFO[System.Date]</label>
+		    <include>Window_OpenClose_Animation</include>
+		  </control> 
     
     <!-- <control type="image">
       <description>logo</description>
