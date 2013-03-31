@@ -134,6 +134,7 @@
   <string id="31423">Hide Flags</string>
   <string id="31424">More Info</string>
     <string id="31428">Logo</string>
+    <string id="31429">Live TV</string>
 
   <!-- Description Labels  -->
   <string id="31400">[B]CONFIGURE APPEARANCE SETTINGS[/B][CR][CR]Change the skin · Set language and region · Change file listing options[CR]Set up a screensaver</string>
@@ -144,6 +145,7 @@
   <string id="31405">[B]CONFIGURE NETWORK SETTINGS[/B][CR][CR]Setup control of XBMC via UPnP and HTTP · Configure file sharing[CR]Set internet access options</string>
   <string id="31406">[B]CONFIGURE SYSTEM SETTINGS[/B][CR][CR]Setup and calibrate displays · Configure audio output · Setup remote controls[CR]Set power saving options · Enable debugging · Setup master lock</string>
   <string id="31407">[B]CONFIGURE SKIN SETTINGS[/B][CR][CR]Setup the Simplicity skin · Add and remove home menu items · Change the Home Screen</string>
+    <string id="31408">[B][COLOR=yellow]CONFIGURE TV SETTINGS[/COLOR][/B][CR][CR]Change fullscreen info · Manage EPG data settings</string>
 
   <string id="31420">[B][COLOR=white]XBMC has not detected a Disc.[/COLOR][/B][CR][CR]Please Insert a disc into your drive and try again or Cancel</string>
   <string id="31421">Select your XBMC user Profile[CR]to login and continue</string>
