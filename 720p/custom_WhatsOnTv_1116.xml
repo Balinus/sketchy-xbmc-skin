@@ -6,10 +6,10 @@
 			
 		
 			<control type="image">
-				<posx>80</posx>
-				<posy>45</posy>
-				<width>1120</width>
-				<height>630</height>
+				<posx>30</posx>
+				<posy>35</posy>
+				<width>1220</width>
+				<height>640</height>
 				<texture>paper-bg.png</texture>
 			</control>
 
@@ -34,12 +34,12 @@
 				<onright>513</onright>
 				<onleft>512</onleft>
 				<label>Return</label>
-			<font>Simplicity_30_Title</font>
+				<font>Simplicity_30_Title</font>
 				<textcolor>black</textcolor>
 				<focusedcolor>white</focusedcolor>
 				<shadowcolor>-</shadowcolor>
 				<align>center</align>
-				<aligny>top</aligny>
+				<aligny>center</aligny>
 				<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 				<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 				<font>Simplicity_20_Bold_title</font>
@@ -60,7 +60,7 @@
 				<focusedcolor>white</focusedcolor>
 				<shadowcolor></shadowcolor>
 				<align>center</align>
-				<aligny>top</aligny>
+				<aligny>center</aligny>
 				<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 				<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 				<font>Simplicity_20_Title</font>
@@ -81,14 +81,12 @@
 				<focusedcolor>white</focusedcolor>
 				<shadowcolor>-</shadowcolor>
 				<align>center</align>
-				<aligny>top</aligny>
+				<aligny>center</aligny>
 				<texturenofocus border="5">simplicity/button-nofocus.png</texturenofocus>
 				<texturefocus border="5">simplicity/button-focus-white.png</texturefocus>
 				<onclick>XBMC.RunScript(script.tv.show.next.aired,silent=True,force=True)</onclick>
 				<onclick>XBMC.ReloadSkin</onclick>
-			</control>
-
-			
+			</control>	
 
 
 			<control type="button" id="515">
@@ -9774,11 +9772,11 @@
 			<control type="group">
 				<visible>Control.HasFocus(521)</visible>
 				<include>VisibleFadeEffectTV</include>
-				<posx>-15</posx>
+				<posx>-10</posx>
 				<posy>40</posy>
 				<control type="panel" id="12012">
 					<posx>65</posx>
-					<posy>20</posy>
+					<posy>15</posy>
 					<width>1200</width>
 					<height>628</height>
 					<onleft>-</onleft>
@@ -9790,7 +9788,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
 					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
-					<itemlayout height="246" width="403">
+					<itemlayout height="246" width="400">
 						<control type="label">
 							<posx>165</posx>
 							<posy>115</posy>
@@ -9814,7 +9812,7 @@
 							<label>[COLOR=white]$INFO[ListItem.label][/COLOR]</label>
 						</control>				
 					</itemlayout>
-					<focusedlayout height="246" width="403">
+					<focusedlayout height="246" width="400">
 						<control type="label">
 							<posx>165</posx>
 							<posy>115</posy>
@@ -10045,7 +10043,7 @@
 
 				<control type="panel" id="12013">
 					<posx>65</posx>
-					<posy>20</posy>
+					<posy>15</posy>
 					<width>1200</width>
 					<height>628</height>
 					<onleft>-</onleft>
@@ -10057,7 +10055,7 @@
 					<pagecontrol>-</pagecontrol>
 					<scrolltime>300</scrolltime>
 					<visible>Skin.HasSetting(TVShowsUsePosters)</visible>
-					<itemlayout height="246" width="403">
+					<itemlayout height="246" width="400">
 						<control type="image">
 							<posx>20</posx>
 							<posy>105</posy>
@@ -10113,7 +10111,7 @@
 							<label>Time: [COLOR=white]$INFO[ListItem.label2][/COLOR]</label>
 						</control>		
 					</itemlayout>
-					<focusedlayout height="246" width="403">
+					<focusedlayout height="246" width="400">
 						<control type="image">
 							<posx>20</posx>
 							<posy>105</posy>
