@@ -2923,7 +2923,7 @@
 			</control>
 			<include>UpOptions</include>
 			<include>AddonBreadCrumbs</include>
-	<include>DownOpenRecent</include>
+			<include>DownOpenRecent</include>
 			<control type="group">
 				<posx>0</posx>
 				<posy>-30</posy>

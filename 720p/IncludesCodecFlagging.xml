@@ -206,29 +206,29 @@
 	<include name="MPAAFlaggingConditionsShade">
 		<control type="image">
 			<description>Rated G</description>
-			<width>130</width>
-			<height>45</height>
+			<width>182</width>
+			<height>65</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flags-small/g.png</texture>
 			<visible>substring(listitem.mpaa,Rated G)</visible>
 		</control>
 		<control type="image">
-			<width>130</width>
-			<height>45</height>
+			<width>182</width>
+			<height>65</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flags-small/pg.png</texture>
 			<visible>substring(listitem.mpaa,Rated PG)</visible>
 		</control>
 		<control type="image">
-			<width>130</width>
-			<height>45</height>
+			<width>182</width>
+			<height>65</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flags-small/pg13.png</texture>
 			<visible>substring(listitem.mpaa,Rated PG-13)</visible>
 		</control>
 		<control type="image">
-			<width>130</width>
-			<height>45</height>
+			<width>182</width>
+			<height>65</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flags-small/r.png</texture>
 			<visible>substring(Listitem.mpaa,Rated R)</visible>
@@ -408,6 +408,25 @@
 			<height>50</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flags/video/hddvd.png</texture>
+			<visible>substring(ListItem.filename,hddvd)</visible>
+		</control>
+
+	</include>
+	<include name="VideoTypeHackFlaggingConditionsList">
+		<control type="image">
+			<description>Bluray Image</description>
+			<width>76</width>
+			<height>50</height>
+			<aspectratio>keep</aspectratio>
+			<texture>flags/black/video/bluray.png</texture>
+			<visible>substring(ListItem.filename,bluray)</visible>
+		</control>
+		<control type="image">
+			<description>HDDVD Image</description>
+			<width>76</width>
+			<height>50</height>
+			<aspectratio>keep</aspectratio>
+			<texture>flags/black/video/hddvd.png</texture>
 			<visible>substring(ListItem.filename,hddvd)</visible>
 		</control>
 
