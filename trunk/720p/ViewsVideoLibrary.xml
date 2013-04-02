@@ -1317,7 +1317,7 @@
 						<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
 					</control>-->
 					<control type="group">
-						<!--<visible>Skin.HasSetting(UseFlags)</visible>-->
+						<visible>!Container.Content(TVShows)</visible>
 						<control type="group">
 							<description>Media Codec Flagging Images</description>
 							<posx>270</posx>
