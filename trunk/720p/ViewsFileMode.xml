@@ -3,7 +3,7 @@
 		<control type="group">
 			<visible>Control.IsVisible(50)</visible>
 			<include>VisibleFadeEffect</include>
-			<include>GlobalBackground</include>
+			<include>GlobalBackgroundFaded</include>
 			<include>LeftOptions</include>
 			<include>FileBreadCrumbs</include>
 			<include>RightOpenTVGuide</include>

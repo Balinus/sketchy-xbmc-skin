@@ -28,8 +28,8 @@
 				<label>$LOCALIZE[13406]</label>
 				<align>center</align>
 				<aligny>center</aligny>
-				<textcolor>white</textcolor>
-				<shadowcolor>black</shadowcolor>
+				<textcolor>red</textcolor>
+<!-- 				<shadowcolor>black</shadowcolor> -->
 			</control>
 			<control type="list" id="3">
 				<posx>20</posx>
@@ -56,8 +56,8 @@
 						<width>530</width>
 						<height>40</height>
 						<font>font13</font>
-						<textcolor>grey2</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<textcolor>black</textcolor>
+						<selectedcolor>red</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
@@ -88,8 +88,8 @@
 						<width>530</width>
 						<height>40</height>
 						<font>Simplicity_24</font>
-						<textcolor>white</textcolor>
-						<selectedcolor>selected</selectedcolor>
+						<textcolor>red</textcolor>
+						<selectedcolor>red</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>$INFO[ListItem.Label]</label>
