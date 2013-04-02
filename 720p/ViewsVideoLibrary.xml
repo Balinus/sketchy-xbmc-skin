@@ -1174,7 +1174,7 @@
 			<include>VisibleFadeEffect</include>
 			<posx>0</posx>
 			<posy>0</posy>
-			<include>GlobalBackground</include>
+			<include>GlobalBackgroundFaded</include>
 			<include>LeftOptions</include>
 			<include>MovieBreadCrumbs</include>
 			<include>TVBreadCrumbs</include>
@@ -1206,7 +1206,7 @@
 							<height>40</height>
 							<align>left</align>
 							<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
-							<visible>![!Skin.HasSetting(EnableWatchedIconMovies) + Container.Content(Movies)]</visible>
+<!-- 							<visible>![!Skin.HasSetting(EnableWatchedIconMovies) + Container.Content(Movies)]</visible> -->
 						</control>
 						<control type="label">
 							<posx>135</posx>

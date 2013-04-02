@@ -34,31 +34,31 @@
 
 	<include name="GlobalBackground">
 	
-			<control type="group">		
-					<control type="image">
-      <description>background</description>
-      <posx>0</posx>
-      <posy>0</posy>
-      <width>1280</width>
-      <height>720</height>
-      <texture>home/homebg.png</texture>
-    </control>
-    </control>
-</include>
+	      <control type="group">		
+		  <control type="image">
+			  <description>background</description>
+			  <posx>0</posx>
+			  <posy>0</posy>
+			  <width>1280</width>
+			  <height>720</height>
+			  <texture>home/homebg.png</texture>
+		    </control>
+		</control>
+	</include>
 
 	<include name="GlobalBackgroundFaded">
 	
 			<control type="group">		
-					<control type="image">
-      <description>background</description>
-      <posx>0</posx>
-      <posy>0</posy>
-      <width>1280</width>
-      <height>720</height>
-      <texture>home/homebg_trans.png</texture>
-    </control>
-    </control>
-</include>
+			    <control type="image">
+				<description>background</description>
+				<posx>0</posx>
+				<posy>0</posy>
+				<width>1280</width>
+				<height>720</height>
+				<texture>home/homebg_trans.png</texture>
+			      </control>
+			</control>
+	  </include>
 
 
 	<include name="SideBladeLeft">
@@ -505,7 +505,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>385</posx>
+				<posx>420</posx>
 				<posy>49</posy>
 				<height>20</height>
 				<width>275</width>
@@ -597,7 +597,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>216</posx>
+				<posx>256</posx>
 				<posy>58</posy>
 				<height>20</height>
 				<width>275</width>
@@ -629,7 +629,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>260</posx>
+				<posx>290</posx>
 				<posy>49</posy>
 				<height>20</height>
 				<width>275</width>
@@ -693,7 +693,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>270</posx>
+				<posx>300</posx>
 				<posy>49</posy>
 				<height>20</height>
 				<width>275</width>
@@ -725,7 +725,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>93</posx>
+				<posx>120</posx>
 				<posy>90</posy>
 				<height>20</height>
 				<width>275</width>
@@ -739,7 +739,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>310</posx>
+				<posx>370</posx>
 				<posy>57</posy>
 				<height>20</height>
 				<width>275</width>
@@ -947,7 +947,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>280</posx>
+				<posx>330</posx>
 				<posy>58</posy>
 				<height>20</height>
 				<width>275</width>
@@ -981,7 +981,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>240</posx>
+				<posx>290</posx>
 				<posy>52</posy>
 				<height>20</height>
 				<width>275</width>
@@ -1015,7 +1015,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>260</posx>
+				<posx>310</posx>
 				<posy>58</posy>
 				<height>20</height>
 				<width>275</width>
@@ -1050,7 +1050,7 @@
 			</control>	
 			<control type="label">
 				<description>Title label</description>
-				<posx>240</posx>
+				<posx>290</posx>
 				<posy>49</posy>
 				<height>20</height>
 				<width>275</width>
@@ -2183,7 +2183,7 @@
 							<width>650</width>
 							<height>175</height>
 							<font>Simplicity_24</font>
-							<align>left</align>
+							<align>justify</align>
 							<textcolor>white</textcolor>
 							<label>$INFO[ListItem.Property(Album_Description) ]</label>
 							<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
@@ -2675,9 +2675,9 @@
 	</include>
 	<include name="ButtonInfoDialogsCommonValuesInfo">
 		<height>40</height>
-		<width>120</width>
+		<width>150</width>
 		<textoffsetx>20</textoffsetx>
-		<font>Simplicity_24_Title</font>
+		<font>Simplicity_26_Title</font>
 		<textcolor>brown</textcolor>
 		<focusedcolor>red</focusedcolor>
 		<shadowcolor>-</shadowcolor>

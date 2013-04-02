@@ -1531,7 +1531,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.1.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.1.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.1.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1541,7 +1541,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.2.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.2.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.2.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1551,7 +1551,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.3.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.3.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.3.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1561,7 +1561,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.4.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.4.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.4.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1571,7 +1571,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.5.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.5.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.5.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1581,7 +1581,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.6.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.6.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.6.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1591,7 +1591,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.7.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.7.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.7.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1601,7 +1601,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.8.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.8.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.8.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1611,7 +1611,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.9.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.9.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.9.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1621,7 +1621,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.10.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.10.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.10.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1631,7 +1631,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.11.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.11.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.11.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1641,7 +1641,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.12.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.12.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.12.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1651,7 +1651,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.13.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.13.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.13.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1661,7 +1661,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.14.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.14.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.14.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1671,7 +1671,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.15.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.15.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.15.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1681,7 +1681,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.16.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.16.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.16.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1691,7 +1691,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.17.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.17.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.17.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1701,7 +1701,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.18.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.18.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.18.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1711,7 +1711,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.19.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.19.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.19.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1721,7 +1721,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.20.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.20.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.20.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1731,7 +1731,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.21.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.21.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.21.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1741,7 +1741,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.22.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.22.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.22.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1751,7 +1751,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.23.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.23.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.23.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1761,7 +1761,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.24.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.24.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.24.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1771,7 +1771,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.25.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.25.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.25.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1781,7 +1781,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.26.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.26.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.26.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1791,7 +1791,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.27.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.27.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.27.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1801,7 +1801,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.28.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.28.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.28.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1811,7 +1811,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.29.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.29.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.29.Label),ListItem.TVShowTitle)</visible>
 			</control>
 			<control type="label">
@@ -1821,7 +1821,7 @@
 				<height>89</height>
 				<font>Simplicity_24</font>
 				<shadowcolor>black</shadowcolor>
-				<label>[COLOR=black]Status:[/COLOR] [COLOR=red]$INFO[Window(Home).Property(NextAired.30.status)][/COLOR]</label>
+				<label>[COLOR=red]Status:[/COLOR] [COLOR=black]$INFO[Window(Home).Property(NextAired.30.status)][/COLOR]</label>
 				<visible>StringCompare(Window(Home).Property(NextAired.30.Label),ListItem.TVShowTitle)</visible>
 			</control>
 		</control>

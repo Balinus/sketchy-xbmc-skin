@@ -21,7 +21,7 @@
 				<posy>0</posy>
 				<width>1100</width>
 				<height>720</height>
-				<texture border="15,0,0,0">paper-bg.png</texture>
+				<texture border="15,0,0,0">paper-bg-dark.png</texture>
 				<visible>!Window.IsVisible(124)</visible>
 			</control>
 			<!--<control type="button">
@@ -47,7 +47,7 @@
 				<posy>0</posy>
 				<width>800</width>
 				<height>720</height>
-				<texture border="20,0,0,0">paper-bg.png</texture>
+				<texture border="20,0,0,0">paper-bg-dark.png</texture>
 				<visible>Window.IsVisible(124)</visible>
 			</control>
 			<control type="group">
@@ -75,8 +75,8 @@
 					<font>Simplicity_16_Bold</font>
 					<align>right</align>
 					<aligny>center</aligny>
-					<textcolor>white</textcolor>
-					<shadowcolor>black</shadowcolor>
+					<textcolor>black</textcolor>
+<!-- 					<shadowcolor>black</shadowcolor> -->
 				</control>
 				<control type="grouplist" id="9000">
 					<posx>20</posx>
@@ -172,10 +172,11 @@
 							<posy>0</posy>
 							<width>580</width>
 							<height>40</height>
-							<font>Simplicity_18</font>
+							<font>Simplicity_22</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<textcolor>red</textcolor>
+							<selectedcolor>red</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</itemlayout>
@@ -208,10 +209,11 @@
 							<posy>0</posy>
 							<width>580</width>
 							<height>40</height>
-							<font>Simplicity_18</font>
+							<font>Simplicity_22</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<textcolor>red</textcolor>
+							<selectedcolor>red</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</focusedlayout>
@@ -247,10 +249,11 @@
 							<posy>0</posy>
 							<width>580</width>
 							<height>40</height>
-							<font>Simplicity_18</font>
+							<font>Simplicity_22</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<textcolor>black</textcolor>
+							<selectedcolor>red</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</itemlayout>
@@ -283,10 +286,11 @@
 							<posy>0</posy>
 							<width>580</width>
 							<height>40</height>
-							<font>Simplicity_18</font>
+							<font>Simplicity_22</font>
 							<align>left</align>
 							<aligny>center</aligny>
-							<selectedcolor>green</selectedcolor>
+							<textcolor>red</textcolor>
+							<selectedcolor>red</selectedcolor>
 							<info>ListItem.Label</info>
 						</control>
 					</focusedlayout>

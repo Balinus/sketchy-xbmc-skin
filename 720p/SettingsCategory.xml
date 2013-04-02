@@ -39,7 +39,7 @@
 				<description>header label</description>
 				<posx>90</posx>
 				<posy>50</posy>
-				<width>260</width>
+				<width>300</width>
 				<height>80</height>
 				<font>Simplicity_50_Title</font>
 				<label>$INFO[Control.GetLabel(2)]</label>

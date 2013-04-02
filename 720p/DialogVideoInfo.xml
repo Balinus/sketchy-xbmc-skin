@@ -60,7 +60,7 @@
 				<control type = "grouplist">
 					<description>Studio Codec Flagging Images</description>
 					<posx>510</posx>
-					<posy>105</posy>
+					<posy>115</posy>
 					<width>105</width>
 					<align>left</align>
 					<itemgap>0</itemgap>
@@ -303,7 +303,7 @@
 					<control type="image">
 							<description>shadow image</description>
 							<posx>-20</posx>
-							<posy>435</posy>
+							<posy>465</posy>
 							<width>490</width>
 							<height>50</height>
 							<texture>logo-shadow-faded.png</texture>
@@ -888,7 +888,7 @@
 								<width>160</width>
 								<height>30</height>
 								<font>Simplicity_24_Bold</font>
-								<textcolor>yellow</textcolor>
+								<textcolor>red</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
 								<selectedcolor>selected</selectedcolor>
@@ -899,11 +899,11 @@
 								<posy>0</posy>
 								<width>580</width>
 								<height>30</height>
-								<font>Simplicity_24_Title</font>
+								<font>Simplicity_24</font>
 								<align>left</align>
 								<aligny>center</aligny>
 								<textcolor>white</textcolor>
-								<selectedcolor>white</selectedcolor>
+								<selectedcolor>black</selectedcolor>
 								<info>ListItem.Label2</info>
 							</control>
 						</itemlayout>
@@ -916,7 +916,7 @@
 								<align>left</align>
 								<aligny>center</aligny>
 								<font>Simplicity_24_Title</font>
-								<textcolor>black</textcolor>
+								<textcolor>red</textcolor>
 								<selectedcolor>selected</selectedcolor>
 								<info>ListItem.Label</info>
 							</control>
@@ -925,7 +925,7 @@
 								<posy>0</posy>
 								<width>580</width>
 								<height>30</height>
-								<font>Simplicity_24_Title</font>
+								<font>Simplicity_24</font>
 								<align>left</align>
 								<aligny>center</aligny>
 								<textcolor>black</textcolor>
