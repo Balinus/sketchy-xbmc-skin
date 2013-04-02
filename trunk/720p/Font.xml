@@ -194,6 +194,11 @@
 			<size>14</size>
 		</font>
 		<font>
+			<name>Simplicity_22</name>
+			<filename>sketchmain.ttf</filename>
+			<size>16</size>
+		</font>
+		<font>
 			<name>Simplicity_24</name>
 			<filename>sketchmain.ttf</filename>
 			<size>18</size>
