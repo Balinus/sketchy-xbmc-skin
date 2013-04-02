@@ -106,7 +106,7 @@
 				<align>right</align>
 				<aligny>center</aligny>
 				<scroll>true</scroll>
-				<textcolor>white</textcolor>
+				<textcolor>black</textcolor>
 				<label>($INFO[Container(6).NumItems]) $LOCALIZE[31025] - $LOCALIZE[31024] ($INFO[Container(6).CurrentPage]/$INFO[Container(6).NumPages])</label>
 			</control>
 			<control type="button" id="5">
@@ -163,7 +163,7 @@
 						<width>410</width>
 						<height>30</height>
 						<font>Simplicity_20</font>
-						<textcolor>grey</textcolor>
+						<textcolor>black</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -175,7 +175,7 @@
 						<width>410</width>
 						<height>50</height>
 						<font>Simplicity_18</font>
-						<textcolor>grey</textcolor>
+						<textcolor>black</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label2]</label>
@@ -215,7 +215,7 @@
 						<width>410</width>
 						<height>30</height>
 						<font>Simplicity_20</font>
-						<textcolor>white</textcolor>
+						<textcolor>red</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -227,7 +227,7 @@
 						<width>410</width>
 						<height>50</height>
 						<font>Simplicity_18</font>
-						<textcolor>grey</textcolor>
+						<textcolor>black</textcolor>
 						<selectedcolor>selected</selectedcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Label2]</label>
