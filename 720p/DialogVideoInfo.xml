@@ -307,6 +307,7 @@
 							<width>490</width>
 							<height>50</height>
 							<texture>logo-shadow-faded.png</texture>
+							<visible>Skin.HasSetting(EnableClearartViews)</visible>
 						</control>
 					<control type = "image">
 						<posx>20</posx>
@@ -343,7 +344,7 @@
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
 						<orientation>horizontal</orientation>
-						<include>TVMPAAFlaggingConditions</include>
+						<include>TVMPAAFlaggingConditionsBlack</include>
 					</control>
 					<control type = "textbox" id = "400">
 						<description>Description Value for Movies</description>
@@ -436,12 +437,12 @@
 					<posx>20</posx>
 					<include>VisibleFadeEffect</include>
 					<control type = "image">
-						<posx>-20</posx>
-						<posy>-15</posy>
-						<width>480</width>
-						<height>720</height>
+						<posx>18</posx>
+						<posy>15</posy>
+						<width>443</width>
+						<height>665</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>$INFO[ListItem.Icon]</texture>
+						<texture>$INFO[ListItem.Art(poster)]</texture>
 						<bordertexture border = "2">simplicity/folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
@@ -460,17 +461,7 @@
 						<texture>$INFO[Listitem.StarRating]</texture>
 						<colordiffuse>black</colordiffuse>
 					</control>
-					<control type = "grouplist">
-						<description>MPAA Flagging Conditions Images</description>
-						<posx>695</posx>
-						<posy>35</posy>
-						<width>130</width>
-						<align>left</align>
-						<itemgap>0</itemgap>
-						<colordiffuse>80FFFFFF</colordiffuse>
-						<orientation>horizontal</orientation>
-						<include>TVMPAAFlaggingConditions</include>
-					</control>
+					
 					<control type = "textbox" id = "400">
 						<description>Description Value for Movies</description>
 						<posx>510</posx>
@@ -564,10 +555,10 @@
 					<posx>20</posx>
 					<include>VisibleFadeEffect</include>
 					<control type = "image">
-						<posx>-20</posx>
-						<posy>-15</posy>
-						<width>480</width>
-						<height>720</height>
+						<posx>18</posx>
+						<posy>15</posy>
+						<width>443</width>
+						<height>665</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>$INFO[ListItem.Art(poster)]</texture>
 						<bordertexture border = "2">simplicity/folder-focus.png</bordertexture>
@@ -581,10 +572,10 @@
 					<posx>20</posx>
 					<include>VisibleFadeEffect</include>
 					<control type = "image">
-						<posx>-20</posx>
-						<posy>-15</posy>
-						<width>480</width>
-						<height>720</height>
+						<posx>18</posx>
+						<posy>15</posy>
+						<width>443</width>
+						<height>665</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>$INFO[ListItem.Art(poster)]</texture>
 						<bordertexture border = "2">simplicity/folder-focus.png</bordertexture>
@@ -600,19 +591,19 @@
 					<posx>20</posx>
 					<include>VisibleFadeEffect</include>
 					<control type = "image">
-						<posx>-20</posx>
-						<posy>-15</posy>
-						<width>480</width>
-						<height>720</height>
+						<posx>18</posx>
+						<posy>15</posy>
+						<width>443</width>
+						<height>665</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>$INFO[ListItem.Icon]</texture>
+						<texture>$INFO[ListItem.Art(poster)]</texture>
 						<bordertexture border = "2">simplicity/folder-focus.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
 				</control>
 				<control type = "group">
 					<visible>[Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters)]</visible>
-					<posy>15</posy>
+					<posy>40</posy>
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
 					<control type = "image">
@@ -627,13 +618,13 @@
 					<control type = "grouplist">
 						<description>MPAA Flagging Conditions Images</description>
 						<posx>695</posx>
-						<posy>35</posy>
+						<posy>38</posy>
 						<width>130</width>
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
 						<orientation>horizontal</orientation>
-						<include>TVMPAAFlaggingConditions</include>
+						<include>TVMPAAFlaggingConditionsBlack</include>
 					</control>
 					<control type = "textbox" id = "400">
 						<description>Description Value for Movies</description>
@@ -641,9 +632,9 @@
 						<posy>170</posy>
 						<width>700</width>
 						<height>167</height>
-						<font>Simplicity_24_Title</font>
+						<font>Simplicity_24</font>
 						<align>left</align>
-						<textcolor>white</textcolor>
+						<textcolor>black</textcolor>
 						<pagecontrol>61</pagecontrol>
 						<label>$INFO[ListItem.Plot]</label>
 						<autoscroll
@@ -651,6 +642,7 @@
                             delay = "4000"
                             repeat = "5000">!Control.HasFocus(61) + Skin.HasSetting(AutoScroll)</autoscroll>
 						<visible>!Control.IsVisible(50)</visible>
+						
 					</control>
 					<control type = "label">
 						<posx>510</posx>
@@ -735,23 +727,14 @@
 						<bordertexture border = "20">simplicity/poster-border6.png</bordertexture>
 						<bordersize>2</bordersize>
 					</control>
-					<!--<control type = "image">
-						<posx>-20</posx>
-						<posy>-15</posy>
-						<width>480</width>
-						<height>720</height>
-						<aspectratio>stretch</aspectratio>
-						<texture>$INFO[ListItem.Path,,folder.jpg]</texture>
-						<bordertexture border = "2">simplicity/folder-focus.png</bordertexture>
-						<bordersize>2</bordersize>
-					</control>-->
+					
 				</control>
 				<control type = "group">
 					<visible>Container.Content(Episodes) + !Control.HasFocus(12)</visible>
 					<posy>15</posy>
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
-					<control type = "image">
+					<!-- <control type = "image">
 						<posx>510</posx>
 						<posy>392</posy>
 						<width>349</width>
@@ -759,7 +742,7 @@
 						<texture>$INFO[ListItem.Icon]</texture>
 						<bordertexture border = "20">simplicity/poster-border6.png</bordertexture>
 						<bordersize>2</bordersize>
-					</control>
+					</control> -->
 					<control type = "image">
 						<description>Rating value</description>
 						<posx>510</posx>
@@ -806,7 +789,7 @@
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
 						<orientation>horizontal</orientation>
-						<include>TVMPAAFlaggingConditions</include>
+						<include>TVMPAAFlaggingConditionsBlack</include>
 					</control>
 					<control type = "textbox" id = "400">
 						<description>Description Value for Movies</description>
