@@ -60,7 +60,7 @@
 				<control type = "grouplist">
 					<description>Studio Codec Flagging Images</description>
 					<posx>510</posx>
-					<posy>115</posy>
+					<posy>108</posy>
 					<width>105</width>
 					<align>left</align>
 					<itemgap>0</itemgap>
@@ -121,7 +121,7 @@
 						<posy>70</posy>
 						<width>101</width>
 						<height>30</height>
-						<font>Simplicity_26_Title</font>
+						<font>Simplicity_30_Title</font>
 						<textcolor>black</textcolor>
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
@@ -135,7 +135,7 @@
 						<posy>70</posy>
 						<width>101</width>
 						<height>30</height>
-						<font>Simplicity_26_Title</font>
+						<font>Simplicity_30_Title</font>
 						<textcolor>black</textcolor>
 						<scroll>false</scroll>
 						<scrollspeed>0</scrollspeed>
@@ -146,14 +146,27 @@
 					</control>
 					<control type = "grouplist">
 						<description>MPAA Flagging Conditions Images</description>
-						<posx>678</posx>
-						<posy>54</posy>
-						<width>182</width>
+						<posx>674</posx>
+						<posy>39</posy>
+						<width>190</width>
 						<align>left</align>
 						<itemgap>0</itemgap>
 						<colordiffuse>80FFFFFF</colordiffuse>
 						<orientation>horizontal</orientation>
-						<include>MPAAFlaggingConditionsShade</include>					
+						<include>MPAAFlaggingConditionsBigBlack</include>
+						<visible>!substring(listitem.mpaa,Rated PG-13)</visible>						
+					</control>
+					<control type = "grouplist">
+						<description>MPAA Flagging Conditions Images</description>
+						<posx>674</posx>
+						<posy>58</posy>
+						<width>190</width>
+						<align>left</align>
+						<itemgap>0</itemgap>
+						<colordiffuse>80FFFFFF</colordiffuse>
+						<orientation>horizontal</orientation>
+						<include>MPAAFlaggingConditionsBigBlack</include>
+						<visible>substring(listitem.mpaa,Rated PG-13)</visible>						
 					</control>
 					<control type = "textbox" id = "400">
 						<description>Description Value for Movies</description>
@@ -174,7 +187,7 @@
 						<posy>375</posy>
 						<width>400</width>
 						<height>50</height>
-						<font>Simplicity_30_Title</font>
+						<font>Simplicity_30_Bold</font>
 						<textcolor>red</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -196,7 +209,7 @@
 						<posy>375</posy>
 						<width>400</width>
 						<height>50</height>
-						<font>Simplicity_30_Title</font>
+						<font>Simplicity_30_Bold</font>
 						<textcolor>red</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -220,7 +233,7 @@
 						<posy>475</posy>
 						<width>400</width>
 						<height>50</height>
-						<font>Simplicity_30_Title</font>
+						<font>Simplicity_30_Bold</font>
 						<textcolor>red</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -365,7 +378,7 @@
 						<posy>375</posy>
 						<width>400</width>
 						<height>50</height>
-						<font>Simplicity_24_Bold</font>
+						<font>Simplicity_30_Bold</font>
 						<textcolor>red</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -417,17 +430,17 @@
 					</control>
 					<control type = "group">
 						<posx>910</posx>
-						<posy>525</posy>
+						<posy>515</posy>
 						<include>EpisodeNextAiredStatusInfoScreenBlack</include>
 					</control>
 					<control type = "group">
 						<posx>910</posx>
-						<posy>555</posy>
+						<posy>545</posy>
 						<include>EpisodeNextAiredDateInfoScreenBlack</include>
 					</control>
 					<control type = "group">
 						<posx>910</posx>
-						<posy>585</posy>
+						<posy>575</posy>
 						<include>EpisodeNextAiredTimeInfoScreenBlack</include>
 					</control>
 				</control>
@@ -481,7 +494,7 @@
 						<posy>375</posy>
 						<width>400</width>
 						<height>50</height>
-						<font>Simplicity_24_Bold</font>
+						<font>Simplicity_30_Bold</font>
 						<textcolor>red</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
@@ -649,8 +662,8 @@
 						<posy>375</posy>
 						<width>400</width>
 						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
+						<font>Simplicity_30_Bold</font>
+						<textcolor>red</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>Cast</label>
@@ -734,7 +747,7 @@
 					<posy>15</posy>
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
-					<!-- <control type = "image">
+					<control type = "image">
 						<posx>510</posx>
 						<posy>392</posy>
 						<width>349</width>
@@ -742,7 +755,7 @@
 						<texture>$INFO[ListItem.Icon]</texture>
 						<bordertexture border = "20">simplicity/poster-border6.png</bordertexture>
 						<bordersize>2</bordersize>
-					</control> -->
+					</control>
 					<control type = "image">
 						<description>Rating value</description>
 						<posx>510</posx>
@@ -810,8 +823,8 @@
 						<posy>375</posy>
 						<width>400</width>
 						<height>50</height>
-						<font>Simplicity_24_Bold</font>
-						<textcolor>yellow</textcolor>
+						<font>Simplicity_30_Bold</font>
+						<textcolor>red</textcolor>
 						<align>left</align>
 						<aligny>center</aligny>
 						<label>Cast</label>
