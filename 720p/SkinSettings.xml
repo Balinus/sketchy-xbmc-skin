@@ -5059,7 +5059,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
-						<control type="radiobutton" id="2001">
+						<!-- <control type="radiobutton" id="2001">
 							<posx>0</posx>
 							<posy>0</posy>
 							<width>800</width>
@@ -5076,7 +5076,7 @@
 							<label>Enable "Poster.jpg" Support</label>	
 							<onclick>Skin.ToggleSetting(UsePosterJPG)</onclick>
 							<selected>Skin.HasSetting(UsePosterJPG)</selected>
-						</control>
+						</control> -->
 						<control type="radiobutton" id="2002">
 							<width>800</width>
 							<height>40</height>

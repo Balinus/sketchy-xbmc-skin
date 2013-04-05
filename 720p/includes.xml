@@ -1737,7 +1737,7 @@
 							<width>650</width>
 							<height>175</height>
 							<font>Simplicity_24</font>
-							<align>left</align>
+							<align>justify</align>
 							<textcolor>white</textcolor>
 							<label>$INFO[Container.ShowPlot]</label>
 							<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
