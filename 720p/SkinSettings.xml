@@ -342,7 +342,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2"></texturenofocus>
-						<label>Use Landscapes</label>
+						<label>Enable Landscapes</label>
 						<onclick>Skin.ToggleSetting(UseLandscapes)</onclick>
 						<selected>Skin.HasSetting(UseLandscapes)</selected>
 					</control>
