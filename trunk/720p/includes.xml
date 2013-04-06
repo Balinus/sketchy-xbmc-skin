@@ -3621,19 +3621,27 @@
 			<include>Window_OpenClose_Animation</include>
     </control>
     
-    <!-- SYSTEM DATE -->
-    
-    
-    <!-- <control type="image">
-      <description>logo</description>
-      <posx>320r</posx>
-      <posy>28</posy>
-            <width>72</width>
-      <height>72</height>
-      <texture>homeicons/clockicon.png</texture>
-    </control>-->
+
      
 	</include>
+	<include name="Clock-White-Small">
+	 <!-- TIME LABEL -->
+      
+		<control type="label">
+			  <description>time label</description>
+			  <posx>20r</posx>
+			  <posy>35</posy>
+			  <width>400</width>
+			  <height>22</height>
+			  <align>right</align>
+			  <aligny>center</aligny>
+			  <font>Medium</font>
+			  <textcolor>white</textcolor>
+			  <label>$INFO[System.Time]</label>
+			<include>Window_OpenClose_Animation</include>
+		</control>     
+	</include>
+	
 <include name="Weather">
 	<control type="group">
 		<posx>1245</posx>
