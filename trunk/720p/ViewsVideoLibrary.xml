@@ -26,7 +26,7 @@
 				<scrolltime>300</scrolltime>
 				<focusposition>2</focusposition>
 				<preloaditems>400</preloaditems>
-				<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+				<visible>Container.Content(Movies) | Container.Content(TVShows)</visible>
 				<itemlayout height="220" width="287">	
 					<control type="image">
 						<posx>-5</posx>
@@ -271,7 +271,7 @@
 				<control type="group">
 					<control type="fixedlist" id="506">
 						<include>Zoom</include>
-						<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TVShowsUsePosters) | Container.Content(Seasons)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+						<visible>Container.Content(Movies) | Container.Content(TVShows)  | Container.Content(Seasons)</visible>
 						<viewtype label="Poster Slide">Wraplist of Posters</viewtype>
 					<include>Zoom</include>
 					<posx>-72</posx>
@@ -315,20 +315,10 @@
 							<aligny>center</aligny>
 							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>stretch</aspectratio>
-							<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+							
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
-						<control type="largeimage">
-							<posx>0</posx>
-							<posy>42</posy> 
-							<width>110</width>
-							<height>165</height>
-							<aligny>center</aligny>
-							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
-							<aspectratio>stretch</aspectratio>
-							<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-						</control>
+						
 						<control type="largeimage">
 							<posx>0</posx>
 							<posy>42</posy> 
@@ -373,21 +363,10 @@
 								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 								<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation> 
 								<aspectratio>stretch</aspectratio>
-								<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+								
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 							</control>
-							<control type="largeimage">
-								<posx>10</posx>
-								<posy>22</posy> 
-								<width>110</width>
-								<height>165</height>
-								<aligny>center</aligny>
-								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
-								<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation> 
-								<aspectratio>stretch</aspectratio>
-								<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-							</control>
+						
 							<control type="largeimage">
 								<posx>8</posx>
 								<posy>20</posy> 
@@ -409,7 +388,7 @@
 	<include name="Banner-Slide">
 		<control type="group">
 			<visible>Control.IsVisible(507)</visible>
-			<visible>Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>Container.Content(TVShows)</visible>
 			<include>VisibleFadeEffect</include>
 			<posx>0</posx>
 			<posy>0</posy>
@@ -433,7 +412,7 @@
 				<scrolltime>300</scrolltime>
 				<focusposition>2</focusposition>
 				<preloaditems>2</preloaditems>
-				<visible>Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)</visible>
+				<visible>Container.Content(TVShows)</visible>
 				<itemlayout height="300" width="320">	
 					<control type="image">
 						<posx>-10</posx>
@@ -748,7 +727,7 @@
 	<include name="Banner-List">
 		<control type="group">
 			<visible>Control.IsVisible(535)</visible>
-			<visible>Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)</visible>
+			<visible>Container.Content(TVShows)</visible>
 			<include>VisibleFadeEffect</include>
 			<include>GlobalBackgroundFaded</include>
 			<posx>0</posx>
@@ -770,7 +749,7 @@
 				<focusposition>2</focusposition>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>300</scrolltime>
-				<visible>Container.Content(TVShows) + !Skin.HasSetting(TVShowsUsePosters)</visible>
+				<visible>Container.Content(TVShows)</visible>
 				<itemlayout height="85" width="680">
 					<control type="image">
 						<posx>33</posx>
@@ -1721,7 +1700,7 @@
 					<focusposition>5</focusposition>
 					<preloaditems>200</preloaditems>
 					<orientation>horizontal</orientation>
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+					<visible>Container.Content(Movies) | Container.Content(TVShows)</visible>
 					<pagecontrol>70</pagecontrol>
 					<orientation>horizontal</orientation>
 					<itemlayout height="290" width="129">
@@ -1751,20 +1730,10 @@
 							<aligny>center</aligny>
 							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 							<aspectratio>stretch</aspectratio>
-							<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+							
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
-						<control type="largeimage">
-							<posx>0</posx>
-							<posy>42</posy> 
-							<width>110</width>
-							<height>165</height>
-							<aligny>center</aligny>
-							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
-							<aspectratio>stretch</aspectratio>
-							<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-						</control>
+					
 						<control type="largeimage">
 							<posx>0</posx>
 							<posy>42</posy> 
@@ -1809,21 +1778,10 @@
 								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
 								<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation> 
 								<aspectratio>stretch</aspectratio>
-								<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+							
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 							</control>
-							<control type="largeimage">
-								<posx>10</posx>
-								<posy>22</posy> 
-								<width>110</width>
-								<height>165</height>
-								<aligny>center</aligny>
-								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
-								<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation> 
-								<aspectratio>stretch</aspectratio>
-								<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-							</control>
+						
 							<control type="largeimage">
 								<posx>8</posx>
 								<posy>20</posy> 
@@ -1967,7 +1925,7 @@
 					<focusposition>0</focusposition>
 					<preloaditems>200</preloaditems>
 					<orientation>vertical</orientation>
-					<visible>Container.Content(Movies) | [Container.Content(TVShows) + Skin.HasSetting(TvShowsUsePosters)] | [Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+					<visible>Container.Content(Movies) | Container.Content(TVShows)</visible>
 					<pagecontrol>70</pagecontrol>
 					<orientation>horizontal</orientation>
 					<itemlayout height="196" width="150">
@@ -1989,7 +1947,7 @@
 							<aspectratio>stretch</aspectratio>
 								<bordertexture border="4">thumbborder.png</bordertexture>
 								<bordersize>4</bordersize>
-							<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+							
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
 						<control type="largeimage">
@@ -2004,19 +1962,7 @@
 								<bordersize>4</bordersize>
 								<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
-						<control type="largeimage">
-							<posx>0</posx>
-							<posy>0</posy> 
-							<width>118</width>
-							<height>176</height>
-							<aligny>center</aligny>
-							<texture background="true">$INFO[ListItem.Art(poster)]</texture>
-							<aspectratio>stretch</aspectratio>
-								<bordertexture border="4">thumbborder.png</bordertexture>
-								<bordersize>4</bordersize>
-							<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-						</control>
+					
 						<control type="largeimage">
 							<posx>0</posx>
 							<posy>0</posy> 
@@ -2064,23 +2010,10 @@
 								<bordertexture border="4">simplicity/thumbborder.png</bordertexture>
 								<bordersize>4</bordersize>
 								<aspectratio>stretch</aspectratio>
-								<visible>![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+							
 								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 							</control>
-							<control type="largeimage">
-								<posx>0</posx>
-								<posy>0</posy> 
-								<width>118</width>
-								<height>176</height>
-								<aligny>center</aligny>
-								<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[ListItem.Art(poster)]</texture>
-								<animation reversible="false" effect="zoom" end="120" center="auto" time="150">Focus</animation> 	
-								<bordertexture border="4">simplicity/thumbborder.png</bordertexture>
-								<bordersize>4</bordersize>
-								<aspectratio>stretch</aspectratio>
-								<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-								<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-							</control>
+						
 							<control type="image">
 								<posx>-1</posx>
 								<posy>-1</posy> 
