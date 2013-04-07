@@ -35,7 +35,7 @@
 					<texturebg border="6,0,6,0">simplicity/progress-back.png</texturebg>
 					<lefttexture border="6,0,0,0">simplicity/progress-left.png</lefttexture>
 					<midtexture border="6,0,6,0">simplicity/osd-front.png</midtexture>
-					
+					<colordiffuse>red</colordiffuse>
 				</control>
 			</control>
 			<control type="group">
