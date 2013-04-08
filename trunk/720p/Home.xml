@@ -212,6 +212,7 @@
 					<label>$INFO[Skin.String(Menu_Custom2_Label)]</label>
 					<icon>homeicons/addonsicon.png</icon>
 					<thumb>$INFO[Skin.String(Menu_Custom2_Folder)]</thumb>
+					<onclick>SetFocus(31)</onclick>
 					<onclick>$INFO[Skin.String(Menu_Custom2_Path)]</onclick>
 					<visible>Skin.HasSetting(Menu_Custom2)</visible>
 				</item>
@@ -312,6 +313,12 @@
 						<align>center</align>
 						<label>744</label>
 						<onclick>ActivateWindow(VideoFiles)</onclick>
+					</control>
+					<control type="button" id="90107">
+						<include>ButtonHomeSubCommonValuesHome</include>
+						<align>center</align>
+						<label>Playlists</label>
+						<onclick>ActivateWindow(Videos,Playlists)</onclick>
 					</control>
 					<control type="button" id="90105">
 						<include>ButtonHomeSubCommonValuesHome</include>
