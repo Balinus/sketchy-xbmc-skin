@@ -6,7 +6,8 @@
 			<include>GlobalBackgroundFaded</include>
 			<include>LeftOptions</include>
 			<include>FileBreadCrumbs</include>
-			<include>RightOpenTVGuide</include>
+			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
+			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
 			<control type="fixedlist" id="50">
 				<include>Zoom</include>		
 				<posx>494</posx>
@@ -14,7 +15,8 @@
 				<width>930</width>
 				<height>603</height>
 				<onleft>2</onleft>
-				<onright>ActivateWindow(1116,TVShows,return)</onright>
+				<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
+				<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
 				<onup>50</onup>
 				<ondown>50</ondown>
 				<viewtype label="535">list</viewtype>
@@ -112,7 +114,8 @@
 			<include>GlobalBackgroundFaded</include>
 			<include>UpOptions</include>
 			<include>FileBreadCrumbs</include>
-			<include>DownOpenTVGuide</include>
+			<include condition="Skin.HasSetting(UseRecentShortcut)">DownOpenRecent</include>
+			<include condition="Skin.HasSetting(UseTVGuide)">DownOpenTVGuide</include>
 			<control type="image">
 				<posx>40</posx>
 				<posy>332.5</posy>
@@ -138,7 +141,8 @@
 				<onleft>500</onleft>
 				<onright>500</onright>
 				<onup>2</onup>
-				<ondown>ActivateWindow(1116,TVShows,return)</ondown>
+				<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
+				<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
 				<viewtype label="Thumbnail">list</viewtype>
 				<pagecontrol>60</pagecontrol>
 				<scrolltime>300</scrolltime>
@@ -206,7 +210,7 @@
 					</control>
 				</itemlayout>
 				<focusedlayout height="185" width="260">
-									<control type="image">
+					<control type="image">
 						<posx>0</posx>
 						<posy>0</posy>
 						<width>250</width>

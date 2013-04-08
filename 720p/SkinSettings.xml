@@ -272,6 +272,23 @@
 						<onclick>Skin.ToggleSetting(DisableViewPreview)</onclick>
 						<selected>Skin.HasSetting(DisableViewPreview)</selected>
 					</control>
+					<control type="radiobutton" id="106">
+						  <width>800</width>
+						  <height>40</height>
+						  <font>Simplicity_30</font>
+						  <label>Download Art After Library Update</label>
+						  <textcolor>brown</textcolor>
+						  <focusedcolor>black</focusedcolor>
+						  <radiowidth>83</radiowidth>
+						  <radioheight>67</radioheight>
+						  <textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
+						  <textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+						  <texturefocus>simplicity/button-focus.png</texturefocus>
+						  <texturenofocus></texturenofocus>
+						  <onclick>Skin.ToggleSetting(DownloadArtAfterLibraryUpdate)</onclick>
+						  <onclick>ActivateWindow(1128)</onclick>
+						  <selected>Skin.HasSetting(DownloadArtAfterLibraryUpdate)</selected>
+					  </control>
 					<!--	<control type="radiobutton" id="133">
 						<posx>0</posx>
 						<posy>0</posy>
@@ -2916,6 +2933,7 @@
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
+						
 						<control type="radiobutton" id="501">
 							<width>800</width>
 							<height>40</height>
@@ -3207,7 +3225,7 @@
 							<height>45</height>
 							<font>Simplicity_40_Title</font>
 							<label>Custom Program Shortcuts on Home Screen</label>
-							<textcolor>yellow</textcolor>
+							<textcolor>red</textcolor>
 							
 							<align>left</align>
 							<aligny>center</aligny>
@@ -3524,7 +3542,7 @@
 							<height>45</height>
 							<font>Simplicity_40_Title</font>
 							<label>Custom Addon Shortcuts on Home Screen</label>
-							<textcolor>yellow</textcolor>
+							<textcolor>red</textcolor>
 							
 							<align>left</align>
 							<aligny>center</aligny>
@@ -3846,7 +3864,7 @@
 							<height>45</height>
 							<font>Simplicity_30</font>
 							<label>Movie Genre Shortcuts on Home Screen</label>
-							<textcolor>yellow</textcolor>
+							<textcolor>red</textcolor>
 							
 							<align>left</align>
 							<aligny>center</aligny>
@@ -4565,8 +4583,7 @@
 							<height>45</height>
 							<font>Simplicity_40_Title</font>
 							<label>Custom Menu Shortcuts on Home Screen</label>
-							<textcolor>yellow</textcolor>
-							
+							<textcolor>red</textcolor>							
 							<align>left</align>
 							<aligny>center</aligny>
 						</control>
@@ -4594,6 +4611,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- LABEL (Use All Caps)</label>
@@ -4607,6 +4626,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- PATH</label>
@@ -4621,6 +4642,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- FANART</label>
@@ -4653,6 +4676,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- LABEL (Use All Caps)</label>
@@ -4666,6 +4691,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- PATH</label>
@@ -4680,6 +4707,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- FANART</label>
@@ -4712,6 +4741,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- LABEL (Use All Caps)</label>
@@ -4725,6 +4756,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- PATH</label>
@@ -4739,6 +4772,8 @@
 							<font>Simplicity_22</font>
 							<textcolor>black</textcolor>
 							<focusedcolor>red</focusedcolor>
+							<align>left</align>
+							<aligny>center</aligny>
 							<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 							<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 							<label>- FANART</label>
@@ -4750,10 +4785,10 @@
 					<control type="group">
 						<control type="grouplist" id="9011">
 							<visible>Container(9000).Hasfocus(11)</visible>
-					<posx>375</posx>
-					<posy>120</posy>
-					<width>800</width>
-					<height>530</height>
+							<posx>375</posx>
+							<posy>120</posy>
+							<width>800</width>
+							<height>530</height>
 							<itemgap>-1</itemgap>
 							<pagecontrol>60</pagecontrol>
 							<onleft>9000</onleft>
