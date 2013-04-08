@@ -2125,7 +2125,7 @@
 						<height>100</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>$INFO[ListItem.Icon]</texture>
-						<visible>!StringCompare(ListItem.label,Album information) + !StringCompare(ListItem.label,Lyrics) + !StringCompare(ListItem.label,Artist information) + !StringCompare(ListItem.label,Movie information) + !StringCompare(ListItem.label,Music Add-ons) + !StringCompare(ListItem.label,Music video information) + !StringCompare(ListItem.label,Picture Add-ons) + !StringCompare(ListItem.label,Program Add-ons) + !StringCompare(ListItem.label,Screensaver) + !StringCompare(ListItem.label,Skin) + !StringCompare(ListItem.label,Subtitles) + !StringCompare(ListItem.label,TV information) + !StringCompare(ListItem.label,Video Add-ons) + !StringCompare(ListItem.label,Visualization) + !StringCompare(ListItem.label,Weather) + !StringCompare(ListItem.label,All Add-ons) + !StringCompare(ListItem.label,Add-on repository) + !StringCompare(ListItem.label,Install from zip file)  + !StringCompare(ListItem.label,Music)  + !StringCompare(ListItem.label,Pictures)</visible>
+						<visible>!StringCompare(ListItem.label,Album information) + !StringCompare(ListItem.label,Lyrics) + !StringCompare(ListItem.label,Artist information) + !StringCompare(ListItem.label,Movie information) + !StringCompare(ListItem.label,Music Add-ons) + !StringCompare(ListItem.label,Music video information) + !StringCompare(ListItem.label,Picture Add-ons) + !StringCompare(ListItem.label,Program Add-ons) + !StringCompare(ListItem.label,Screensaver) + !StringCompare(ListItem.label,Skin) + !StringCompare(ListItem.label,Subtitles) + !StringCompare(ListItem.label,TV information) + !StringCompare(ListItem.label,Video Add-ons) + !StringCompare(ListItem.label,Visualization) + !StringCompare(ListItem.label,Weather) + !StringCompare(ListItem.label,All Add-ons) + !StringCompare(ListItem.label,Add-on repository) + !StringCompare(ListItem.label,Install from zip file)  + !StringCompare(ListItem.label,Music)  + !StringCompare(ListItem.label,Pictures)+ !StringCompare(ListItem.label,Search)</visible>
 					</control>
 					<control type="textbox">
 						<description>header label</description>
@@ -2146,7 +2146,7 @@
 						<width>100</width>
 						<height>100</height>
 						<aspectratio>stretch</aspectratio>
-						<texture>simplicity/icons/$INFO[ListItem.label].png</texture>
+						<texture>simplicity/icons/$INFO[ListItem.Label].png</texture>
 						<animation effect="zoom" end="105" center="auto" time="100" reversible="false">Focus</animation>
 					</control>
 					<control type="image">
@@ -2156,7 +2156,7 @@
 						<height>100</height>
 						<aspectratio>stretch</aspectratio>
 						<texture>$INFO[ListItem.Icon]</texture>
-						<visible>!StringCompare(ListItem.label,Album information) + !StringCompare(ListItem.label,Lyrics) + !StringCompare(ListItem.label,Artist information) + !StringCompare(ListItem.label,Movie information) + !StringCompare(ListItem.label,Music Add-ons) + !StringCompare(ListItem.label,Music video information) + !StringCompare(ListItem.label,Picture Add-ons) + !StringCompare(ListItem.label,Program Add-ons) + !StringCompare(ListItem.label,Screensaver) + !StringCompare(ListItem.label,Skin) + !StringCompare(ListItem.label,Subtitles) + !StringCompare(ListItem.label,TV information) + !StringCompare(ListItem.label,Video Add-ons) + !StringCompare(ListItem.label,Visualization) + !StringCompare(ListItem.label,Weather) + !StringCompare(ListItem.label,All Add-ons) + !StringCompare(ListItem.label,Add-on repository) + !StringCompare(ListItem.label,Install from zip file)  + !StringCompare(ListItem.label,Music)  + !StringCompare(ListItem.label,Pictures)</visible>					
+						<visible>!StringCompare(ListItem.label,Album information) + !StringCompare(ListItem.label,Lyrics) + !StringCompare(ListItem.label,Artist information) + !StringCompare(ListItem.label,Movie information) + !StringCompare(ListItem.label,Music Add-ons) + !StringCompare(ListItem.label,Music video information) + !StringCompare(ListItem.label,Picture Add-ons) + !StringCompare(ListItem.label,Program Add-ons) + !StringCompare(ListItem.label,Screensaver) + !StringCompare(ListItem.label,Skin) + !StringCompare(ListItem.label,Subtitles) + !StringCompare(ListItem.label,TV information) + !StringCompare(ListItem.label,Video Add-ons) + !StringCompare(ListItem.label,Visualization) + !StringCompare(ListItem.label,Weather) + !StringCompare(ListItem.label,All Add-ons) + !StringCompare(ListItem.label,Add-on repository) + !StringCompare(ListItem.label,Install from zip file)  + !StringCompare(ListItem.label,Music)  + !StringCompare(ListItem.label,Pictures)+ !StringCompare(ListItem.label,Search)</visible>					
 						<animation effect="zoom" end="105" center="auto" time="100" reversible="false">Focus</animation>
 					</control>
 					<control type="image">
