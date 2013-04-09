@@ -60,6 +60,22 @@
 							<height>94</height>
 							<texture>other_textures/recently/thinframe.png</texture>
 						</control>
+						<control type="largeimage">
+							<posx>100</posx>
+							<posy>50</posy>
+							<width>60</width>
+							<height>90</height>
+							<texture>simplicity/paper.png</texture>
+							<visible>!Skin.HasSetting(UseSepiaFilter)</visible>
+						</control>
+						<control type="largeimage">
+							<posx>100</posx>
+							<posy>50</posy>
+							<width>60</width>
+							<height>90</height>
+							<texture>simplicity/paper-sepia2.png</texture>
+							<visible>Skin.HasSetting(UseSepiaFilter)</visible>
+						</control>
 					</itemlayout>
 					<focusedlayout width="110" height="160">
 						<control type="image">
@@ -140,70 +156,70 @@
 					<content>
 						<item id="1">
 							<label>$INFO[Window.Property(RecentMovie.1.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.1.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.1.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.1.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.1.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.1.Art(fanart))]</thumb>
 						</item>
 						<item id="2">
 							<label>$INFO[Window.Property(RecentMovie.2.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.2.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.2.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.2.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.2.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.2.Art(fanart))]</thumb>
 						</item>
 						<item id="3">
 							<label>$INFO[Window.Property(RecentMovie.3.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.3.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.3.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.3.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.3.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.3.Art(fanart))]</thumb>
 						</item>
 						<item id="4">
 							<label>$INFO[Window.Property(RecentMovie.4.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.4.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.4.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.4.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.4.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.4.Art(fanart))]</thumb>
 						</item>
 						<item id="5">
 							<label>$INFO[Window.Property(RecentMovie.5.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.5.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.5.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.5.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.5.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.5.Art(fanart))]</thumb>
 						</item>
 						<item id="6">
 							<label>$INFO[Window.Property(RecentMovie.6.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.6.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.6.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.6.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.6.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.6.Art(fanart))]</thumb>
 						</item>
 						<item id="7">
 							<label>$INFO[Window.Property(RecentMovie.7.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.7.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.7.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.7.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.7.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.7.Art(fanart))]</thumb>
 						</item>
 						<item id="8">
 							<label>$INFO[Window.Property(RecentMovie.8.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.8.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.8.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.8.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.8.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.8.Art(fanart))]</thumb>
 						</item>
 						<item id="9">
 							<label>$INFO[Window.Property(RecentMovie.9.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.9.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.9.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.9.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.9.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.9.Art(fanart))]</thumb>
 						</item>
 						<item id="10">
 							<label>$INFO[Window.Property(RecentMovie.10.Title)]</label>
-							<label2>$INFO[Window.Property(RecentMovie.10.RunningTime)]</label2>
+							<label2>$INFO[Window.Property(RecentMovie.10.Runtime)]</label2>
 							<onclick>$INFO[Window.Property(RecentMovie.10.Play)]</onclick>
 							<icon>$INFO[Window.Property(RecentMovie.10.Art(poster))]</icon>
 							<thumb>$INFO[Window.Property(RecentMovie.10.Art(fanart))]</thumb>
@@ -260,6 +276,24 @@
 							<width>133</width>
 							<height>90</height>
 							<texture>other_textures/recently/thinframeland.png</texture>
+						</control>
+						<control type="largeimage">
+							<posx>100</posx>
+							<posy>54</posy>
+							<width>127</width>
+							<height>84</height>
+							<texture background="true">simplicity/paper.png</texture>
+							<aspectratio scalediffuse="false">stretch</aspectratio>
+<!-- 							<visible>Skin.HasSetting(UseSepiaFilter)</visible> -->
+						</control>
+						<control type="largeimage">
+							<posx>100</posx>
+							<posy>54</posy>
+							<width>127</width>
+							<height>84</height>
+							<texture background="true">simplicity/paper-sepia.png</texture>
+							<aspectratio scalediffuse="false">stretch</aspectratio>
+							<visible>Skin.HasSetting(UseSepiaFilter)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout width="110" height="160">
