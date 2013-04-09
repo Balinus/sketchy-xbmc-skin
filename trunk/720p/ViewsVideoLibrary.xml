@@ -334,6 +334,17 @@
 							<aligny>center</aligny>
 							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">simplicity/paper.png</texture>
 							<aspectratio>stretch</aspectratio>
+<!-- 							<visible>!Skin.HasSetting(UseSepiaFilter)</visible> -->
+						</control>
+						<control type="largeimage">
+							<posx>0</posx>
+							<posy>42</posy> 
+							<width>110</width>
+							<height>165</height>
+							<aligny>center</aligny>
+							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">simplicity/paper-sepia.png</texture>
+							<aspectratio>stretch</aspectratio>
+							<visible>Skin.HasSetting(UseSepiaFilter)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="390" width="149">
@@ -452,6 +463,15 @@
 						<height>60</height>
 						<aspectratio scalediffuse="true">stretch</aspectratio>
 						<texture diffuse="simplicity/bannerdiffuse.png" background="true">simplicity/black-back.png</texture>
+					</control>
+					<control type="image">
+						<posy>4</posy>
+						<width>300</width>
+						<height>60</height>
+						<aspectratio scalediffuse="true">stretch</aspectratio>
+						<texture diffuse="simplicity/bannerdiffuse.png" background="true">simplicity/banner-gloss-sepia.png</texture>
+						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+						<visible>Skin.HasSetting(UseSepiaFilter)</visible>
 					</control>
 					<control type="image">
 						<posx>265</posx>
@@ -1090,13 +1110,13 @@
 						    <width>277</width>
 						    <height>156</height>
 						    <aligny>center</aligny>
-						    <texture background="true" fallback="blank.png">$INFO[ListItem.Art(landscape)]</texture>
+						    <texture background="true" fallback="nothumb.png">$INFO[ListItem.Art(landscape)]</texture>
 						    <aspectratio>stretch</aspectratio>
 						    <bordertexture border="4">thumbborder.png</bordertexture>
 						    <bordersize>4</bordersize>
 						    <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>		
 					    </control>
-					    <control type="image">
+					    <!--<control type="image">
 						    <posx>20</posx>
 						    <posy>0</posy> 
 						    <width>277</width>
@@ -1108,7 +1128,7 @@
 						    <bordersize>4</bordersize>
 						    <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						    <visible>StringCompare(Control.GetLabel(990),blank.png)</visible>
-					    </control>
+					    </control>-->
 					    <control type="largeimage">
 						    <posx>20</posx>
 						    <posy>0</posy> 
@@ -1121,7 +1141,7 @@
 						    <bordersize>4</bordersize>
 						    <visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>	    
 					    </control>
-					    <control type="largeimage">
+					   <!-- <control type="largeimage">
 						    <posx>35</posx>
 						    <posy>0</posy> 
 						    <width>250</width>
@@ -1131,7 +1151,7 @@
 						    <aspectratio>keep</aspectratio>							
 						    <visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						    <visible>StringCompare(Control.GetLabel(990),blank.png)</visible>
-					    </control>
+					    </control>-->
 					    <control type="image">
 						    <posx>20</posx>
 						    <posy>0</posy> 
@@ -1175,14 +1195,14 @@
 							<width>277</width>
 							<height>156</height>
 							<aligny>center</aligny>
-							<texture background="true" fallback="blank.png">$INFO[ListItem.Art(landscape)]</texture>
+							<texture background="true" fallback="nothumb.png">$INFO[ListItem.Art(landscape)]</texture>
 							<aspectratio>stretch</aspectratio>
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
 							<animation reversible="false" effect="zoom" end="107" center="auto" time="150">Focus</animation> 	
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
-						<control type="largeimage">
+						<!--<control type="largeimage">
 							<posx>20</posx>
 							<posy>0</posy> 
 							<width>277</width>
@@ -1195,8 +1215,8 @@
 							<animation reversible="false" effect="zoom" end="107" center="auto" time="150">Focus</animation> 	
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 							<visible>StringCompare(Control.GetLabel(991),blank.png)</visible>
-						</control>
-						<control type="largeimage">
+						</control>-->
+						<!--<control type="largeimage">
 							<posx>35</posx>
 							<posy>0</posy> 
 							<width>250</width>
@@ -1207,7 +1227,7 @@
 							<animation reversible="false" effect="zoom" end="107" center="auto" time="150">Focus</animation> 
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 							<visible>StringCompare(Control.GetLabel(991),blank.png)</visible>
-						</control>
+						</control>-->
 					      </control>
 							
 						
@@ -1451,7 +1471,17 @@
 					<height>292</height>
 					<fadetime>IconCrossfadeTime</fadetime>
 					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[Listitem.Icon]</texture>
+					<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">$INFO[Listitem.Art(poster)]</texture>
+					<animation effect="fade" start="0" end="100" time="400" delay="200" reversible="false">Focus</animation>
+				</control>
+				<control type="image">
+					<posx>96</posx>
+					<posy>140</posy>
+					<width>204</width>
+					<height>292</height>
+					<fadetime>IconCrossfadeTime</fadetime>
+					<aspectratio scalediffuse="false">stretch</aspectratio>
+					<texture background="true">simplicity/paper.png</texture>
 					<animation effect="fade" start="0" end="100" time="400" delay="200" reversible="false">Focus</animation>
 				</control>
 				<control type="image">
@@ -1819,6 +1849,17 @@
 							<aligny>center</aligny>
 							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">simplicity/paper.png</texture>
 							<aspectratio>stretch</aspectratio>
+<!-- 							<visible>!Skin.HasSetting(UseSepiaFilter)</visible> -->
+						</control>
+						<control type="largeimage">
+							<posx>0</posx>
+							<posy>42</posy> 
+							<width>110</width>
+							<height>165</height>
+							<aligny>center</aligny>
+							<texture diffuse="simplicity/fanart-slide-poster-diffuse.png" background="true">simplicity/paper-sepia.png</texture>
+							<aspectratio>stretch</aspectratio>
+							<visible>Skin.HasSetting(UseSepiaFilter)</visible>
 						</control>
 					</itemlayout>
 					<focusedlayout height="390" width="149">
@@ -2048,10 +2089,23 @@
 							<width>118</width>
 							<height>176</height>
 							<aligny>center</aligny>
+							<texture background="true">simplicity/paper-sepia2.png</texture>
+							<aspectratio>stretch</aspectratio>
+							<bordertexture border="4">-</bordertexture>
+							<bordersize>4</bordersize>
+							<visible>Skin.HasSetting(UseSepiaFilter)</visible>
+						</control>
+						<control type="largeimage">
+							<posx>0</posx>
+							<posy>0</posy> 
+							<width>118</width>
+							<height>176</height>
+							<aligny>center</aligny>
 							<texture background="true">simplicity/paper.png</texture>
 							<aspectratio>stretch</aspectratio>
-								<bordertexture border="4">-</bordertexture>
-								<bordersize>4</bordersize>
+							<bordertexture border="4">-</bordertexture>
+							<bordersize>4</bordersize>
+<!-- 							<visible>!Skin.HasSetting(UseSepiaFilter)</visible> -->
 						</control>
 					</itemlayout>
 					<focusedlayout height="196" width="150">
@@ -2103,6 +2157,7 @@
 								<animation reversible="false" effect="zoom" end="120" center="auto" time="150">Focus</animation> 	
 								<aspectratio>stretch</aspectratio>
 							</control>
+							
 						</control>
 					</focusedlayout>
 				</control>	

@@ -1570,7 +1570,7 @@
 							<bordersize>4</bordersize>
 							<visible>Container.Content(Episodes) + stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
-				<!-- 	<control type="image">
+				 	<control type="image">
 							<posx>100</posx>
 							<posy>218</posy>
 							<width>247</width>
@@ -1580,7 +1580,7 @@
 							<texture background="true">paper.png</texture>
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
-						</control> -->
+						</control> 
 						<control type="image">
 							<description>Rating value</description>
 							<posx>370</posx>
