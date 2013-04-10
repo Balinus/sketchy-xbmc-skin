@@ -298,7 +298,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9010</onup>
-					<ondown>9010</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(4)</visible>
@@ -357,7 +357,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9011</onup>
-					<ondown>9011</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(5)</visible>
@@ -444,7 +444,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9013</onup>
-					<ondown>9013</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(11)</visible>
@@ -502,7 +502,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9014</onup>
-					<ondown>9014</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(1) | Container(9000).HasFocus(10)</visible>
@@ -558,7 +558,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9015</onup>
-					<ondown>9015</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(9)</visible>	
@@ -637,7 +637,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9016</onup>
-					<ondown>9016</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(2)</visible>
@@ -699,7 +699,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9017</onup>
-					<ondown>9017</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(3)</visible>
@@ -754,7 +754,7 @@
 					<onleft>9000</onleft>
 					<onright>9000</onright>
 					<onup>9019</onup>
-					<ondown>9019</ondown>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(19)</visible>
@@ -802,8 +802,8 @@
 					<height>550</height>
 					<onleft>9000</onleft>
 					<onright>9000</onright>
-					<onup>9019</onup>
-					<ondown>9019</ondown>
+					<onup>9020</onup>
+					<ondown>608</ondown>
 					<itemgap>0</itemgap>
 					<orientation>vertical</orientation>
 					<visible>Container(9000).HasFocus(14)</visible>
