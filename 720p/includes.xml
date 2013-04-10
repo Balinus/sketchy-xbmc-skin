@@ -16,6 +16,7 @@
 	<include file="custom_SearchDialogPopup_1118.xml" />
 	<include file="custom_TVDelete_1127.xml" />
 	<include file="MusicNowPlaying.xml" />
+	<include file="Custom_Debug_Overlay.xml"/>
 
 
 	<constant name="FanartCrossfadeTime">500</constant>
