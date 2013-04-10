@@ -534,7 +534,7 @@
 						<include>ButtonHomeSubCommonValuesHome</include>
 						<align>center</align>
 						<label>20077</label>
-						<onclick>ActivateWindow(1111)</onclick>
+						<onclick>ActivateWindow(SkinSettings)</onclick>
 					</control>
 					<control type="button" id="90145">
 							<include>ButtonHomeSubCommonValuesHome</include>
