@@ -109,7 +109,7 @@
 					<include>VisibleFadeEffect</include>
 					<control type = "group">	
 						<visible>Skin.HasSetting(EnableFilmViewDialog)</visible>
-						<include>VisibleFadeEffect</include>
+<!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>102</posx>
 							<posy>90</posy>
@@ -117,23 +117,31 @@
 							<height>491</height>
 							<aspectratio>stretch</aspectratio>
 							<texture>$INFO[ListItem.Art(poster)]</texture>
-<!-- 							<bordertexture border = "5">simplicity/poster-border6.png</bordertexture> -->
 							<bordersize>1</bordersize>
 						</control>
+						
 						<control type = "image">
+							<posx>40</posx>
+							<posy>73</posy>
+							<width>449</width>
+							<height>527</height>
+							<aspectratio>stretch</aspectratio>
+							<texture diffuse="simplicity/posterdiffuse.png" background="true">other_textures/recently/frame.png</texture>
+							<bordersize>1</bordersize>
+						</control>
+						<!--<control type = "image">
 							<posx>25</posx>
 							<posy>85</posy>
 							<width>475</width>
 							<height>500</height>
 							<aspectratio>stretch</aspectratio>
 							<texture diffuse="simplicity/posterdiffuse.png" background="true">simplicity/paper-film.png</texture>
-<!-- 							<bordertexture border = "5">simplicity/poster-border6.png</bordertexture> -->
 							<bordersize>1</bordersize>
-						</control>
+						</control>-->
 					</control>
 					<control type = "group">	
 						<visible>!Skin.HasSetting(EnableFilmViewDialog)</visible>
-						<include>VisibleFadeEffect</include>
+<!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>38</posx>
 							<posy>10</posy>
@@ -152,8 +160,7 @@
 						<width>150</width>
 						<height>30</height>
 						<texture>$INFO[Listitem.StarRating]</texture>
-						<colordiffuse>black</colordiffuse>
-						
+						<colordiffuse>black</colordiffuse>						
 					</control>
 					
 					<control type = "fadelabel">

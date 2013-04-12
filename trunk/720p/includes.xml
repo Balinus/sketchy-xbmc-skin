@@ -1509,14 +1509,14 @@
 						<include>VisibleFadeEffect</include>
 						<posx>76</posx>
 						<posy>-90</posy>
-				<control type="image">
-					<posx>80</posx>
-					<posy>215</posy>
-					<width>287</width>
-					<height>394</height>
-					<aspectratio scalediffuse="false">stretch</aspectratio>
-					<texture background="true">simplicity/poster-slide-poster-shadow.png</texture>
-				</control>
+						<control type="image">
+							<posx>80</posx>
+							<posy>215</posy>
+							<width>287</width>
+							<height>394</height>
+							<aspectratio scalediffuse="false">stretch</aspectratio>
+							<texture background="true">simplicity/poster-slide-poster-shadow.png</texture>
+						</control>
 						<control type="image">
 							<posx>100</posx>
 							<posy>218</posy>
@@ -1527,23 +1527,10 @@
 							<texture background="true">$INFO[Listitem.Art(poster)]</texture>
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
-							<visible>!Container.Content(Episodes) + ![Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)]</visible>
+							<visible>!Container.Content(Episodes)</visible>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						</control>
-						<control type="image">
-							<posx>100</posx>
-							<posy>218</posy>
-							<width>247</width>
-							<height>371</height>
-							<align>left</align>
-							<fadetime>IconCrossfadeTime</fadetime>
-							<texture background="true">$INFO[ListItem.Art(poster)]</texture>
-							<bordertexture border="4">thumbborder.png</bordertexture>
-							<bordersize>4</bordersize>
-							<visible>Container.Content(TVShows) + Skin.HasSetting(UsePosterJPG)</visible>
-							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-
-						</control>
+						
 						<control type="image" id="8983">
 							<posx>100</posx>
 							<posy>218</posy>
@@ -1578,7 +1565,7 @@
 							<height>371</height>
 							<align>left</align>
 							<aspectratio scalediffuse="false">stretch</aspectratio>
-							<texture background="true">paper.png</texture>
+							<texture background="true">simplicity/paper-light.png</texture>
 							<bordertexture border="4">thumbborder.png</bordertexture>
 							<bordersize>4</bordersize>
 						</control> 
