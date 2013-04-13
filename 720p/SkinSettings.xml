@@ -2932,7 +2932,7 @@
 							<height>45</height>
 							<font>Simplicity_40_Title</font>
 							<label>Global View Options</label>
-							<textcolor>yellow</textcolor>
+							<textcolor>red</textcolor>
 							
 							<align>left</align>
 							<aligny>center</aligny>
@@ -3176,6 +3176,22 @@
 							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
 							<onclick>Skin.ToggleSetting(ShowChapterCount)</onclick>
 							<selected>Skin.HasSetting(ShowChapterCount)</selected>
+						</control>
+						<control type="radiobutton" id="520">
+							<width>800</width>
+							<height>40</height>
+							<font>Simplicity_30</font>
+							<label>Hide Sketchy Logo on Home Screen</label>
+							<textcolor>brown</textcolor>
+							<focusedcolor>black</focusedcolor>
+							<radiowidth>83</radiowidth>
+							<radioheight>67</radioheight>
+							<textureradiofocus>simplicity/settings-radiobutton-on.png</textureradiofocus>
+							<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
+							<texturefocus>simplicity/button-focus.png</texturefocus>
+							<texturenofocus>simplicity/menuitemnf.png</texturenofocus>
+							<onclick>Skin.ToggleSetting(HideShowLogoHome)</onclick>
+							<selected>Skin.HasSetting(HideShowLogoHome)</selected>
 						</control>
 						<control type="radiobutton" id="514">
 							<posx>0</posx>
