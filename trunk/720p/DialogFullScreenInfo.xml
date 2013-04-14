@@ -4,6 +4,7 @@
 	<controls>
 	
 		<control type="group">
+		  
 			<animation effect="slide" start="0,-269" end="0,-66" time="300" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,-66" end="0,-269" time="300" delay="150">WindowClose</animation>
 			<animation effect="fade" start="100" end="50" condition="Window.IsVisible(SliderDialog) | Window.IsVisible(OSDVideoSettings) | Window.IsVisible(OSDAudioSettings) | Window.IsVisible(VideoBookmarks)">Conditional</animation>
@@ -15,6 +16,21 @@
 				<height>269</height>
 				<texture flipy="true">simplicity/osd/bottom-bg.png</texture>
 			</control>
+			
+			<control type="label">
+					<posx>270</posx>
+					<posy>160</posy>
+					<width>740</width>
+					<height>25</height>
+					<label>$INFO[Player.Title]</label>
+					<scroll>true</scroll>
+					<align>center</align>
+					<aligny>center</aligny>
+					<font>Simplicity_50_Title</font>
+					<textcolor>white</textcolor>
+					<shadowcolor>black</shadowcolor>
+					<visible>Skin.HasSetting(LessInfoPlayback)</visible>
+				</control>
 			
 			<control type="grouplist">
 				<description>Media Codec Flagging Images</description>
@@ -215,6 +231,7 @@
 
 	
 		<control type="group">
+			<visible>!Skin.HasSetting(LessInfoPlayback)</visible>
 			<animation effect="slide" start="0,720" end="0,470" time="300" tween="quadratic" easing="out">WindowOpen</animation>
 			<animation effect="slide" start="0,470" end="0,720" time="300" delay="150" tween="quadratic" easing="out">WindowClose</animation>
 			<animation effect="slide" start="0,470" end="0,720" time="300" tween="quadratic" easing="out" condition="Window.IsVisible(SliderDialog)">Conditional</animation>
@@ -241,7 +258,6 @@
 					<font>Simplicity_50_Title</font>
 					<textcolor>red</textcolor>
 					<shadowcolor>black</shadowcolor>
-
 				</control>				
 				<control type="textbox">
 					<description>Description Value The Movie</description>
