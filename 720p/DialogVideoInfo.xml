@@ -290,7 +290,7 @@
 						<info>ListItem.Writer</info>
 						<visible>!Skin.HasSetting(UseThumbsOnInfo) + !Control.HasFocus(50)</visible>
 					</control>
-					<control type = "image">
+					<!--<control type = "image">
 						<posx>908</posx>
 						<posy>423</posy>
 						<width>284</width>
@@ -299,8 +299,8 @@
 						<texture background = "true">simplicity/black.png</texture>
 						<bordertexture border = "2">simplicity/poster-border7.png</bordertexture>
 						<bordersize>2</bordersize>
-						<visible>Skin.HasSetting(UseThumbsOnInfo)</visible>
-					</control>
+						<visible>Skin.HasSetting(UseThumbsOnInfo)+Skin.HasSetting(EnableFilmViewDialog)+ !Control.HasFocus(50)</visible>
+					</control>-->
 					<control type = "multiimage">
 						<posx>910</posx>
 						<posy>425</posy>
@@ -311,7 +311,16 @@
 						<fadetime>400</fadetime>
 						<timeperimage>3000</timeperimage>
 						<imagepath background = "true">$INFO[ListItem.path]/extrathumbs</imagepath>
-						<visible>Skin.HasSetting(UseThumbsOnInfo)</visible>
+						<visible>Skin.HasSetting(UseThumbsOnInfo)+ !Control.HasFocus(50)</visible>
+					</control>
+					<control type = "image">
+						<posx>899</posx>
+						<posy>409</posy>
+						<width>302</width>
+						<height>188</height>
+						<aspectratio>scale</aspectratio>
+						<texture background = "true">other_textures/recently/frameland.png</texture>
+						<visible>Skin.HasSetting(UseThumbsOnInfo)+ !Control.HasFocus(50)</visible>
 					</control>
 				</control>
 				
