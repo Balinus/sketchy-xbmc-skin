@@ -479,7 +479,7 @@
 								<posy>48</posy>
 								<width>182</width>
 								<height>30</height>
-								<font>Simplicity_20</font>
+								<font>Simplicity_22</font>
 								<textcolor>black</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -498,7 +498,7 @@
 								<posy>135</posy>
 								<width>182</width>
 								<height>30</height>
-								<font>Simplicity_20</font>
+								<font>Simplicity_22</font>
 								<textcolor>black</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -509,7 +509,7 @@
 								<posy>155</posy>
 								<width>182</width>
 								<height>30</height>
-								<font>Simplicity_18</font>
+								<font>Simplicity_20</font>
 								<textcolor>red</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -529,7 +529,7 @@
 								<posy>48</posy>
 								<width>182</width>
 								<height>30</height>
-								<font>Simplicity_20</font>
+								<font>Simplicity_22</font>
 								<textcolor>black</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -548,7 +548,7 @@
 								<posy>135</posy>
 								<width>182</width>
 								<height>30</height>
-								<font>Simplicity_20</font>
+								<font>Simplicity_22</font>
 								<textcolor>black</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
@@ -559,7 +559,7 @@
 								<posy>155</posy>
 								<width>182</width>
 								<height>30</height>
-								<font>Simplicity_18</font>
+								<font>Simplicity_20</font>
 								<textcolor>red</textcolor>
 								<align>center</align>
 								<aligny>center</aligny>
