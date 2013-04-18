@@ -108,7 +108,7 @@
 					<posx>0</posx>
 					<include>VisibleFadeEffect</include>
 					<control type = "group">	
-						<visible>Skin.HasSetting(EnableFilmViewDialog)</visible>
+						<visible>!Skin.HasSetting(DisableFilmViewDialog)</visible>
 <!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>102</posx>
@@ -140,7 +140,7 @@
 						</control>-->
 					</control>
 					<control type = "group">	
-						<visible>!Skin.HasSetting(EnableFilmViewDialog)</visible>
+						<visible>Skin.HasSetting(DisableFilmViewDialog)</visible>
 <!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>38</posx>
@@ -705,7 +705,7 @@
 					<posx>20</posx>
 					<include>VisibleFadeEffect</include>
 					<control type = "group">	
-						<visible>Skin.HasSetting(EnableFilmViewDialog)</visible>
+						<visible>!Skin.HasSetting(DisableFilmViewDialog)</visible>
 <!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>80</posx>
@@ -737,7 +737,7 @@
 						</control>-->
 					</control>
 					<control type = "group">	
-						<visible>!Skin.HasSetting(EnableFilmViewDialog)</visible>
+						<visible>Skin.HasSetting(DisableFilmViewDialog)</visible>
 <!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>18</posx>
@@ -923,7 +923,7 @@
 					  
 					
 					<control type = "group">	
-						<visible>Skin.HasSetting(EnableFilmViewDialog)</visible>
+						<visible>!Skin.HasSetting(DisableFilmViewDialog)</visible>
 <!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>80</posx>
@@ -955,7 +955,7 @@
 						</control>-->
 					</control>
 					<control type = "group">	
-						<visible>!Skin.HasSetting(EnableFilmViewDialog)</visible>
+						<visible>Skin.HasSetting(DisableFilmViewDialog)</visible>
 <!-- 						<include>VisibleFadeEffect</include> -->
 						<control type = "image">
 							<posx>18</posx>
