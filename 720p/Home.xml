@@ -951,7 +951,7 @@
 
 
 		<include condition="!Skin.HasSetting(AlternateHomeBlack)">Clock</include>
-		<include condition="Skin.HasSetting(AlternateHomeBlack)">Clock-White</include>
+		<include condition="Skin.HasSetting(AlternateHomeBlack)">Clock-White-Home</include>
 		<!--<include>Weather</include>-->
 
 	</controls>

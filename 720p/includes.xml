@@ -3971,19 +3971,53 @@
 <include name="Clock-White">
 	 <!-- TIME LABEL -->
       
-		    <control type="label">
-      <description>time label</description>
-      <posx>20r</posx>
-      <posy>35</posy>
-      <width>500</width>
-      <height>28</height>
-      <align>right</align>
-      <aligny>center</aligny>
-      <font>Large</font>
-      <textcolor>white</textcolor>
-      <label>$INFO[System.Time]</label>
-			<include>Window_OpenClose_Animation</include>
-    </control>
+	    <control type="label">
+		  <description>time label</description>
+		  <posx>20r</posx>
+		  <posy>35</posy>
+		  <width>500</width>
+		  <height>28</height>
+		  <align>right</align>
+		  <aligny>center</aligny>
+		  <font>Large</font>
+		  <textcolor>white</textcolor>
+		  <label>$INFO[System.Time]</label>
+		  <include>Window_OpenClose_Animation</include>
+	    </control>
+    
+
+     
+	</include>
+	<include name="Clock-White-Home">
+	 <!-- TIME LABEL -->
+      
+	    <control type="label">
+		<description>time label</description>
+		<posx>20r</posx>
+		<posy>35</posy>
+		<width>500</width>
+		<height>28</height>
+		<align>right</align>
+		<aligny>center</aligny>
+		<font>Large</font>
+		<textcolor>white</textcolor>
+		<label>$INFO[System.Time]</label>
+		<include>Window_OpenClose_Animation</include>
+	    </control>
+	    
+	    <control type="label">
+		    <description>time label</description>
+		    <posx>22r</posx>
+		    <posy>80</posy>
+		    <width>500</width>
+		    <height>28</height>
+		    <align>right</align>
+		    <aligny>center</aligny>
+		    <font>Small</font>
+		    <textcolor>white</textcolor>
+		    <label>$INFO[System.Date]</label>
+		    <include>Window_OpenClose_Animation</include>
+	    </control> 
     
 
      
