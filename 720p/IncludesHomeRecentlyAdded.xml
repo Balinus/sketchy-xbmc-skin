@@ -18,6 +18,7 @@
 					<visible>[Container(9000).Hasfocus(2) + !Skin.HasSetting(HomeMenuNoMoviesButton)]</visible>
 					<include>VisibleFadeEffect</include>
 					<control type="label">
+							<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 							<description>Title label</description>
 							<posx>0</posx>
 							<posy>-34</posy>
@@ -28,6 +29,20 @@
 							<aligny>center</aligny>
 							<font>Large</font>
 							<textcolor>black</textcolor>
+							<!-- <shadowcolor>black</shadowcolor> -->
+					</control>
+					<control type="label">
+							<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+							<description>Title label</description>
+							<posx>0</posx>
+							<posy>-34</posy>
+							<height>20</height>
+							<width>800</width>
+							<label>latest movies...</label>
+							<align>left</align>
+							<aligny>center</aligny>
+							<font>Large</font>
+							<textcolor>grey2</textcolor>
 							<!-- <shadowcolor>black</shadowcolor> -->
 					</control>
 				<control type="wraplist" id="8005">
@@ -234,7 +249,9 @@
 					<visible>Library.HasContent(TVShows)</visible>
 					<visible>[Container(9000).Hasfocus(3) + !Skin.HasSetting(HomeMenuNoTVShowsButton)]</visible>
 					<include>VisibleFadeEffect</include>
-					<animation effect="fade" time="400" delay="640" start="0" end="100" condition="[Container(9000).Hasfocus(3) + !Skin.HasSetting(HomeMenuNoTVShowsButton)]">Conditional</animation>					<control type="label">
+					<animation effect="fade" time="400" delay="640" start="0" end="100" condition="[Container(9000).Hasfocus(3) + !Skin.HasSetting(HomeMenuNoTVShowsButton)]">Conditional</animation>
+				<control type="label">
+					<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 					<description>Title label</description>
 					<posx>0</posx>
 					<posy>-34</posy>
@@ -245,6 +262,20 @@
 					<aligny>center</aligny>
 					<font>Large</font>
 					<textcolor>black</textcolor>
+					<!-- <shadowcolor>black</shadowcolor> -->
+				</control>
+				<control type="label">
+				  <visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+					<description>Title label</description>
+					<posx>0</posx>
+					<posy>-34</posy>
+					<height>20</height>
+					<width>800</width>
+					<label>latest episodes...</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>Large</font>
+					<textcolor>grey2</textcolor>
 					<!-- <shadowcolor>black</shadowcolor> -->
 				</control>
 				<control type="wraplist" id="8008">
@@ -635,6 +666,7 @@
 					<include>VisibleFadeEffect</include>
 					<animation effect="fade" time="400" delay="800" start="0" end="100" condition="[Container(9000).Hasfocus(5) + !Skin.HasSetting(HomeMenuNoMusicButton)]">Conditional</animation>
 				<control type="label">
+				   <visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 					<description>Title label</description>
 					<posx>0</posx>
 					<posy>-34</posy>
@@ -645,6 +677,20 @@
 					<aligny>center</aligny>
 					<font>Large</font>
 					<textcolor>black</textcolor>
+					<!-- <shadowcolor>black</shadowcolor> -->					
+				</control>
+				<control type="label">
+				  <visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+					<description>Title label</description>
+					<posx>0</posx>
+					<posy>-34</posy>
+					<height>20</height>
+					<width>800</width>
+					<label>latest albums...</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>Large</font>
+					<textcolor>grey2</textcolor>
 					<!-- <shadowcolor>black</shadowcolor> -->					
 				</control>
 				<control type="wraplist" id="8010">
@@ -701,7 +747,7 @@
 							</animation>
 							<!--<colordiffuse>39FFFFFF</colordiffuse>-->
 						</control>												
-							<control type="label">
+				<control type="label">
 					<description>Title label</description>
 					<posx>215</posx>
 					<posy>0</posy>
@@ -714,7 +760,7 @@
 					<textcolor>red</textcolor>
 				<!--	<shadowcolor>black</shadowcolor> -->
 				</control>
-											<control type="label">
+				<control type="label">
 					<description>Title label</description>
 					<posx>215</posx>
 					<posy>24</posy>
