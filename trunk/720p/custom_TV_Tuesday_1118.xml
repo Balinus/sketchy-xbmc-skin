@@ -7,7 +7,7 @@
 				<posx>0</posx>
 				<posy>0</posy>
 				<width>1290</width>
-				<height>730</height>
+				<height>850</height>
 				<texture>simplicity/background-solid.png</texture>
 			</control>
 			<!--<control type="image">
@@ -305,7 +305,7 @@
 				<textcolor>white</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.1.airday)] at $INFO[Window(Home).Property(NextAired.1.shortime)] on $INFO[Window(Home).Property(NextAired.1.network)]</label>
+				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.1.airday)] at $INFO[Window(Home).Property(NextAired.1.ShortTime)] on $INFO[Window(Home).Property(NextAired.1.network)]</label>
 			</control>		
 			<control type="label">
 				<posx>535</posx>
@@ -316,7 +316,7 @@
 				<textcolor>white</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.2.airday)] at $INFO[Window(Home).Property(NextAired.2.shortime)] on $INFO[Window(Home).Property(NextAired.2.network)]</label>
+				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.2.airday)] at $INFO[Window(Home).Property(NextAired.2.ShortTime)] on $INFO[Window(Home).Property(NextAired.2.network)]</label>
 			</control>		
 			<control type="label">
 				<posx>535</posx>
@@ -327,7 +327,7 @@
 				<textcolor>white</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.3.airday)] at $INFO[Window(Home).Property(NextAired.3.shortime)] on $INFO[Window(Home).Property(NextAired.3.network)]</label>
+				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.3.airday)] at $INFO[Window(Home).Property(NextAired.3.ShortTime)] on $INFO[Window(Home).Property(NextAired.3.network)]</label>
 			</control>		
 			<control type="label">
 				<posx>535</posx>
@@ -338,7 +338,7 @@
 				<textcolor>white</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.4.airday)] at $INFO[Window(Home).Property(NextAired.4.shortime)] on $INFO[Window(Home).Property(NextAired.4.network)]</label>
+				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.4.airday)] at $INFO[Window(Home).Property(NextAired.4.ShortTime)] on $INFO[Window(Home).Property(NextAired.4.network)]</label>
 			</control>		
 			<control type="label">
 				<posx>535</posx>
@@ -349,7 +349,7 @@
 				<textcolor>white</textcolor>
 				<align>left</align>
 				<aligny>center</aligny>
-				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.5.airday)] at $INFO[Window(Home).Property(NextAired.5.shortime)] on $INFO[Window(Home).Property(NextAired.5.network)]</label>
+				<label>[B]Airing:[/B] $INFO[Window(Home).Property(NextAired.5.airday)] at $INFO[Window(Home).Property(NextAired.5.ShortTime)] on $INFO[Window(Home).Property(NextAired.5.network)]</label>
 			</control>		
 		</control>	
 
@@ -525,7 +525,7 @@
 				<width>500</width>
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
-				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.1.Showpath),,banner.jpg]</texture>
+				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.1.Art(banner))]</texture>
 			</control>
 			<control type="image">
 				<posx>20</posx>
@@ -533,7 +533,7 @@
 				<width>500</width>
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
-				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.2.Showpath),,banner.jpg]</texture>
+				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.2.Art(banner))]</texture>
 			</control>
 			<control type="image">
 				<posx>20</posx>
@@ -541,7 +541,7 @@
 				<width>500</width>
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
-				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.3.Showpath),,banner.jpg]</texture>
+				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.3.Art(banner))]</texture>
 			</control>
 			<control type="image">
 				<posx>20</posx>
@@ -549,7 +549,7 @@
 				<width>500</width>
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
-				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.4.Showpath),,banner.jpg]</texture>
+				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.4.Art(banner))]</texture>
 			</control>
 			<control type="image">
 				<posx>20</posx>
@@ -557,7 +557,7 @@
 				<width>500</width>
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
-				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.5.Showpath),,banner.jpg]</texture>
+				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.5.Art(banner))]</texture>
 			</control>
 		</control>-->
 
@@ -572,7 +572,7 @@
 				<height>94</height>
 				<aligny>bottom</aligny>
 				<aspectratio>stretch</aspectratio>
-				<texture>$INFO[Window(Home).Property(NextAired.1.Showpath),,logo.png]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.1.Art(clearlogo))]</texture>
 		</control>
 	    <control type="image">
 			 	<posx>995</posx>
@@ -581,7 +581,7 @@
 				<height>94</height>
 				<aligny>bottom</aligny>
 				<aspectratio>stretch</aspectratio>
-				<texture>$INFO[Window(Home).Property(NextAired.2.Showpath),,logo.png]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.2.Art(clearlogo))]</texture>
 		</control>
 	    <control type="image">
 			 	<posx>995</posx>
@@ -590,7 +590,7 @@
 				<height>94</height>
 				<aligny>bottom</aligny>
 				<aspectratio>stretch</aspectratio>
-				<texture>$INFO[Window(Home).Property(NextAired.3.Showpath),,logo.png]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.3.Art(clearlogo))]</texture>
 		</control>
 	    <control type="image">
 			 	<posx>995</posx>
@@ -599,7 +599,7 @@
 				<height>94</height>
 				<aligny>bottom</aligny>
 				<aspectratio>stretch</aspectratio>
-				<texture>$INFO[Window(Home).Property(NextAired.4.Showpath),,logo.png]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.4.Art(clearlogo))]</texture>
 		</control>
 	    <control type="image">
 			 	<posx>995</posx>
@@ -608,7 +608,7 @@
 				<height>94</height>
 				<aligny>bottom</aligny>
 				<aspectratio>stretch</aspectratio>
-				<texture>$INFO[Window(Home).Property(NextAired.5.Showpath),,logo.png]</texture>
+				<texture>$INFO[Window(Home).Property(NextAired.5.Art(clearlogo))]</texture>
 		</control>
 	</control>-->
 
@@ -622,7 +622,7 @@
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
 				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.1.Showpath),,folder.jpg]</texture>
-				<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Tuesday)</visible>
+				<visible>StringCompare(Window(Home).Property(NextAired.1.AirDay),Tuesday)</visible>
 			</control>
 		</control>
 		<control type="group">
@@ -634,7 +634,7 @@
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
 				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.2.Showpath),,folder.jpg]</texture>
-				<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Tuesday)</visible>
+				<visible>StringCompare(Window(Home).Property(NextAired.2.AirDay),Tuesday)</visible>
 			</control>
 		</control>
 		<control type="group">
@@ -646,7 +646,7 @@
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
 				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.1.Showpath),,folder.jpg]</texture>
-				<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Wednesday)</visible>
+				<visible>StringCompare(Window(Home).Property(NextAired.1.AirDay),Tuesday)</visible>
 			</control>
 		</control>
 		<control type="group">
@@ -658,7 +658,7 @@
 				<height>80</height>
 				<aspectratio>stretch</aspectratio>
 				<texture diffuse="simplicity/bannerdiffuse.png">$INFO[Window(Home).Property(NextAired.2.Showpath),,folder.jpg]</texture>
-				<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Wednesday)</visible>
+				<visible>StringCompare(Window(Home).Property(NextAired.2.AirDay),Tuesday)</visible>
 			</control>
 		</control>-->
 
@@ -738,204 +738,204 @@
 					</focusedlayout>
 					<content>
 						<item id="1">
-							<label>$INFO[Window(Home).Property(NextAired.1.Premiered)] , $INFO[Window(Home).Property(NextAired.1.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.1.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.1.Premiered)] , $INFO[Window(Home).Property(NextAired.1.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.1.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.1.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.1.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.1.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.1.AirDay),Tuesday)</visible>
 						</item>
 						<item id="2">
-							<label>$INFO[Window(Home).Property(NextAired.2.Premiered)] , $INFO[Window(Home).Property(NextAired.2.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.2.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.2.Premiered)] , $INFO[Window(Home).Property(NextAired.2.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.2.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.2.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.2.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.2.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.2.AirDay),Tuesday)</visible>
 						</item>
 						<item id="3">
-							<label>$INFO[Window(Home).Property(NextAired.3.Premiered)] , $INFO[Window(Home).Property(NextAired.3.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.3.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.3.Premiered)] , $INFO[Window(Home).Property(NextAired.3.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.3.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.3.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.3.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.3.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.3.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.3.AirDay),Tuesday)</visible>
 						</item>
 						<item id="4">
-							<label>$INFO[Window(Home).Property(NextAired.4.Premiered)] , $INFO[Window(Home).Property(NextAired.4.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.4.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.4.Premiered)] , $INFO[Window(Home).Property(NextAired.4.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.4.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.4.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.4.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.4.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.4.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.4.AirDay),Tuesday)</visible>
 						</item>
 						<item id="5">
-							<label>$INFO[Window(Home).Property(NextAired.5.Premiered)] , $INFO[Window(Home).Property(NextAired.5.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.5.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.5.Premiered)] , $INFO[Window(Home).Property(NextAired.5.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.5.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.5.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.5.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.5.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.5.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.5.AirDay),Tuesday)</visible>
 						</item>
 						<item id="6">
-							<label>$INFO[Window(Home).Property(NextAired.6.Premiered)] , $INFO[Window(Home).Property(NextAired.6.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.6.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.6.Premiered)] , $INFO[Window(Home).Property(NextAired.6.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.6.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.6.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.6.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.6.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.6.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.6.AirDay),Tuesday)</visible>
 						</item>
 						<item id="7">
-							<label>$INFO[Window(Home).Property(NextAired.7.Premiered)] , $INFO[Window(Home).Property(NextAired.7.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.7.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.7.Premiered)] , $INFO[Window(Home).Property(NextAired.7.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.7.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.7.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.7.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.7.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.7.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.7.AirDay),Tuesday)</visible>
 						</item>
 						<item id="8">
-							<label>$INFO[Window(Home).Property(NextAired.8.Premiered)] , $INFO[Window(Home).Property(NextAired.8.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.8.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.8.Premiered)] , $INFO[Window(Home).Property(NextAired.8.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.8.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.8.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.8.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.8.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.8.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.8.AirDay),Tuesday)</visible>
 						</item>
 						<item id="9">
-							<label>$INFO[Window(Home).Property(NextAired.9.Premiered)] , $INFO[Window(Home).Property(NextAired.9.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.9.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.9.Premiered)] , $INFO[Window(Home).Property(NextAired.9.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.9.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.9.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.9.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.9.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.9.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.9.AirDay),Tuesday)</visible>
 						</item>
 						<item id="10">
-							<label>$INFO[Window(Home).Property(NextAired.10.Premiered)] , $INFO[Window(Home).Property(NextAired.10.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.10.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.10.Premiered)] , $INFO[Window(Home).Property(NextAired.10.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.10.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.10.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.10.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.10.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.10.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.10.AirDay),Tuesday)</visible>
 						</item>
 						<item id="11">
-							<label>$INFO[Window(Home).Property(NextAired.11.Premiered)] , $INFO[Window(Home).Property(NextAired.11.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.11.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.11.Premiered)] , $INFO[Window(Home).Property(NextAired.11.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.11.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.11.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.11.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.11.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.11.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.11.AirDay),Tuesday)</visible>
 						</item>
 						<item id="12">
-							<label>$INFO[Window(Home).Property(NextAired.12.Premiered)] , $INFO[Window(Home).Property(NextAired.12.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.12.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.12.Premiered)] , $INFO[Window(Home).Property(NextAired.12.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.12.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.12.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.12.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.12.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.12.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.12.AirDay),Tuesday)</visible>
 						</item>
 						<item id="13">
-							<label>$INFO[Window(Home).Property(NextAired.13.Premiered)] , $INFO[Window(Home).Property(NextAired.13.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.13.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.13.Premiered)] , $INFO[Window(Home).Property(NextAired.13.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.13.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.13.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.13.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.13.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.13.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.13.AirDay),Tuesday)</visible>
 						</item>
 						<item id="14">
-							<label>$INFO[Window(Home).Property(NextAired.14.Premiered)] , $INFO[Window(Home).Property(NextAired.14.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.14.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.14.Premiered)] , $INFO[Window(Home).Property(NextAired.14.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.14.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.14.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.14.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.14.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.14.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.14.AirDay),Tuesday)</visible>
 						</item>
 						<item id="15">
-							<label>$INFO[Window(Home).Property(NextAired.15.Premiered)] , $INFO[Window(Home).Property(NextAired.15.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.15.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.15.Premiered)] , $INFO[Window(Home).Property(NextAired.15.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.15.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.15.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.15.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.15.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.15.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.15.AirDay),Tuesday)</visible>
 						</item>
 						<item id="16">
-							<label>$INFO[Window(Home).Property(NextAired.16.Premiered)] , $INFO[Window(Home).Property(NextAired.16.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.16.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.16.Premiered)] , $INFO[Window(Home).Property(NextAired.16.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.16.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.16.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.16.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.16.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.16.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.16.AirDay),Tuesday)</visible>
 						</item>
 						<item id="17">
-							<label>$INFO[Window(Home).Property(NextAired.17.Premiered)] , $INFO[Window(Home).Property(NextAired.17.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.17.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.17.Premiered)] , $INFO[Window(Home).Property(NextAired.17.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.17.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.17.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.17.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.17.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.17.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.17.AirDay),Tuesday)</visible>
 						</item>
 						<item id="18">
-							<label>$INFO[Window(Home).Property(NextAired.18.Premiered)] , $INFO[Window(Home).Property(NextAired.18.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.18.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.18.Premiered)] , $INFO[Window(Home).Property(NextAired.18.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.18.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.18.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.18.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.18.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.18.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.18.AirDay),Tuesday)</visible>
 						</item>
 						<item id="19">
-							<label>$INFO[Window(Home).Property(NextAired.19.Premiered)] , $INFO[Window(Home).Property(NextAired.19.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.19.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.19.Premiered)] , $INFO[Window(Home).Property(NextAired.19.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.19.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.19.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.19.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.19.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.19.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.19.AirDay),Tuesday)</visible>
 						</item>
 						<item id="20">
-							<label>$INFO[Window(Home).Property(NextAired.20.Premiered)] , $INFO[Window(Home).Property(NextAired.20.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.20.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.20.Premiered)] , $INFO[Window(Home).Property(NextAired.20.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.20.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.20.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.20.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.20.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.20.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.20.AirDay),Tuesday)</visible>
 						</item>
 						<item id="21">
-							<label>$INFO[Window(Home).Property(NextAired.21.Premiered)] , $INFO[Window(Home).Property(NextAired.21.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.21.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.21.Premiered)] , $INFO[Window(Home).Property(NextAired.21.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.21.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.21.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.21.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.21.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.21.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.21.AirDay),Tuesday)</visible>
 						</item>
 						<item id="22">
-							<label>$INFO[Window(Home).Property(NextAired.22.Premiered)] , $INFO[Window(Home).Property(NextAired.22.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.22.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.22.Premiered)] , $INFO[Window(Home).Property(NextAired.22.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.22.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.22.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.22.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.22.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.22.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.22.AirDay),Tuesday)</visible>
 						</item>
 						<item id="23">
-							<label>$INFO[Window(Home).Property(NextAired.23.Premiered)] , $INFO[Window(Home).Property(NextAired.23.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.23.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.23.Premiered)] , $INFO[Window(Home).Property(NextAired.23.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.23.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.23.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.23.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.23.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.23.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.23.AirDay),Tuesday)</visible>
 						</item>
 						<item id="24">
-							<label>$INFO[Window(Home).Property(NextAired.24.Premiered)] , $INFO[Window(Home).Property(NextAired.24.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.24.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.24.Premiered)] , $INFO[Window(Home).Property(NextAired.24.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.24.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.24.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.24.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.24.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.24.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.24.AirDay),Tuesday)</visible>
 						</item>
 						<item id="25">
-							<label>$INFO[Window(Home).Property(NextAired.25.Premiered)] , $INFO[Window(Home).Property(NextAired.25.Genres)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.25.shortime)]</label2>
+							<label>$INFO[Window(Home).Property(NextAired.25.Premiered)] , $INFO[Window(Home).Property(NextAired.25.Genre)]</label>
+							<label2>$INFO[Window(Home).Property(NextAired.25.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.25.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.25.Showpath),,logo.png]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.25.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.25.Art(clearlogo))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.25.AirDay),Tuesday)</visible>
 						</item>
 					</content>
 				</control>
@@ -1080,203 +1080,203 @@
 					<content>
 						<item id="1">
 							<label>$INFO[Window(Home).Property(NextAired.1.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.1.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.1.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.1.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.1.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.1.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.1.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.1.AirDay),Tuesday)</visible>
 						</item>
 						<item id="2">
 							<label>$INFO[Window(Home).Property(NextAired.2.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.2.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.2.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.2.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.2.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.2.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.2.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.2.AirDay),Tuesday)</visible>
 						</item>
 						<item id="3">
 							<label>$INFO[Window(Home).Property(NextAired.3.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.3.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.3.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.3.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.3.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.3.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.3.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.3.AirDay),Tuesday)</visible>
 						</item>
 						<item id="4">
 							<label>$INFO[Window(Home).Property(NextAired.4.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.4.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.4.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.4.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.4.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.4.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.4.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.4.AirDay),Tuesday)</visible>
 						</item>
 						<item id="5">
 							<label>$INFO[Window(Home).Property(NextAired.5.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.5.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.5.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.5.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.5.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.5.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.5.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.5.AirDay),Tuesday)</visible>
 						</item>
 						<item id="6">
 							<label>$INFO[Window(Home).Property(NextAired.6.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.6.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.6.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.6.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.6.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.6.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.6.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.6.AirDay),Tuesday)</visible>
 						</item>
 						<item id="7">
 							<label>$INFO[Window(Home).Property(NextAired.7.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.7.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.7.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.7.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.7.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.7.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.7.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.7.AirDay),Tuesday)</visible>
 						</item>
 						<item id="8">
 							<label>$INFO[Window(Home).Property(NextAired.8.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.8.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.8.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.8.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.8.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.8.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.8.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.8.AirDay),Tuesday)</visible>
 						</item>
 						<item id="9">
 							<label>$INFO[Window(Home).Property(NextAired.9.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.9.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.9.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.9.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.9.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.9.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.9.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.9.AirDay),Tuesday)</visible>
 						</item>
 						<item id="10">
 							<label>$INFO[Window(Home).Property(NextAired.10.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.10.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.10.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.10.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.10.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.10.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.10.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.10.AirDay),Tuesday)</visible>
 						</item>
 						<item id="11">
 							<label>$INFO[Window(Home).Property(NextAired.11.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.11.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.11.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.11.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.11.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.11.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.11.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.11.AirDay),Tuesday)</visible>
 						</item>
 						<item id="12">
 							<label>$INFO[Window(Home).Property(NextAired.12.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.12.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.12.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.12.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.12.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.12.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.12.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.12.AirDay),Tuesday)</visible>
 						</item>
 						<item id="13">
 							<label>$INFO[Window(Home).Property(NextAired.13.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.13.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.13.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.13.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.13.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.13.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.13.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.13.AirDay),Tuesday)</visible>
 						</item>
 						<item id="14">
 							<label>$INFO[Window(Home).Property(NextAired.14.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.14.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.14.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.14.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.14.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.14.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.14.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.14.AirDay),Tuesday)</visible>
 						</item>
 						<item id="15">
 							<label>$INFO[Window(Home).Property(NextAired.15.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.15.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.15.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.15.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.15.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.15.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.15.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.15.AirDay),Tuesday)</visible>
 						</item>
 						<item id="16">
 							<label>$INFO[Window(Home).Property(NextAired.16.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.16.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.16.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.16.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.16.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.16.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.16.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.16.AirDay),Tuesday)</visible>
 						</item>
 						<item id="17">
 							<label>$INFO[Window(Home).Property(NextAired.17.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.17.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.17.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.17.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.17.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.17.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.17.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.17.AirDay),Tuesday)</visible>
 						</item>
 						<item id="18">
 							<label>$INFO[Window(Home).Property(NextAired.18.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.18.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.18.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.18.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.18.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.18.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.18.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.18.AirDay),Tuesday)</visible>
 						</item>
 						<item id="19">
 							<label>$INFO[Window(Home).Property(NextAired.19.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.19.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.19.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.19.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.19.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.19.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.19.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.19.AirDay),Tuesday)</visible>
 						</item>
 						<item id="20">
 							<label>$INFO[Window(Home).Property(NextAired.20.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.20.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.20.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.20.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.20.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.20.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.20.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.20.AirDay),Tuesday)</visible>
 						</item>
 						<item id="21">
 							<label>$INFO[Window(Home).Property(NextAired.21.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.21.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.21.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.21.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.21.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.21.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.21.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.21.AirDay),Tuesday)</visible>
 						</item>
 						<item id="22">
 							<label>$INFO[Window(Home).Property(NextAired.22.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.22.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.22.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.22.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.22.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.22.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.22.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.22.AirDay),Tuesday)</visible>
 						</item>
 						<item id="23">
 							<label>$INFO[Window(Home).Property(NextAired.23.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.23.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.23.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.23.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.23.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.23.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.23.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.23.AirDay),Tuesday)</visible>
 						</item>
 						<item id="24">
 							<label>$INFO[Window(Home).Property(NextAired.24.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.24.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.24.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.24.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.24.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.24.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.24.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.24.AirDay),Tuesday)</visible>
 						</item>
 						<item id="25">
 							<label>$INFO[Window(Home).Property(NextAired.25.NextDate)]</label>
-							<label2>$INFO[Window(Home).Property(NextAired.25.shortime)]</label2>
+							<label2>$INFO[Window(Home).Property(NextAired.25.ShortTime)]</label2>
 							<onclick>-</onclick>
 							<icon>studios/$INFO[Window(Home).Property(NextAired.25.Network),,.png]</icon>
-							<thumb>$INFO[Window(Home).Property(NextAired.25.Showpath),,banner.jpg]</thumb>
-							<visible>StringCompare(Window(Home).Property(NextAired.25.airday),Tuesday)</visible>
+							<thumb>$INFO[Window(Home).Property(NextAired.25.Art(banner))]</thumb>
+							<visible>StringCompare(Window(Home).Property(NextAired.25.AirDay),Tuesday)</visible>
 						</item>
 					</content>
 				</control>
@@ -1284,7 +1284,7 @@
 
 
 		</control>
-		<include>Clock</include>
+		<include>Clock-White</include>
 	</controls>
 </window>
 
