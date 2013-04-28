@@ -632,7 +632,16 @@
 		</control>
 	</include>
 	<include name="AudioCodecFlaggingConditionsList">
-		<control type="image">
+	
+	<control type="image">
+			<description>mp3 Codec Image</description>
+			<width>76</width>
+			<height>50</height>
+			<aspectratio>keep</aspectratio>
+			<texture>$INFO[ListItem.AudioCodec,flags/black/audio/,.png]</texture>
+			
+		</control>
+		<!-- <control type="image">
 			<description>mp3 Codec Image</description>
 			<width>76</width>
 			<height>50</height>
@@ -687,15 +696,15 @@
 			<aspectratio>keep</aspectratio>
 			<texture>flags/black/audio/dtshd_ma.png</texture>
 			<visible>substring(ListItem.AudioCodec,dtshd_ma)|substring(ListItem.AudioCodec,dtshd_hra)</visible>
-		</control>
-		<control type="image">
+		</control> -->
+		<!-- <control type="image">
 			<description>WMA Pro Codec Image</description>
 			<width>76</width>
 			<height>50</height>
 			<aspectratio>keep</aspectratio>
 			<texture>flags/black/audio/wmapro.png</texture>
 			<visible>substring(ListItem.AudioCodec,wmapro)</visible>
-		</control>
+		</control> -->
 	</include>
 
 	<include name="AudioChannelFlaggingConditionsList">

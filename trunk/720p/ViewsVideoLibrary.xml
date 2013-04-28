@@ -1509,7 +1509,7 @@
 					<posy>445</posy>
 					<width>400</width>
 					<height>25</height>
-					<font>Simplicity_20</font>
+					<font>Simplicity_22</font>
 					<textcolor>black</textcolor>
 					<scroll>false</scroll>
 					<align>left</align>
@@ -1522,7 +1522,7 @@
 					<posy>445</posy>
 					<width>400</width>
 					<height>25</height>
-					<font>Simplicity_20</font>
+					<font>Simplicity_22</font>
 					<textcolor>black</textcolor>
 					<scroll>false</scroll>
 					<align>left</align>
@@ -1535,7 +1535,7 @@
 					<posy>470</posy>
 					<width>400</width>
 					<height>25</height>
-					<font>Simplicity_20</font>
+					<font>Simplicity_22</font>
 					<textcolor>red</textcolor>
 					<shadowcolor>black</shadowcolor>
 					<scroll>false</scroll>
@@ -1544,11 +1544,11 @@
 					<visible>!Container.Content(TVShows)</visible>
 				</control>
 				<control type="label">
-					<posx>160</posx>
+					<posx>164</posx>
 					<posy>471</posy>
 					<width>400</width>
 					<height>25</height>
-					<font>Simplicity_20</font>
+					<font>Simplicity_22</font>
 					<textcolor>black</textcolor>
 					<scroll>false</scroll>
 					<align>left</align>
@@ -1560,7 +1560,7 @@
 					<posy>505</posy>
 					<width>384</width>
 					<height>105</height>
-					<font>Simplicity_20</font>
+					<font>Simplicity_24</font>
 					<textcolor>black</textcolor>
 					<align>justify</align>
 					<label>$INFO[ListItem.Plot]</label>
