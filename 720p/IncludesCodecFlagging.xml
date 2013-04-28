@@ -554,6 +554,16 @@
 			<width>76</width>
 			<height>50</height>
 			<aspectratio>keep</aspectratio>
+			<texture>$INFO[ListItem.AudioCodec,flags/audio/,.png]</texture>
+			
+		</control>
+	
+	
+		<!-- <control type="image">
+			<description>mp3 Codec Image</description>
+			<width>76</width>
+			<height>50</height>
+			<aspectratio>keep</aspectratio>
 			<texture>flags/audio/mp3.png</texture>
 			<visible>substring(ListItem.AudioCodec,mp3)</visible>
 		</control>
@@ -612,7 +622,7 @@
 			<aspectratio>keep</aspectratio>
 			<texture>flags/audio/wmapro.png</texture>
 			<visible>substring(ListItem.AudioCodec,wmapro)</visible>
-		</control>
+		</control> -->
 		<control type="image">
 			<description>Audio Channels Image</description>
 			<width>76</width>
