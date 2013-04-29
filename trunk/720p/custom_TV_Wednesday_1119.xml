@@ -323,7 +323,7 @@
 								<posy>155</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -334,7 +334,7 @@
 								<posy>195</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -345,7 +345,7 @@
 								<posy>235</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -356,7 +356,7 @@
 								<posy>275</posy>
 								<width>482</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -367,7 +367,7 @@
 								<posy>315</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -378,7 +378,7 @@
 								<posy>355</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -389,7 +389,7 @@
 								<posy>395</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -440,7 +440,7 @@
 								<posy>155</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -451,7 +451,7 @@
 								<posy>195</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -462,7 +462,7 @@
 								<posy>235</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -473,18 +473,18 @@
 								<posy>275</posy>
 								<width>482</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
-								<label>$LOCALIZE[31070]: [COLOR=white]$INFO[ListItem.Property(Genres)][/COLOR]</label>
+								<label>$LOCALIZE[31070]: [COLOR=white]$INFO[ListItem.Property(Genre)][/COLOR]</label>
 							</control>		
 							<control type="label">
 								<posx>337</posx>
 								<posy>315</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -495,7 +495,7 @@
 								<posy>355</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
@@ -506,7 +506,7 @@
 								<posy>395</posy>
 								<width>382</width>
 								<height>30</height>
-								<font>Simplicity_24</font>
+								<font>Simplicity_26</font>
 								<textcolor>yellow</textcolor>
 								<align>left</align>
 								<aligny>center</aligny>
