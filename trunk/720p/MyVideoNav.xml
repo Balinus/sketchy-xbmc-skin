@@ -317,12 +317,20 @@
 						<description>Use TV Guide</description>
 						<include>ButtonCommonValuesSub</include>
 						<label>Use TV Guide shortcut</label>
-						<onclick>Skin.ToggleSetting(UseTVGuide)</onclick>
-						
+						<onclick>Skin.ToggleSetting(UseTVGuide)</onclick>						
 						<selected>Skin.HasSetting(UseTVGuide)</selected>
 						<onclick condition="Skin.HasSetting(UseRecentShortcut)">Skin.ToggleSetting(UseRecentShortcut)</onclick>
 						<onclick>XBMC.ReloadSkin</onclick>
 <!-- 						<visible>!Skin.HasSetting(UseRecentShortcut)</visible> -->
+					</control>
+						<control type="radiobutton" id="210">
+						<textwidth>170</textwidth>
+						<description>Toggle Next Aired infos</description>
+						<include>ButtonCommonValuesSub</include>
+						<label>Show Next Aired Infos</label>
+						<onclick>Skin.ToggleSetting(ShowNextAiredInfos)</onclick>
+						<selected>Skin.HasSetting(ShowNextAiredInfos)</selected>
+						<visible>Control.IsVisible(533)</visible>
 					</control>
 				</control>
 			</control>
