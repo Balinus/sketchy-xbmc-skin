@@ -1681,7 +1681,7 @@
 				<visible>!substring(Container.FolderPath,videodb://5/)</visible> 
 				<control type="image">
 					<posx>77</posx>
-					<posy>168</posy>
+					<posy>148</posy>
 					<width>410</width>
 					<height>87</height>
 					<align>right</align>
@@ -1690,7 +1690,7 @@
 				</control>
 				<control type="image">
 					<posx>90</posx>
-					<posy>170</posy>
+					<posy>150</posy>
 					<width>384</width>
 					<height>73</height>
 					<align>right</align>
@@ -1700,7 +1700,7 @@
 				</control>
 				<control type="image">
 					<posx>90</posx>
-					<posy>170</posy>
+					<posy>150</posy>
 					<width>384</width>
 					<height>73</height>
 					<align>right</align>
@@ -1710,7 +1710,7 @@
 				</control>
 				<control type="image">
 					<posx>90</posx>
-					<posy>170</posy>
+					<posy>150</posy>
 					<width>384</width>
 					<height>73</height>
 					<align>right</align>
@@ -1721,7 +1721,7 @@
 				
 				<control type="image">
 					<posx>90</posx>
-					<posy>170</posy>
+					<posy>160</posy>
 					<width>384</width>
 					<height>73</height>
 					<align>right</align>
@@ -1731,7 +1731,7 @@
 				<control type="grouplist">
 					<description>Studio Codec Flagging Images</description>
 					<posx>87</posx>
-					<posy>501</posy>
+					<posy>511</posy>
 					<width>150</width>
 					<align>left</align>
 					<itemgap>0</itemgap>
@@ -1739,40 +1739,41 @@
 					<include>StudioFlaggingConditionsBigBlack</include>
 					<include>Zoom</include>		
 				</control>
-					<control type = "grouplist">
-						<description>MPAA Flagging Conditions Images</description>
-						<posx>387</posx>
-						<posy>521</posy>
-						<width>150</width>
-						<align>left</align>
-						<itemgap>0</itemgap>
-						<orientation>horizontal</orientation>
-						<include>TVMPAAFlaggingConditionsBlack</include>
-						<include>Zoom</include>
-					</control>
+				<control type = "grouplist">
+					<description>MPAA Flagging Conditions Images</description>
+					<posx>387</posx>
+					<posy>531</posy>
+					<width>150</width>
+					<align>left</align>
+					<itemgap>0</itemgap>
+					<orientation>horizontal</orientation>
+					<include>TVMPAAFlaggingConditionsBlack</include>
+					<include>Zoom</include>
+				</control>
 				<control type="group">
-						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+					<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					<posx>90</posx>
-					<posy>445</posy>
+					<posy>455</posy>
 					<include>EpisodeNextAiredDate</include>
 					<include>Zoom</include>		
 				</control>
 				<control type="group">
-						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
+					<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					<posx>90</posx>
-					<posy>475</posy>
+					<posy>485</posy>
 					<include>EpisodeNextAiredTime</include>
 					<include>Zoom</include>		
 				</control>
 				<control type="textbox">
 					<posx>90</posx>
-					<posy>260</posy>
+					<posy>245</posy>
 					<width>384</width>
-					<height>163</height>
-					<font>Simplicity_20</font>
+					<height>195</height>
+					<font>Simplicity_24</font>
 					<textcolor>black</textcolor>
-					<align>left</align>
+					<align>justify</align>
 					<label>$INFO[Container.ShowPlot]</label>
+					<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
 					<include>Zoom</include>		
 				</control>
 			</control>
