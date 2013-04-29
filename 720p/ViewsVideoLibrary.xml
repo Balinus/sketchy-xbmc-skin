@@ -589,7 +589,7 @@
 							<posy>0</posy>
 							<width>80</width>
 							<height>20</height>
-							<font>Simplicity_60</font>
+							<font>Simplicity_50</font>
 							<textcolor>black</textcolor>
 							<align>right</align>
 							<label>$INFO[ListItem.Episode]</label>
@@ -618,22 +618,28 @@
 				</itemlayout>
 				<focusedlayout height="210" width="800">
 					<control type="label">
-						<posx>270</posx>
-						<posy>18</posy>
-						<width>450</width>
-						<height>20</height>
-						<font>Simplicity_30</font>
-						<textcolor>red</textcolor>
-						<selectedcolor>red</selectedcolor>
-						<scroll>false</scroll>
-						<scrollspeed>0</scrollspeed>
-						<align>left</align>
-						<label>$INFO[ListItem.Episode]: $INFO[ListItem.Title]</label>
-						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-					</control>
+							<posx>110</posx>
+							<posy>0</posy>
+							<width>80</width>
+							<height>20</height>
+							<font>Simplicity_70</font>
+							<textcolor>red</textcolor>
+							<align>right</align>
+							<label>$INFO[ListItem.Episode]</label>
+						</control>
+						<control type="label">
+							<posx>135</posx>
+							<posy>8</posy>
+							<width>500</width>
+							<height>30</height>
+							<font>Simplicity_30</font>
+							<textcolor>red</textcolor>
+							<align>left</align>
+							<label>$INFO[ListItem.Title]</label>
+						</control>	
 					<control type="label">
-						<posx>270</posx>
-						<posy>50</posy>
+						<posx>135</posx>
+						<posy>42</posy>
 						<width>300</width>
 						<height>20</height>
 						<font>Simplicity_22</font>
@@ -647,7 +653,7 @@
 					</control>			
 					<control type="image">
 						<description>Star</description>
-						<posx>270</posx>
+						<posx>135</posx>
 						<posy>76</posy>
 						<width>154</width>
 						<height>30</height>
@@ -656,8 +662,8 @@
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
 					<control type="image">
-						<posx>450</posx>
-						<posy>73</posy>
+						<posx>0</posx>
+						<posy>14</posy>
 						<width>40</width>
 						<height>40</height>
 						<align>left</align>
@@ -667,37 +673,37 @@
 						<!-- <visible>Skin.HasSetting(UseFlags)</visible> -->
 						<control type="group">
 							<description>Media Codec Flagging Images</description>
-							<posx>270</posx>
+							<posx>135</posx>
 							<posy>65</posy>
 							<include>VideoCodecFlaggingConditionsList</include>
 						</control>
 						<control type="group">
 							<description>Media Codec Flagging Images</description>
-							<posx>351</posx>
+							<posx>216</posx>
 							<posy>65</posy>
 							<include>VideoResolutionFlaggingConditionsList</include>
 						</control>
 						<control type="group">
 							<description>Media Codec Flagging Images</description>
-							<posx>438</posx>
+							<posx>303</posx>
 							<posy>65</posy>
 							<include>AspectCodecFlaggingConditionsList</include>
 						</control>
 						<control type="group">
 							<description>Media Codec Flagging Images</description>
-							<posx>525</posx>
+							<posx>390</posx>
 							<posy>65</posy>
 							<include>AudioCodecFlaggingConditionsList</include>
 						</control>
 						<control type="group">
 							<description>Media Codec Flagging Images</description>
-							<posx>612</posx>
+							<posx>477</posx>
 							<posy>65</posy>
 							<include>AudioChannelFlaggingConditionsList</include>
 						</control>
 					</control>
 					<control type="textbox">
-						<posx>270</posx>
+						<posx>135</posx>
 						<posy>112</posy>
 						<width>450</width>
 						<height>88</height>
@@ -708,7 +714,7 @@
 						<autoscroll time="2000" delay="3000" repeat="5270">Skin.HasSetting(AutoScroll)</autoscroll>
 						<!-- <visible>!Skin.HasSetting(UseFlags)</visible> -->
 					</control>
-					<control type="image">
+					<!-- <control type="image">
 						<posx>0</posx>
 						<posy>26</posy>
 						<width>252</width>
@@ -719,7 +725,8 @@
 						<bordertexture border="8">simplicity/thumbborder.png</bordertexture>
 						<bordersize>8</bordersize>
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-					</control>
+						<visible>!Skin.HasSetting(TVInfoLeftFanart)</visible>
+					</control> -->
 					<control type="image">
 						<posx>0</posx>
 						<posy>26</posy>
@@ -734,7 +741,7 @@
 					</control>
 				</focusedlayout>
 			</control>		
-			<include>TVInfoLeftBanner</include>
+			<!-- <include>TVInfoLeftBanner</include> -->
 			<include>TVInfoLeftFanart</include>
 		</control>
 	</include>
