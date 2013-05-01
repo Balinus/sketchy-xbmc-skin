@@ -1458,26 +1458,54 @@
 		<control type="group">
 			<include>BottomSlide</include>
 			<visible>!Skin.HasSetting(KioskMode)</visible>
-			<control type="image">
-				<posx>130</posx>
-				<posy>684</posy>
-				<width>25</width>
-				<height>25</height>
-				<texture>left-arrow.png</texture>
+			<control type="group">
+				<visible>!Skin.HasSetting(AlternateHomeBlack)|Control.IsVisible(557)|Control.IsVisible(556)</visible>
+				<control type="image">
+					<posx>130</posx>
+					<posy>684</posy>
+					<width>25</width>
+					<height>25</height>					
+					<texture>left-arrow.png</texture>
+				</control>
+				<control type="label">
+					<description>View Options</description>
+					<posx>165</posx>
+					<posy>685</posy>
+					<height>20</height>
+					<width>370</width>
+					<label>View Options</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>Simplicity_26_Bold</font>
+					<textcolor>red</textcolor>
+					<shadowcolor>black</shadowcolor>
+				</control>	
 			</control>
-			<control type="label">
-				<description>View Options</description>
-				<posx>165</posx>
-				<posy>685</posy>
-				<height>20</height>
-				<width>275</width>
-				<label>View Options</label>
-				<align>left</align>
-				<aligny>center</aligny>
-				<font>Simplicity_24_Bold</font>
-				<textcolor>red</textcolor>
-				<shadowcolor>black</shadowcolor>
-			</control>	
+			<control type="group">
+				<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+				<visible>!Control.IsVisible(557)</visible>
+				<visible>!Control.IsVisible(556)</visible>
+				<control type="image">
+					<posx>130</posx>
+					<posy>684</posy>
+					<width>25</width>
+					<height>25</height>				
+					<texture>left-arrow-white.png</texture>
+				</control>
+				<control type="label">
+					<description>View Options</description>
+					<posx>165</posx>
+					<posy>685</posy>
+					<height>20</height>
+					<width>370</width>
+					<label>View Options</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>Simplicity_26_Bold</font>
+					<textcolor>red</textcolor>
+					<shadowcolor>black</shadowcolor>
+				</control>	
+			</control>
 		</control>	
 	</include>
 
