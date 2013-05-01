@@ -21,7 +21,7 @@
 				<onright>504</onright>
 				<onup>2</onup>
 				<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
-				<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
+				<ondown condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</ondown>
 				<viewtype label="Fanart Slide">list</viewtype>
 				<orientation>Horizontal</orientation>
 				<pagecontrol>60</pagecontrol>
@@ -152,7 +152,7 @@
 				<onright>505</onright>
 				<onup>2</onup>
 				<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
-				<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
+				<ondown condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</ondown>
 				<viewtype label="Episode Slide">list</viewtype>
 				<orientation>Horizontal</orientation>
 				<pagecontrol>60</pagecontrol>
@@ -285,7 +285,7 @@
 					<width>1800</width>
 					<height>300</height>		
 					<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
-					<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
+					<ondown condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</ondown>
 					<onup>2</onup>
 					<onleft>506</onleft>
 					<onright>506</onright>
@@ -425,7 +425,7 @@
 				<onright>507</onright>
 				<onup>2</onup>
 				<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
-				<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
+				<ondown condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</ondown>
 				<viewtype label="Banner Slide">list</viewtype>
 				<orientation>Horizontal</orientation>
 				<pagecontrol>60</pagecontrol>
@@ -564,7 +564,7 @@
 				<height>540</height>
 				<onleft>2</onleft>
 				<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-				<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+				<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 				<onup>533</onup>
 				<ondown>533</ondown>
 				<viewtype label="Alt. Episode List">list</viewtype>
@@ -768,7 +768,7 @@
 				<onright>532</onright>
 				<onup>2</onup>
 				<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
-				<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
+				<ondown condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</ondown>
 				<viewtype label="Episode List">list</viewtype>
 				<orientation>Horizontal</orientation>
 				<pagecontrol>60</pagecontrol>
@@ -862,7 +862,7 @@
 				<height>440</height>
 				<onleft>2</onleft>
 				<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-				<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+				<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 				<onup>534</onup>
 				<ondown>534</ondown>
 				<viewtype label="Season List">list</viewtype>
@@ -978,7 +978,7 @@
 				<height>500</height>
 				<onleft>2</onleft>
 				<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-				<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+				<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 				<onup>535</onup>
 				<ondown>535</ondown>
 				<viewtype label="Banner List">list</viewtype>
@@ -1265,7 +1265,7 @@
 					<width>1800</width>
 					<height>200</height>		
 					<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
-					<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
+					<ondown condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</ondown>
 					<onup>2</onup>
 					<onleft>536</onleft>
 					<onright>536</onright>
@@ -1381,7 +1381,7 @@
 					<height>357</height>		
 					<onleft>2</onleft>
 					<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-					<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+					<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 					<onup>538</onup>
 					<ondown>538</ondown>
 					<viewtype label="Landscape Grid">list</viewtype>
@@ -1559,7 +1559,7 @@
 				<height>540</height>
 				<onleft>2</onleft>
 				<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-				<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+				<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 				<onup>539</onup>
 				<ondown>539</ondown>
 				<viewtype label="Fanart List">list</viewtype>
@@ -2354,7 +2354,7 @@
 					<onright>555</onright>
 					<onup>2</onup>
 					<ondown condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</ondown>
-					<ondown condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</ondown>
+					<ondown condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</ondown>
 					<viewtype label="Fanart">list</viewtype>
 					<pagecontrol>60</pagecontrol>
 					<scrolltime>300</scrolltime>
@@ -2590,7 +2590,7 @@
 					<height>392</height>		
 					<onleft>2</onleft>
 					<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-					<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+					<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 					<onup>556</onup>
 					<ondown>556</ondown>
 					<viewtype label="Rows">list</viewtype>
@@ -2748,7 +2748,7 @@
 					<height>392</height>		
 					<onleft>2</onleft>
 					<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-					<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+					<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 					<onup>556</onup>
 					<ondown>556</ondown>
 					<viewtype label="Banner Rows">list</viewtype>
@@ -2888,7 +2888,7 @@
 				<height>500</height>
 				<onleft>2</onleft>
 				<onright condition="Skin.HasSetting(UseRecentShortcut)">ActivateWindow(1112,Home,return)</onright>
-				<onright condition="Skin.HasSetting(UseTVGuide)">XBMC.RunScript(script.tv.show.next.aired)</onright>
+				<onright condition="Skin.HasSetting(UseTVGuide)">ActivateWindow(1116)</onright>
 				<onup>559</onup>
 				<ondown>559</ondown>
 				<viewtype label="Side List">list</viewtype>

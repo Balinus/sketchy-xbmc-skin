@@ -1459,7 +1459,7 @@
 			<include>BottomSlide</include>
 			<visible>!Skin.HasSetting(KioskMode)</visible>
 			<control type="group">
-				<visible>!Skin.HasSetting(AlternateHomeBlack)|Control.IsVisible(557)|Control.IsVisible(556)</visible>
+				<visible>!Skin.HasSetting(AlternateHomeBlack)|Control.IsVisible(557)|Control.IsVisible(556)|Control.IsVisible(58)</visible>
 				<control type="image">
 					<posx>130</posx>
 					<posy>684</posy>
@@ -1485,6 +1485,7 @@
 				<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
 				<visible>!Control.IsVisible(557)</visible>
 				<visible>!Control.IsVisible(556)</visible>
+				<visible>!Control.IsVisible(58)</visible>
 				<control type="image">
 					<posx>130</posx>
 					<posy>684</posy>
