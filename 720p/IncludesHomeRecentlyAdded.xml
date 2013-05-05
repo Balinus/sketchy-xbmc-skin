@@ -281,7 +281,7 @@
 					<include>VisibleFadeEffect</include>
 					<animation effect="fade" time="400" delay="640" start="0" end="100" condition="[Container(9000).Hasfocus(3) + !Skin.HasSetting(HomeMenuNoTVShowsButton)]">Conditional</animation>
 				<control type="label">
-					<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
+					<visible>!Skin.HasSetting(AlternateHomeBlack)+!Skin.HasSetting(WatchListHomeEpisodes)</visible>
 					<description>Title label</description>
 					<posx>0</posx>
 					<posy>-34</posy>
@@ -291,11 +291,27 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Large</font>
-					<textcolor>black</textcolor>
-					<!-- <shadowcolor>black</shadowcolor> -->
+					<textcolor>black</textcolor>					
 				</control>
+				
 				<control type="label">
-				  <visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+					<visible>!Skin.HasSetting(AlternateHomeBlack)+Skin.HasSetting(WatchListHomeEpisodes)</visible>
+					<description>Title label</description>
+					<posx>0</posx>
+					<posy>-34</posy>
+					<height>20</height>
+					<width>800</width>
+					<label>watchlist...</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>Large</font>
+					<textcolor>black</textcolor>					
+				</control>
+				
+			
+				
+				<control type="label">
+				  <visible>Skin.HasSetting(AlternateHomeBlack)+!Skin.HasSetting(WatchListHomeEpisodes)</visible>
 					<description>Title label</description>
 					<posx>0</posx>
 					<posy>-34</posy>
@@ -305,8 +321,21 @@
 					<align>left</align>
 					<aligny>center</aligny>
 					<font>Large</font>
-					<textcolor>grey2</textcolor>
-					<!-- <shadowcolor>black</shadowcolor> -->
+					<textcolor>grey2</textcolor>					
+				</control>
+				
+				<control type="label">
+				  <visible>Skin.HasSetting(AlternateHomeBlack)+Skin.HasSetting(WatchListHomeEpisodes)</visible>
+					<description>Title label</description>
+					<posx>0</posx>
+					<posy>-34</posy>
+					<height>20</height>
+					<width>800</width>
+					<label>watchlist...</label>
+					<align>left</align>
+					<aligny>center</aligny>
+					<font>Large</font>
+					<textcolor>grey2</textcolor>					
 				</control>
 				<control type="wraplist" id="8008">
 					<posx>0</posx>
@@ -464,76 +493,9 @@
 					      </control>
 				      </focusedlayout>		
 					<content>
-						<item id="1">
-							<label>$INFO[Window.Property(RecentEpisode.1.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.1.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.1.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.1.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.1.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.1.Art(thumb))]</icon>
-						</item>
-						<item id="2">
-							<label>$INFO[Window.Property(RecentEpisode.2.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.2.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.2.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.2.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.2.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.2.Art(thumb))]</icon>
-						</item>
-						<item id="3">
-							<label>$INFO[Window.Property(RecentEpisode.3.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.3.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.3.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.3.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.3.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.3.Art(thumb))]</icon>
-						</item>
-						<item id="4">
-							<label>$INFO[Window.Property(RecentEpisode.4.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.4.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.4.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.4.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.4.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.4.Art(thumb))]</icon>
-						</item>
-						<item id="5">
-							<label>$INFO[Window.Property(RecentEpisode.5.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.5.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.5.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.5.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.5.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.5.Art(thumb))]</icon>
-						</item>
-						<item id="6">
-							<label>$INFO[Window.Property(RecentEpisode.6.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.6.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.6.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.6.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.6.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.6.Art(thumb))]</icon>
-						</item>
-						<item id="7">
-							<label>$INFO[Window.Property(RecentEpisode.7.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.7.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.7.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.7.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.7.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.7.Art(thumb))]</icon>
-						</item>
-						<item id="8">
-							<label>$INFO[Window.Property(RecentEpisode.8.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.8.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.8.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.8.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.8.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.8.Art(thumb))]</icon>
-						</item>
-						<item id="9">
-							<label>$INFO[Window.Property(RecentEpisode.9.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.9.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.9.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.9.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.9.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.9.Art(thumb))]</icon>
-						</item>
-						<item id="10">
-							<label>$INFO[Window.Property(RecentEpisode.10.Title)]</label>
-							<label2>$INFO[Window.Property(RecentEpisode.10.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.10.EpisodeNo)]</label2>
-							<onclick>$INFO[Window.Property(RecentEpisode.10.Play)]</onclick>
-							<thumb>$INFO[Window.Property(RecentEpisode.10.Art(tvshow.fanart))]</thumb>
-							<icon>$INFO[Window.Property(RecentEpisode.10.Art(thumb))]</icon>
-						</item>
+					  <include condition="!Skin.HasSetting(WatchListHomeEpisodes)">RecentEpisodesInfos</include>
+					  <include condition="Skin.HasSetting(WatchListHomeEpisodes)">WatchListEpisodesInfos</include>
+						
 					</content>
 				</control>
 			</control>				
