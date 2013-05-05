@@ -580,6 +580,154 @@
 					<icon>$INFO[Window.Property(RecommendedEpisode.10.Art(thumb))]</icon>
 				</item>
 	</include>
+	
+	<include name="LatestSongsInfos">
+			  <item id="1">
+				  <label>$INFO[Window.Property(LatestSong.1.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.1.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.1.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.1.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.1.Fanart)]</thumb>
+			  </item>
+			  <item id="2">
+				  <label>$INFO[Window.Property(LatestSong.2.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.2.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.2.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.2.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.2.Fanart)]</thumb>
+			  </item>
+			  <item id="3">
+				  <label>$INFO[Window.Property(LatestSong.3.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.3.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.3.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.3.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.3.Fanart)]</thumb>
+			  </item>
+			  <item id="4">
+				  <label>$INFO[Window.Property(LatestSong.4.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.4.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.4.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.4.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.4.Fanart)]</thumb>
+			  </item>
+			  <item id="5">
+				  <label>$INFO[Window.Property(LatestSong.5.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.5.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.5.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.5.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.5.Fanart)]</thumb>
+			  </item>
+			  <item id="6">
+				  <label>$INFO[Window.Property(LatestSong.6.Artist)]</label>
+				  <label2></label2>
+				  <onclick>$INFO[Window.Property(LatestSong.6.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.6.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.6.Fanart)]</thumb>
+			  </item>
+			  <item id="7">
+				  <label>$INFO[Window.Property(LatestSong.7.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.7.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.7.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.7.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.7.Fanart)]</thumb>
+			  </item>
+			  <item id="8">
+				  <label>$INFO[Window.Property(LatestSong.8.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.8.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.8.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.8.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.8.Fanart)]</thumb>
+			  </item>
+			  <item id="9">
+				  <label>$INFO[Window.Property(LatestSong.9.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.9.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.9.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.9.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.9.Fanart)]</thumb>
+			  </item>
+			  <item id="10">
+				  <label>$INFO[Window.Property(LatestSong.10.Artist)]</label>
+				  <label2>$INFO[Window.Property(LatestSong.10.Title)]</label2>
+				  <onclick>$INFO[Window.Property(LatestSong.10.Path)]</onclick>
+				  <icon>$INFO[Window.Property(LatestSong.10.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(LatestSong.10.Fanart)]</thumb>
+			  </item>
+	  
+	</include>
+
+	<include name="LatestAlbumsInfos">
+			  <item id="1">
+				  <label>$INFO[Window.Property(RecentAlbum.1.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.1.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.1.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.1.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.1.Fanart)]</thumb>
+			  </item>
+			  <item id="2">
+				  <label>$INFO[Window.Property(RecentAlbum.2.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.2.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.2.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.2.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.2.Fanart)]</thumb>
+			  </item>
+			  <item id="3">
+				  <label>$INFO[Window.Property(RecentAlbum.3.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.3.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.3.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.3.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.3.Fanart)]</thumb>
+			  </item>
+			  <item id="4">
+				  <label>$INFO[Window.Property(RecentAlbum.4.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.4.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.4.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.4.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.4.Fanart)]</thumb>
+			  </item>
+			  <item id="5">
+				  <label>$INFO[Window.Property(RecentAlbum.5.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.5.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.5.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.5.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.5.Fanart)]</thumb>
+			  </item>
+			  <item id="6">
+				  <label>$INFO[Window.Property(RecentAlbum.6.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.6.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.6.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.6.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.6.Fanart)]</thumb>
+			  </item>
+			  <item id="7">
+				  <label>$INFO[Window.Property(RecentAlbum.7.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.7.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.7.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.7.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.7.Fanart)]</thumb>
+			  </item>
+			  <item id="8">
+				  <label>$INFO[Window.Property(RecentAlbum.8.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.8.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.8.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.8.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.8.Fanart)]</thumb>
+			  </item>
+			  <item id="9">
+				  <label>$INFO[Window.Property(RecentAlbum.9.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.9.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.9.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.9.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.9.Fanart)]</thumb>
+			  </item>
+			  <item id="10">
+				  <label>$INFO[Window.Property(RecentAlbum.10.Artist)]</label>
+				  <label2>$INFO[Window.Property(RecentAlbum.10.Title)]</label2>
+				  <onclick>$INFO[Window.Property(RecentAlbum.10.Play)]</onclick>
+				  <icon>$INFO[Window.Property(RecentAlbum.10.Thumb)]</icon>
+				  <thumb>$INFO[Window.Property(RecentAlbum.10.Fanart)]</thumb>
+			  </item>
+	  
+	</include>
 
 	<include name="HomeWeather">
 		<control type="group">
