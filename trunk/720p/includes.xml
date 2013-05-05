@@ -3974,12 +3974,14 @@
 				<texture>other_textures/recently/turntables.png</texture>
 				<!--<colordiffuse>39FFFFFF</colordiffuse>-->
 			</control>		
+			<control type="group">
+			  <visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 			<control type="image">
 				<posx>20</posx>
 				<posy>-5</posy>
 				<width>60</width>
 				<height>60</height>
-				<texture>notes/3.png</texture>
+				<texture>notes/3.png</texture>				
 				<animation effect="slide" end="0,-80" time="1700" loop="true" condition="Player.Playing">Conditional</animation>
 				<animation effect="fade" start="100" end="0" time="1700" loop="true" condition="Player.Playing">Conditional</animation>
 				<visible>Player.Playing</visible>
@@ -4000,6 +4002,7 @@
 				<width>60</width>
 				<height>60</height>
 				<texture>notes/1.png</texture>
+				<colordiffuse>white</colordiffuse>
 				<animation effect="slide" end="0,-80" time="1300" loop="true" condition="Player.Playing">Conditional</animation>
 				<animation effect="fade" start="100" end="0" time="1300" loop="true" condition="Player.Playing">Conditional</animation>
 				<visible>Player.Playing</visible>
@@ -4007,12 +4010,12 @@
 			<control type="fadelabel">
 				<posx>195</posx>
 				<posy>11</posy>
-				<width>190</width>
+				<width>230</width>
 				<height>20</height>
 				<label>$INFO[MusicPlayer.Title]</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>Simplicity_20</font>
+				<font>Simplicity_24</font>
 				<textcolor>red</textcolor>
 				<shadowcolor>black</shadowcolor>
 				<scrollout>false</scrollout>
@@ -4027,7 +4030,7 @@
 				<label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>Simplicity_18</font>
+				<font>Simplicity_20</font>
 				<textcolor>black</textcolor>
 				<scrollout>false</scrollout>
 				<scrollspeed>0</scrollspeed>
@@ -4041,11 +4044,87 @@
 				<label>$INFO[MusicPlayer.TimeRemaining]</label>
 				<align>left</align>
 				<aligny>center</aligny>
-				<font>Simplicity_18</font>
+				<font>Simplicity_20</font>
 				<textcolor>black</textcolor>
 				<scrollout>false</scrollout>
 				<pauseatend>2000</pauseatend>
 			</control>
+		      </control>
+		      <control type="group">
+			  <visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+			      <control type="image">
+				      <posx>20</posx>
+				      <posy>-5</posy>
+				      <width>60</width>
+				      <height>60</height>
+				      <texture>notes/white/3.png</texture>				
+				      <animation effect="slide" end="0,-80" time="1700" loop="true" condition="Player.Playing">Conditional</animation>
+				      <animation effect="fade" start="100" end="0" time="1700" loop="true" condition="Player.Playing">Conditional</animation>
+				      <visible>Player.Playing</visible>
+			      </control>		
+			      <control type="image">
+				      <posx>120</posx>
+				      <posy>0</posy>
+				      <width>60</width>
+				      <height>60</height>
+				      <texture>notes/white/2.png</texture>
+				      <animation effect="slide" end="0,-90" time="1400" loop="true" condition="Player.Playing">Conditional</animation>
+				      <animation effect="fade" start="100" end="0" time="1400" loop="true" condition="Player.Playing">Conditional</animation>
+				      <visible>Player.Playing</visible>
+			      </control>		
+			      <control type="image">
+				      <posx>70</posx>
+				      <posy>10</posy>
+				      <width>60</width>
+				      <height>60</height>
+				      <texture>notes/white/1.png</texture>				      
+				      <animation effect="slide" end="0,-80" time="1300" loop="true" condition="Player.Playing">Conditional</animation>
+				      <animation effect="fade" start="100" end="0" time="1300" loop="true" condition="Player.Playing">Conditional</animation>
+				      <visible>Player.Playing</visible>
+			      </control>		
+			      <control type="fadelabel">
+				      <posx>195</posx>
+				      <posy>11</posy>
+				      <width>230</width>
+				      <height>20</height>
+				      <label>$INFO[MusicPlayer.Title]</label>
+				      <align>left</align>
+				      <aligny>center</aligny>
+				      <font>Simplicity_24</font>
+				      <textcolor>red</textcolor>
+				      <shadowcolor>black</shadowcolor>
+				      <scrollout>false</scrollout>
+				      <scrollspeed>0</scrollspeed>
+				      <pauseatend>2000</pauseatend>
+			      </control>
+			      <control type="fadelabel">
+				      <posx>210</posx>
+				      <posy>35</posy>
+				      <width>200</width>
+				      <height>20</height>
+				      <label>$INFO[MusicPlayer.Artist]$INFO[MusicPlayer.Album, - ]</label>
+				      <align>left</align>
+				      <aligny>center</aligny>
+				      <font>Simplicity_20</font>
+				      <textcolor>white</textcolor>
+				      <scrollout>false</scrollout>
+				      <scrollspeed>0</scrollspeed>
+				      <pauseatend>2000</pauseatend>
+			      </control>
+			      <control type="fadelabel">
+				      <posx>225</posx>
+				      <posy>59</posy>
+				      <width>480</width>
+				      <height>20</height>
+				      <label>$INFO[MusicPlayer.TimeRemaining]</label>
+				      <align>left</align>
+				      <aligny>center</aligny>
+				      <font>Simplicity_20</font>
+				      <textcolor>grey2</textcolor>
+				      <scrollout>false</scrollout>
+				      <pauseatend>2000</pauseatend>
+			      </control>
+		      </control>
 		</control>
 		<control type="group">
 			<include>Window_OpenClose_Animation</include>
