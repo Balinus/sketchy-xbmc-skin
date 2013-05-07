@@ -151,7 +151,7 @@
 							<label>[LOWERCASE]$INFO[Listitem.Label][/LOWERCASE]</label>
 							<align>left</align>
 							<aligny>center</aligny>
-							<font>Simplicity_32</font>
+							<font>Simplicity_35</font>
 							<textcolor>red</textcolor>
 						<!--	<shadowcolor>black</shadowcolor> -->
 						</control>
@@ -165,7 +165,7 @@
 							<label>[LOWERCASE]$INFO[Listitem.Label][/LOWERCASE]</label>
 							<align>left</align>
 							<aligny>center</aligny>
-							<font>Simplicity_32</font>
+							<font>Simplicity_35</font>
 							<textcolor>white</textcolor>
 						<!--	<shadowcolor>black</shadowcolor> -->
 						</control>
@@ -173,13 +173,13 @@
 						   <visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 							<description>Title label</description>
 							<posx>215</posx>
-							<posy>24</posy>
+							<posy>26</posy>
 							<height>20</height>
 							<width>600</width>
 							<label>[LOWERCASE]$INFO[Listitem.Label2] minutes[/LOWERCASE]</label>
 							<align>left</align>
 							<aligny>center</aligny>
-							<font>Simplicity_24</font>
+							<font>Simplicity_28</font>
 							<textcolor>brown</textcolor>
 						<!--	<shadowcolor>black</shadowcolor> -->
 						</control>
@@ -187,13 +187,13 @@
 						   <visible>Skin.HasSetting(AlternateHomeBlack)</visible>
 							<description>Title label</description>
 							<posx>215</posx>
-							<posy>24</posy>
+							<posy>26</posy>
 							<height>20</height>
 							<width>600</width>
 							<label>[LOWERCASE]$INFO[Listitem.Label2] minutes[/LOWERCASE]</label>
 							<align>left</align>
 							<aligny>center</aligny>
-							<font>Simplicity_24</font>
+							<font>Simplicity_28</font>
 							<textcolor>grey2</textcolor>
 						<!--	<shadowcolor>black</shadowcolor> -->
 						</control>
@@ -340,7 +340,7 @@
 				<control type="wraplist" id="8008">
 					<posx>0</posx>
 					<posy>10</posy>
-					<width>620</width>
+					<width>630</width>
 					<height>1000</height>
 					<onleft>8008</onleft>
 					<onright>8008</onright>
@@ -441,12 +441,14 @@
 						<posx>215</posx>
 						<posy>0</posy>
 						<height>20</height>
-						<width>600</width>
+						<width>400</width>
 						<label>[LOWERCASE]$INFO[Listitem.Label2][/LOWERCASE]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>Simplicity_32</font>
+						<font>Simplicity_35</font>
 						<textcolor>red</textcolor>
+						<scroll>true</scroll>
+						<scrollspeed>40</scrollspeed>
 					<!--	<shadowcolor>black</shadowcolor> -->
 					</control>
 					<control type="label">
@@ -455,25 +457,27 @@
 						<posx>215</posx>
 						<posy>0</posy>
 						<height>20</height>
-						<width>600</width>
+						<width>400</width>
 						<label>[LOWERCASE]$INFO[Listitem.Label2][/LOWERCASE]</label>
 						<align>left</align>
 						<aligny>center</aligny>
-						<font>Simplicity_32</font>
+						<font>Simplicity_35</font>
 						<textcolor>white</textcolor>
+						<scroll>true</scroll>
+						<scrollspeed>40</scrollspeed>
 					<!--	<shadowcolor>black</shadowcolor> -->
 					</control>
 					      <control type="label">
 						<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 						      <description>Title label</description>
 						      <posx>215</posx>
-						      <posy>24</posy>
+						      <posy>28</posy>
 						      <height>20</height>
 						      <width>600</width>
 						      <label>[LOWERCASE]"$INFO[Listitem.Label]"[/LOWERCASE]</label>
 						      <align>left</align>
 						      <aligny>center</aligny>
-						      <font>Simplicity_24</font>
+						      <font>Simplicity_28</font>
 						      <textcolor>brown</textcolor>
 					      <!--	<shadowcolor>black</shadowcolor> -->
 					      </control>
@@ -481,13 +485,13 @@
 						<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
 						      <description>Title label</description>
 						      <posx>215</posx>
-						      <posy>24</posy>
+						      <posy>28</posy>
 						      <height>20</height>
 						      <width>600</width>
 						      <label>[LOWERCASE]"$INFO[Listitem.Label]"[/LOWERCASE]</label>
 						      <align>left</align>
 						      <aligny>center</aligny>
-						      <font>Simplicity_24</font>
+						      <font>Simplicity_28</font>
 						      <textcolor>grey2</textcolor>
 					      <!--	<shadowcolor>black</shadowcolor> -->
 					      </control>
