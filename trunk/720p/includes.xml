@@ -506,6 +506,41 @@
 					<thumb>$INFO[Window.Property(RecentEpisode.10.Art(tvshow.fanart))]</thumb>
 					<icon>$INFO[Window.Property(RecentEpisode.10.Art(thumb))]</icon>
 				</item>
+				<item id="11">
+					<label>$INFO[Window.Property(RecentEpisode.11.Title)]</label>
+					<label2>$INFO[Window.Property(RecentEpisode.11.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.11.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecentEpisode.11.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecentEpisode.11.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecentEpisode.11.Art(thumb))]</icon>
+				</item>
+				<item id="12">
+					<label>$INFO[Window.Property(RecentEpisode.12.Title)]</label>
+					<label2>$INFO[Window.Property(RecentEpisode.12.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.12.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecentEpisode.12.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecentEpisode.12.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecentEpisode.12.Art(thumb))]</icon>
+				</item>
+				<item id="13">
+					<label>$INFO[Window.Property(RecentEpisode.13.Title)]</label>
+					<label2>$INFO[Window.Property(RecentEpisode.13.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.13.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecentEpisode.13.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecentEpisode.13.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecentEpisode.13.Art(thumb))]</icon>
+				</item>
+				<item id="14">
+					<label>$INFO[Window.Property(RecentEpisode.14.Title)]</label>
+					<label2>$INFO[Window.Property(RecentEpisode.14.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.14.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecentEpisode.14.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecentEpisode.14.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecentEpisode.14.Art(thumb))]</icon>
+				</item>
+				<item id="15">
+					<label>$INFO[Window.Property(RecentEpisode.15.Title)]</label>
+					<label2>$INFO[Window.Property(RecentEpisode.15.TVshowTitle)] - $INFO[Window.Property(RecentEpisode.15.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecentEpisode.15.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecentEpisode.15.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecentEpisode.15.Art(thumb))]</icon>
+				</item>
 	</include>
 	
 	<include name="WatchListEpisodesInfos">
@@ -588,6 +623,46 @@
 					<thumb>$INFO[Window.Property(RecommendedEpisode.10.Art(tvshow.fanart))]</thumb>
 					<icon>$INFO[Window.Property(RecommendedEpisode.10.Art(thumb))]</icon>
 					<visible>!IsEmpty($INFO[Window.Property(RecommendedEpisode.10.Title))</visible>
+				</item>
+				<item id="11">
+					<label>$INFO[Window.Property(RecommendedEpisode.11.Title)]</label>
+					<label2>$INFO[Window.Property(RecommendedEpisode.11.TVshowTitle)] - $INFO[Window.Property(RecommendedEpisode.11.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecommendedEpisode.11.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecommendedEpisode.11.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecommendedEpisode.11.Art(thumb))]</icon>
+					<visible>!IsEmpty($INFO[Window.Property(RecommendedEpisode.11.Title))</visible>
+				</item>
+				<item id="12">
+					<label>$INFO[Window.Property(RecommendedEpisode.12.Title)]</label>
+					<label2>$INFO[Window.Property(RecommendedEpisode.12.TVshowTitle)] - $INFO[Window.Property(RecommendedEpisode.12.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecommendedEpisode.12.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecommendedEpisode.12.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecommendedEpisode.12.Art(thumb))]</icon>
+					<visible>!IsEmpty($INFO[Window.Property(RecommendedEpisode.12.Title))</visible>
+				</item>
+				<item id="13">
+					<label>$INFO[Window.Property(RecommendedEpisode.13.Title)]</label>
+					<label2>$INFO[Window.Property(RecommendedEpisode.13.TVshowTitle)] - $INFO[Window.Property(RecommendedEpisode.13.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecommendedEpisode.13.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecommendedEpisode.13.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecommendedEpisode.13.Art(thumb))]</icon>
+					<visible>!IsEmpty($INFO[Window.Property(RecommendedEpisode.13.Title))</visible>
+				</item>
+				<item id="14">
+					<label>$INFO[Window.Property(RecommendedEpisode.14.Title)]</label>
+					<label2>$INFO[Window.Property(RecommendedEpisode.14.TVshowTitle)] - $INFO[Window.Property(RecommendedEpisode.14.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecommendedEpisode.14.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecommendedEpisode.14.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecommendedEpisode.14.Art(thumb))]</icon>
+					<visible>!IsEmpty($INFO[Window.Property(RecommendedEpisode.14.Title))</visible>
+				</item>
+				<item id="15">
+					<label>$INFO[Window.Property(RecommendedEpisode.15.Title)]</label>
+					<label2>$INFO[Window.Property(RecommendedEpisode.15.TVshowTitle)] - $INFO[Window.Property(RecommendedEpisode.15.EpisodeNo)]</label2>
+					<onclick>$INFO[Window.Property(RecommendedEpisode.15.Play)]</onclick>
+					<thumb>$INFO[Window.Property(RecommendedEpisode.15.Art(tvshow.fanart))]</thumb>
+					<icon>$INFO[Window.Property(RecommendedEpisode.15.Art(thumb))]</icon>
+					<visible>!IsEmpty($INFO[Window.Property(RecommendedEpisode.15.Title))</visible>
 				</item>
 	</include>
 	
