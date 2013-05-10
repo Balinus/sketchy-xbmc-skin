@@ -546,7 +546,7 @@
 						<textureradionofocus>simplicity/settings-radiobutton-off.png</textureradionofocus>
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
-						<label>Use Alternate Home Layout ("Black")</label>
+						<label>Use Alternate Dark Theme</label>
 						<onclick>Skin.ToggleSetting(AlternateHomeBlack)</onclick>
 						<selected>Skin.HasSetting(AlternateHomeBlack)</selected>
 					</control>
