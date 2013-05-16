@@ -2167,7 +2167,7 @@
 						<visible>!Container.Content(TVShows)</visible>
 					</control>
 					<control type="label">
-						<posx>164</posx>
+						<posx>176</posx>
 						<posy>471</posy>
 						<width>400</width>
 						<height>25</height>
