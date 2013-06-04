@@ -4497,6 +4497,28 @@
     </control>-->
      
 	</include>
+	<include name="Clock-Black">
+		
+	 <!-- TIME LABEL -->
+      
+		    <control type="label">
+			<visible>!Skin.HasSetting(DisableClock)</visible>
+			<description>time label</description>
+			<posx>20r</posx>
+			<posy>30</posy>
+			<width>500</width>
+			<height>28</height>
+			<align>right</align>
+			<aligny>center</aligny>
+			<font>Large</font>
+			<textcolor>black</textcolor>
+			<label>$INFO[System.Time(hh:mm)]</label>
+			<include>Window_OpenClose_Animation</include>
+		    </control>
+   
+		
+     
+	</include>
 <include name="Clock-White">
 
 	 <!-- TIME LABEL -->
