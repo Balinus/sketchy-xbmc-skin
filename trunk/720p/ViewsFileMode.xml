@@ -197,26 +197,49 @@
 		<control type="group">
 			<visible>Control.IsVisible(500)</visible>
 			<include>VisibleFadeEffect</include>
-			<include>GlobalBackgroundFaded</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFaded</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFadedBlack</include>
 			<include>UpOptions</include>
 			<include>FileBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">DownOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">DownOpenTVGuide</include>
-			<control type="image">
-				<posx>40</posx>
-				<posy>332.5</posy>
-				<width>50</width>
-				<height>50</height>
-				<texture>left-arrow.png</texture>
-				<visible>Container(500).HasPrevious</visible>
+			<control type="group">
+				<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
+				<control type="image">
+					<posx>40</posx>
+					<posy>332.5</posy>
+					<width>50</width>
+					<height>50</height>
+					<texture>left-arrow.png</texture>
+					<visible>Container(500).HasPrevious</visible>
+				</control>
+				<control type="image">
+					<posx>1190</posx>
+					<posy>332.5</posy>
+					<width>50</width>
+					<height>50</height>
+					<texture>right-arrow.png</texture>
+					<visible>Container(500).HasNext</visible>
+				</control>
 			</control>
-			<control type="image">
-				<posx>1190</posx>
-				<posy>332.5</posy>
-				<width>50</width>
-				<height>50</height>
-				<texture>right-arrow.png</texture>
-				<visible>Container(500).HasNext</visible>
+			<control type="group">
+				<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+				<control type="image">
+					<posx>40</posx>
+					<posy>332.5</posy>
+					<width>50</width>
+					<height>50</height>
+					<texture>left-arrow-white.png</texture>
+					<visible>Container(500).HasPrevious</visible>
+				</control>
+				<control type="image">
+					<posx>1190</posx>
+					<posy>332.5</posy>
+					<width>50</width>
+					<height>50</height>
+					<texture>right-arrow-white.png</texture>
+					<visible>Container(500).HasNext</visible>
+				</control>
 			</control>
 			<control type="panel" id="500">
 				<include>Zoom</include>
@@ -283,16 +306,33 @@
 						<texture background="true">studios/$INFO[ListItem.label,,.png]</texture>
 						<visible>Container.Content(Studios)</visible>
 					</control>
-					<control type="label">
-						<description>header label</description>
-						<posx>125</posx>
-						<posy>140</posy>
-						<width>220</width>
-						<height>30</height>
-						<label>$INFO[ListItem.label]</label>
-						<font>Simplicity_24</font>
-						<align>center</align>
-						<textcolor>brown</textcolor>
+					<control type="group">
+						<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
+						<control type="label">
+							<description>header label</description>
+							<posx>125</posx>
+							<posy>140</posy>
+							<width>220</width>
+							<height>30</height>
+							<label>$INFO[ListItem.label]</label>
+							<font>Simplicity_24</font>
+							<align>center</align>
+							<textcolor>brown</textcolor>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+						<control type="label">
+							<description>header label</description>
+							<posx>125</posx>
+							<posy>140</posy>
+							<width>220</width>
+							<height>30</height>
+							<label>$INFO[ListItem.label]</label>
+							<font>Simplicity_24</font>
+							<align>center</align>
+							<textcolor>grey2</textcolor>
+						</control>
 					</control>
 				</itemlayout>
 				<focusedlayout height="185" width="260">
@@ -357,18 +397,37 @@
 						<visible>Container.Content(Studios)</visible>
 						<animation effect="zoom" start="100" end="105" center="auto" time="100">Focus</animation>
 					</control>
-					<control type="label">
-						<description>header label</description>
-						<posx>125</posx>
-						<posy>140</posy>
-						<width>220</width>
-						<height>30</height>
-						<font>Simplicity_24</font>
-						<label>$INFO[ListItem.label]</label>
-						<align>center</align>
-						<textcolor>black</textcolor>
-						<selectedcolor>black</selectedcolor>
-						<animation effect="zoom" start="100" end="110" easing="out" tween="back" time="100">Focus</animation>
+					<control type="group">
+						<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
+						<control type="label">
+							<description>header label</description>
+							<posx>125</posx>
+							<posy>140</posy>
+							<width>220</width>
+							<height>30</height>
+							<font>Simplicity_24</font>
+							<label>$INFO[ListItem.label]</label>
+							<align>center</align>
+							<textcolor>black</textcolor>
+							<selectedcolor>black</selectedcolor>
+							<animation effect="zoom" start="100" end="110" easing="out" tween="back" time="100">Focus</animation>
+						</control>
+					</control>
+					<control type="group">
+						<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
+						<control type="label">
+							<description>header label</description>
+							<posx>125</posx>
+							<posy>140</posy>
+							<width>220</width>
+							<height>30</height>
+							<font>Simplicity_24</font>
+							<label>$INFO[ListItem.label]</label>
+							<align>center</align>
+							<textcolor>white</textcolor>
+							<selectedcolor>white</selectedcolor>
+							<animation effect="zoom" start="100" end="110" easing="out" tween="back" time="100">Focus</animation>
+						</control>
 					</control>
 				</focusedlayout>
 			</control>
