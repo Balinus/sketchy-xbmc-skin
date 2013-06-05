@@ -201,10 +201,10 @@
 					</control>
 					<control type="image">
 						<posx>230</posx>
-						<posy>135</posy>
-						<width>38</width>
-						<height>38</height>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<posy>132</posy>
+						<width>48</width>
+						<height>48</height>
+						<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
 						<include>VisibleFaddeEffect</include>
 					</control>
 				</itemlayout>
@@ -242,12 +242,13 @@
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						<animation effect="zoom" end="120" center="auto" time="300" reversible="false">Focus</animation> 
 					</control>
+					
 					<control type="image">
 						<posx>260</posx>
-						<posy>135</posy>
-						<width>48</width>
-						<height>48</height>
-						<texture>$INFO[ListItem.Overlay]</texture>
+						<posy>132</posy>
+						<width>68</width>
+						<height>68</height>
+						<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
 						<include>VisibleFadeEffect</include>
 					</control>
 				</focusedlayout>
@@ -346,6 +347,14 @@
 							<aspectratio>stretch</aspectratio>
 							<visible>Skin.HasSetting(UseSepiaFilter)</visible>
 						</control>
+						<control type="image">
+							<posx>50</posx>
+							<posy>148</posy>
+							<width>68</width>
+							<height>68</height>
+							<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
+							<include>VisibleFadeEffect</include>
+						</control>
 					</itemlayout>
 					<focusedlayout height="390" width="149">
 						<control type="group">
@@ -395,6 +404,15 @@
 								<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation> 
 								<aspectratio>stretch</aspectratio>
 							</control>
+						</control>
+						<control type="image">
+							<posx>60</posx>
+							<posy>148</posy>
+							<width>68</width>
+							<height>68</height>
+							<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
+							<include>VisibleFadeEffect</include>
+							<animation effect="zoom" end="110" center="auto" time="300" reversible="false">Focus</animation>
 						</control>
 					</focusedlayout>
 					</control>	
@@ -959,13 +977,13 @@
 				<focusposition>4</focusposition>
 				<preloaditems>400</preloaditems>
 				<visible>Container.Content(Episodes)</visible>
-				<itemlayout height="200" width="100">
+				<itemlayout height="200" width="120">
 					<control type="group">
 						<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 						<posx>65</posx>
 						<control type="image">
-							<posx>0</posx>
-							<posy>17</posy>
+							<posx>75</posx>
+							<posy>57</posy>
 							<width>40</width>
 							<height>40</height>
 							<align>left</align>
@@ -987,12 +1005,12 @@
 						<control type="label">
 							<posx>170</posx>
 							<posy>80</posy>
-							<width>80</width>
+							<width>100</width>
 							<height>20</height>
 							<font>Simplicity_70</font>
 							<textcolor>red</textcolor>
 							<align>right</align>
-							<label>$INFO[ListItem.Episode]</label>
+							<label>$INFO[ListItem.Episode]:</label>
 						</control>
 					<control type="image">
 						<posx>180</posx>
@@ -1018,6 +1036,14 @@
 						<bordersize>8</bordersize>
 						<visible>stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>
+					<control type="image">
+							<posx>188</posx>
+							<posy>30</posy>
+							<width>68</width>
+							<height>68</height>
+							<align>left</align>
+							<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
+						</control>
 				</focusedlayout>
 			</control>		
 					<control type="group">
@@ -1068,15 +1094,16 @@
 						</control>
 						<control type="label">
 							<posx>235</posx>
-							<posy>11</posy>
+							<posy>8</posy>
 							<width>350</width>
 							<height>20</height>
-							<font>Simplicity_18</font>
+							<font>Simplicity_22</font>
 							<textcolor>brown</textcolor>
 							<align>left</align>
 							<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
-						</control>					
+						</control>	
+											
 					</control>	
 				</itemlayout>
 				<focusedlayout height="230" width="800">
@@ -1097,12 +1124,13 @@
 						<posy>100</posy>
 						<width>350</width>
 						<height>20</height>
-						<font>Simplicity_18</font>
+						<font>Simplicity_24</font>
 						<textcolor>black</textcolor>
 						<align>left</align>
 						<label>$INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
 							<visible>!stringcompare(ListItem.Icon,DefaultFolderBack.png)</visible>
 					</control>	
+						
 					<control type="image">
 						<posx>95</posx>
 						<posy>-7</posy>
@@ -1172,7 +1200,7 @@
 				<itemlayout height="85" width="680">
 					<control type="image">
 						<posx>33</posx>
-						<posy>17</posy>
+						<posy>8</posy>
 						<width>42</width>
 						<height>42</height>
 						<texture>simplicity\banners\$INFO[ListItem.Overlay]</texture>
