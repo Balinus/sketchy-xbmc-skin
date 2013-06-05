@@ -6,7 +6,8 @@
 			<include condition="!Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFaded</include>
 			<include condition="Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFadedBlack</include>
 			<include>LeftOptions</include>
-			<include>FileBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">FileBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">FileBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
 			<control type="fixedlist" id="50">
@@ -200,7 +201,8 @@
 			<include condition="!Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFaded</include>
 			<include condition="Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFadedBlack</include>
 			<include>LeftOptions</include>
-			<include>FileBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">FileBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">FileBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
 			<control type="fixedlist" id="540">
@@ -411,7 +413,8 @@
 			<include condition="!Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFaded</include>
 			<include condition="Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFadedBlack</include>
 			<include>UpOptions</include>
-			<include>FileBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">FileBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">FileBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">DownOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">DownOpenTVGuide</include>
 			<control type="group">
