@@ -223,7 +223,7 @@
 					<control type="group">
 						<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 						<control type="label">
-							<posx>45</posx>
+							<posx>55</posx>
 							<posy>8</posy>
 							<width>500</width>
 							<height>30</height>
@@ -236,7 +236,7 @@
 					<control type="group">
 						<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
 						<control type="label">
-							<posx>45</posx>
+							<posx>55</posx>
 							<posy>8</posy>
 							<width>500</width>
 							<height>30</height>
@@ -246,12 +246,20 @@
 							<label>$INFO[ListItem.label]</label>
 						</control>					
 					</control>	
+					<control type="image">
+							<posx>8</posx>
+							<posy>5</posy>
+							<width>30</width>
+							<height>30</height>
+							<align>left</align>
+							<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
+					</control>
 				</itemlayout>
 				<focusedlayout height="40" width="800">
 						<control type="group">
 							<visible>!Skin.HasSetting(AlternateHomeBlack)</visible>
 							<control type="label">
-								<posx>45</posx>
+								<posx>55</posx>
 								<posy>8</posy>
 								<width>600</width>
 								<height>30</height>
@@ -263,10 +271,10 @@
 								<animation reversible="false" effect="zoom" end="110" center="auto" time="150">Focus</animation> 	
 							</control>		
 						</control>
-							<control type="group">
+						<control type="group">
 							<visible>Skin.HasSetting(AlternateHomeBlack)</visible>
 							<control type="label">
-								<posx>45</posx>
+								<posx>55</posx>
 								<posy>8</posy>
 								<width>600</width>
 								<height>30</height>
@@ -277,6 +285,15 @@
 								<label>$INFO[ListItem.label]</label>
 								<animation reversible="false" effect="zoom" end="110" center="auto" time="150">Focus</animation> 	
 							</control>		
+						</control>
+						<control type="image">
+							<posx>-1</posx>
+							<posy>10</posy>
+							<width>30</width>
+							<height>30</height>
+							<align>left</align>
+							<texture>simplicity/banners/$INFO[ListItem.Overlay]</texture>
+							<animation reversible="false" effect="zoom" end="110" center="auto" time="150">Focus</animation>
 						</control>
 				</focusedlayout>
 			</control>
