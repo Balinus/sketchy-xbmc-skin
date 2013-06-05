@@ -572,7 +572,8 @@
 			<include condition="!Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFaded</include>
 			<include condition="Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFadedBlack</include>
 			<include>LeftOptions</include>
-			<include>EpisodeBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">EpisodeBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">EpisodeBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
 			<control type="fixedlist" id="533">
@@ -1060,7 +1061,8 @@
 			<posy>0</posy>
 			<include>GlobalBackgroundFaded</include>
 			<include>LeftOptions</include>
-			<include>SeasonBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">SeasonBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">SeasonBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
 			<control type="fixedlist" id="534">
@@ -1180,7 +1182,8 @@
 			<include>LeftOptions</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
-			<include>TVBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">TVBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">TVBreadCrumbs</include>
 			<control type="wraplist" id="535">
 				<include>Zoom</include>
 				<posx>90</posx>
@@ -1758,8 +1761,10 @@
 			<include condition="!Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFaded</include>
 			<include condition="Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFadedBlack</include>
 			<include>LeftOptions</include>
-			<include>MovieBreadCrumbs</include>
-			<include>TVBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">MovieBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">MovieBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">TVBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">TVBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
 			<control type="fixedlist" id="539">
@@ -1799,7 +1804,7 @@
 								<posy>8</posy>
 								<width>500</width>
 								<height>30</height>
-								<font>Simplicity_26</font>
+								<font>Simplicity_28</font>
 								<textcolor>brown</textcolor>
 								<align>left</align>
 								<label>$INFO[ListItem.title]</label>
@@ -1809,7 +1814,7 @@
 								<posy>35</posy>
 								<width>350</width>
 								<height>20</height>
-								<font>Simplicity_22</font>
+								<font>Simplicity_24</font>
 								<textcolor>brown</textcolor>
 								<align>left</align>
 								<label>$INFO[ListItem.Year]</label>
@@ -1831,7 +1836,7 @@
 								<posy>8</posy>
 								<width>500</width>
 								<height>30</height>
-								<font>Simplicity_26</font>
+								<font>Simplicity_28</font>
 								<textcolor>grey2</textcolor>
 								<align>left</align>
 								<label>$INFO[ListItem.title]</label>
@@ -1841,7 +1846,7 @@
 								<posy>35</posy>
 								<width>350</width>
 								<height>20</height>
-								<font>Simplicity_22</font>
+								<font>Simplicity_24</font>
 								<textcolor>grey2</textcolor>
 								<align>left</align>
 								<label>$INFO[ListItem.Year]</label>
@@ -1857,7 +1862,7 @@
 							<posy>24</posy>
 							<width>450</width>
 							<height>20</height>
-							<font>Simplicity_26</font>
+							<font>Simplicity_30</font>
 							<textcolor>red</textcolor>
 							<selectedcolor>red</selectedcolor>
 							<scroll>false</scroll>
@@ -1870,7 +1875,7 @@
 							<posy>52</posy>
 							<width>450</width>
 							<height>20</height>
-							<font>Simplicity_20</font>
+							<font>Simplicity_24</font>
 							<textcolor>black</textcolor>
 							<selectedcolor>black</selectedcolor>
 							<scroll>false</scroll>
@@ -1885,7 +1890,7 @@
 							<posy>52</posy>
 							<width>450</width>
 							<height>20</height>
-							<font>Simplicity_20</font>
+							<font>Simplicity_24</font>
 							<textcolor>black</textcolor>
 							<selectedcolor>black</selectedcolor>
 							<scroll>false</scroll>
@@ -1947,7 +1952,7 @@
 							<posy>52</posy>
 							<width>450</width>
 							<height>20</height>
-							<font>Simplicity_22</font>
+							<font>Simplicity_24</font>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>grey2</selectedcolor>
 							<scroll>false</scroll>
@@ -1962,7 +1967,7 @@
 							<posy>52</posy>
 							<width>450</width>
 							<height>20</height>
-							<font>Simplicity_22</font>
+							<font>Simplicity_24</font>
 							<textcolor>grey2</textcolor>
 							<selectedcolor>grey2</selectedcolor>
 							<scroll>false</scroll>
@@ -2279,7 +2284,7 @@
 						<posy>505</posy>
 						<width>384</width>
 						<height>105</height>
-						<font>Simplicity_22</font>
+						<font>Simplicity_24</font>
 						<textcolor>black</textcolor>
 						<align>justify</align>
 						<label>$INFO[ListItem.Plot]</label>
@@ -2293,7 +2298,7 @@
 						<posy>505</posy>
 						<width>384</width>
 						<height>105</height>
-						<font>Simplicity_22</font>
+						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<align>justify</align>
 						<label>$INFO[ListItem.Plot]</label>
@@ -2370,7 +2375,7 @@
 						<posy>516</posy>
 						<width>350</width>
 						<height>20</height>
-						<font>Simplicity_20</font>
+						<font>Simplicity_24</font>
 						<textcolor>black</textcolor>
 						<align>left</align>
 						<label> - $INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
@@ -2380,7 +2385,7 @@
 						<posy>376</posy>
 						<width>384</width>
 						<height>128</height>
-						<font>Simplicity_20</font>
+						<font>Simplicity_24</font>
 						<textcolor>black</textcolor>
 						<align>justify</align>
 						<label>$INFO[ListItem.Plot]</label>
@@ -2395,7 +2400,7 @@
 						<posy>516</posy>
 						<width>350</width>
 						<height>20</height>
-						<font>Simplicity_22</font>
+						<font>Simplicity_24</font>
 						<textcolor>grey2</textcolor>
 						<align>left</align>
 						<label> - $INFO[ListItem.Property(TotalEpisodes)] episodes, $INFO[ListItem.Property(UnWatchedEpisodes)] unwatched</label>
@@ -2405,7 +2410,7 @@
 						<posy>376</posy>
 						<width>384</width>
 						<height>128</height>
-						<font>Simplicity_22</font>
+						<font>Simplicity_24</font>
 						<textcolor>white</textcolor>
 						<align>justify</align>
 						<label>$INFO[ListItem.Plot]</label>
@@ -3088,7 +3093,8 @@
 			<include condition="!Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFaded</include>
 			<include condition="Skin.HasSetting(AlternateHomeBlack)">GlobalBackgroundFadedBlack</include>
 			<include>LeftOptions</include>
-			<include>TVBreadCrumbs</include>
+			<include condition="!Skin.HasSetting(AlternateHomeBlack)">TVBreadCrumbsBlack</include>
+			<include condition="Skin.HasSetting(AlternateHomeBlack)">TVBreadCrumbs</include>
 			<include condition="Skin.HasSetting(UseRecentShortcut)">RightOpenRecent</include>
 			<include condition="Skin.HasSetting(UseTVGuide)">RightOpenTVGuide</include>
 			<control type="fixedlist" id="559">
