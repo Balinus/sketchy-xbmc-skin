@@ -671,7 +671,8 @@
 						<texturefocus border="0,2,0,2">simplicity/button-focus.png</texturefocus>
 						<texturenofocus border="0,2,0,2">simplicity/menuitemnf.png</texturenofocus>
 						<label>Show Random Fanart on Homescreen</label>
-						<onclick>Skin.ToggleSetting(homepageRandomFanart)</onclick>	<onclick>Skin.SetString(Home_Custom_Back_Movies_Folder,special://profile/Thumbnails/Video/Fanart)</onclick>
+						<onclick>Skin.ToggleSetting(homepageRandomFanart)</onclick>	
+						<onclick condition="Skin.HasSetting(homepageRandomFanart)">Skin.SetPath(SlideShow)</onclick>
 						<selected>Skin.HasSetting(homepageRandomFanart)</selected>
 					</control>
 					<control type="label" id="206">
