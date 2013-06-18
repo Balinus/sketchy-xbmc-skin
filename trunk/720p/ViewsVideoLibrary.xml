@@ -2443,7 +2443,7 @@
 				<width>1260</width>
 				<height>577</height>
 				<onleft>2</onleft>
-				<onright>-</onright>
+				<onright>noop</onright>
 				<onup>554</onup>
 				<ondown>554</ondown>
 				<viewtype label="Actor Wall">list</viewtype>
