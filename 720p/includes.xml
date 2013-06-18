@@ -2318,7 +2318,7 @@
 			<include>BottomSlide</include>
 			<visible>!Skin.HasSetting(KioskMode)</visible>
 			<control type="group">
-				<visible>!Skin.HasSetting(AlternateHomeBlack)|Control.IsVisible(557)|Control.IsVisible(556)|Control.IsVisible(58)|Control.IsVisible(538)|Control.IsVisible(516)|Control.IsVisible(509)|Control.IsVisible(517)</visible>
+				<visible>!Skin.HasSetting(AlternateHomeBlack)|Control.IsVisible(557)|Control.IsVisible(556)|Control.IsVisible(58)|Control.IsVisible(538)|Control.IsVisible(516)|Control.IsVisible(509)|Control.IsVisible(517)|Control.IsVisible(504)|Control.IsVisible(506)|Control.IsVisible(555)</visible>
 				<control type="image">
 					<posx>130</posx>
 					<posy>684</posy>
@@ -2349,6 +2349,9 @@
 				<visible>!Control.IsVisible(516)</visible>
 				<visible>!Control.IsVisible(509)</visible>
 				<visible>!Control.IsVisible(517)</visible>
+				<visible>!Control.IsVisible(504)</visible>
+				<visible>!Control.IsVisible(506)</visible>
+				<visible>!Control.IsVisible(555)</visible>
 				<control type="image">
 					<posx>130</posx>
 					<posy>684</posy>
@@ -2480,7 +2483,7 @@
 		<control type="group">
 			<include>BottomSlide</include>
 			<control type="group">
-				<visible>!Skin.HasSetting(AlternateHomeBlack)|Control.IsVisible(557)|Control.IsVisible(556)|Control.IsVisible(58)|Control.IsVisible(538)|Control.IsVisible(516)</visible>
+				<visible>!Skin.HasSetting(AlternateHomeBlack)|Control.IsVisible(557)|Control.IsVisible(556)|Control.IsVisible(58)|Control.IsVisible(538)|Control.IsVisible(516)|Control.IsVisible(504)|Control.IsVisible(506)|Control.IsVisible(555)</visible>
 				<control type="image">
 					<posx>170r</posx>
 					<posy>684</posy>
@@ -2496,6 +2499,9 @@
 				<visible>!Control.IsVisible(58)</visible>
 				<visible>!Control.IsVisible(538)</visible>
 				<visible>!Control.IsVisible(516)</visible>
+				<visible>!Control.IsVisible(506)</visible>
+				<visible>!Control.IsVisible(504)</visible>
+				<visible>!Control.IsVisible(555)</visible>
 				<control type="image">
 					<posx>170r</posx>
 					<posy>684</posy>
