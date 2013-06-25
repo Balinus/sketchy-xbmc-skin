@@ -159,7 +159,7 @@
 						<posy>80</posy>
 						<width>150</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<colordiffuse>black</colordiffuse>						
 					</control>
 					
@@ -393,7 +393,7 @@
 						<posy>50</posy>
 						<width>150</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<colordiffuse>black</colordiffuse>
 						<visible>!Container.Content(TVShows)</visible>
 						<visible>!Container.Conent(Seasons)</visible>
@@ -404,7 +404,7 @@
 						<posy>75</posy>
 						<width>150</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<colordiffuse>black</colordiffuse>
 						<visible>Container.Content(TVShows)|Container.Conent(Seasons)</visible>
 					</control>
@@ -584,7 +584,7 @@
 						<posy>75</posy>
 						<width>150</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<colordiffuse>black</colordiffuse>
 					</control>
 					<control type = "grouplist">
@@ -763,7 +763,7 @@
 						<posy>50</posy>
 						<width>150</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<colordiffuse>black</colordiffuse>
 					</control>
 					<control type = "grouplist">
@@ -1001,7 +1001,7 @@
 						<posy>75</posy>
 						<width>150</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<colordiffuse>black</colordiffuse>
 					</control>
 					<control type = "fadelabel">
