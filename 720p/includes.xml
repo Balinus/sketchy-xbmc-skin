@@ -2972,7 +2972,7 @@
 							<width>154</width>
 							<height>30</height>
 							<align>left</align>
-							<texture>$INFO[Listitem.StarRating]</texture>
+							<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 							<visible>!Container.Content(Seasons)</visible>
 						</control>
 						<control type="label">
@@ -3237,7 +3237,7 @@
 						<posy>485</posy>
 						<width>154</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<colordiffuse>FF000000</colordiffuse>
 					</control>
 					<control type="label">
@@ -3393,7 +3393,7 @@
 							<width>154</width>
 							<height>30</height>
 							<align>left</align>
-							<texture>$INFO[Listitem.StarRating]</texture>
+							<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						</control>
 						<control type="image">
 							<description>Rating value</description>
@@ -3746,7 +3746,7 @@
 						<posy>485</posy>
 						<width>154</width>
 						<height>30</height>
-						<texture>$INFO[Listitem.StarRating]</texture>
+						<texture>$INFO[ListItem.Rating,flags/stars/,.png]</texture>
 						<visible>!Container.Content(Artists)</visible>
 					</control>
 					<control type="image">
