@@ -305,9 +305,9 @@
 						<posx>909</posx>
 						<posy>426</posy>
 						<width>280</width>
-						<height>156</height>
+						<height>157</height>
 						<align>left</align>
-						<!-- <aspectratio>scale</aspectratio> -->
+						<aspectratio>stretch</aspectratio>
 						<fadetime>400</fadetime>
 						<timeperimage>3000</timeperimage>
 						<imagepath background = "true">$INFO[ListItem.path]/extrathumbs</imagepath>
@@ -315,10 +315,10 @@
 					</control>
 					<control type = "image">
 						<posx>899</posx>
-						<posy>409</posy>
+						<posy>396</posy>
 						<width>302</width>
-						<height>188</height>
-						<aspectratio>scale</aspectratio>
+						<height>215</height>
+						<aspectratio>stretch</aspectratio>
 						<texture background = "true">other_textures/recently/frameland.png</texture>
 						<visible>Skin.HasSetting(UseThumbsOnInfo)+ !Control.HasFocus(50)</visible>
 					</control>
