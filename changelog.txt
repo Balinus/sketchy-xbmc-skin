@@ -1,5 +1,6 @@
 [1.0.10]
 - Half-star support
+- Custom random fanart option for Home screen
 
 [1.0.9]
 - New Big list view for massive collection
