@@ -1,0 +1,1 @@
+Skin "Sketchy" for XBMC (Work in Progress) : http://forum.xbmc.org/showthread.php?tid=161516
